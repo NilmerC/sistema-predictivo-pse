@@ -1308,11 +1308,15 @@ function validarAcceso() {
 }
 
 function restringirEdicion() {
+    // Ocultar el botón de Cargar/Editar Datos de manera limpia
     const btnEditor = document.getElementById('btn-tab-editor');
     if (btnEditor) btnEditor.style.display = 'none';
     
+    // Si tienes una sección de edición o formulario, solo ocúltala, no la elimines (.remove)
     const tabEditor = document.getElementById('tab-editor');
-    if (tabEditor) tabEditor.remove();
+    if (tabEditor) tabEditor.style.display = 'none';
+    
+    console.log("Modo Visualizador activado correctamente sin romper eventos");
 }
 </script>
 
