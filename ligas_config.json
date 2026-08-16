@@ -1,0 +1,299 @@
+{
+  "Inglaterra": {
+    "goles_promedio_liga": 1.48, "corners_favor_local": 6.2, "corners_contra_local": 4.5, "corners_favor_visita": 4.9, "corners_contra_visita": 6.2, "remates_favor_local": 14.8, "remates_favor_visita": 11.2, "tiros_arco_local": 5.4, "tiros_arco_visita": 3.9, "tarjetas_promedio_arbitro": 3.7, "tarjetas_recibidas_local": 1.6, "tarjetas_provocadas_local": 1.6, "tarjetas_recibidas_visita": 1.8, "tarjetas_provocadas_visita": 1.7, "elo_local": 1650, "elo_visita": 1650
+  },
+  "Alemania": {
+    "goles_promedio_liga": 1.58, "corners_favor_local": 5.8, "corners_contra_local": 4.6, "corners_favor_visita": 4.6, "corners_contra_visita": 5.8, "remates_favor_local": 14.5, "remates_favor_visita": 12.0, "tiros_arco_local": 5.3, "tiros_arco_visita": 4.2, "tarjetas_promedio_arbitro": 4.0, "tarjetas_recibidas_local": 1.8, "tarjetas_provocadas_local": 1.8, "tarjetas_recibidas_visita": 2.0, "tarjetas_provocadas_visita": 1.9, "elo_local": 1620, "elo_visita": 1620
+  },
+  "España": {
+    "goles_promedio_liga": 1.22, "corners_favor_local": 5.3, "corners_contra_local": 4.1, "corners_favor_visita": 4.2, "corners_contra_visita": 5.3, "remates_favor_local": 13.2, "remates_favor_visita": 9.8, "tiros_arco_local": 4.5, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 5.2, "tarjetas_recibidas_local": 2.5, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.8, "tarjetas_provocadas_visita": 2.5, "elo_local": 1580, "elo_visita": 1580
+  },
+  "Italia": {
+    "goles_promedio_liga": 1.32, "corners_favor_local": 5.4, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.4, "remates_favor_local": 13.5, "remates_favor_visita": 10.1, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 4.8, "tarjetas_recibidas_local": 2.3, "tarjetas_provocadas_local": 2.2, "tarjetas_recibidas_visita": 2.5, "tarjetas_provocadas_visita": 2.3, "elo_local": 1570, "elo_visita": 1570
+  },
+  "Francia": {
+    "goles_promedio_liga": 1.38, "corners_favor_local": 5.5, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.5, "remates_favor_local": 13.8, "remates_favor_visita": 10.4, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 4.3, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1550, "elo_visita": 1550
+  },
+  "Portugal": {
+    "goles_promedio_liga": 1.30, "corners_favor_local": 5.6, "corners_contra_local": 4.1, "corners_favor_visita": 4.2, "corners_contra_visita": 5.6, "remates_favor_local": 13.4, "remates_favor_visita": 9.9, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.3, "tarjetas_promedio_arbitro": 5.6, "tarjetas_recibidas_local": 2.6, "tarjetas_provocadas_local": 2.5, "tarjetas_recibidas_visita": 2.9, "tarjetas_provocadas_visita": 2.7, "elo_local": 1520, "elo_visita": 1520
+  },
+  "Países Bajos": {
+    "goles_promedio_liga": 1.52, "corners_favor_local": 5.9, "corners_contra_local": 4.6, "corners_favor_visita": 4.6, "corners_contra_visita": 5.9, "remates_favor_local": 14.9, "remates_favor_visita": 11.5, "tiros_arco_local": 5.4, "tiros_arco_visita": 4.0, "tarjetas_promedio_arbitro": 3.6, "tarjetas_recibidas_local": 1.6, "tarjetas_provocadas_local": 1.6, "tarjetas_recibidas_visita": 1.8, "tarjetas_provocadas_visita": 1.7, "elo_local": 1500, "elo_visita": 1500
+  },
+  "Brasil": {
+    "goles_promedio_liga": 1.35, "corners_favor_local": 6.0, "corners_contra_local": 4.2, "corners_favor_visita": 4.3, "corners_contra_visita": 4.1, "remates_favor_local": 13.5, "remates_favor_visita": 9.8, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.3, "tarjetas_promedio_arbitro": 5.8, "tarjetas_recibidas_local": 2.7, "tarjetas_provocadas_local": 2.6, "tarjetas_recibidas_visita": 3.0, "tarjetas_provocadas_visita": 2.8, "elo_local": 1600, "elo_visita": 1600
+  },
+  "Argentina": {
+    "goles_promedio_liga": 1.15, "corners_favor_local": 5.4, "corners_contra_local": 4.0, "corners_favor_visita": 3.9, "corners_contra_visita": 5.4, "remates_favor_local": 12.5, "remates_favor_visita": 9.0, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 6.2, "tarjetas_recibidas_local": 3.0, "tarjetas_provocadas_local": 2.9, "tarjetas_recibidas_visita": 3.3, "tarjetas_provocadas_visita": 3.1, "elo_local": 1510, "elo_visita": 1510
+  },
+  "México": {
+    "goles_promedio_liga": 1.34, "corners_favor_local": 5.7, "corners_contra_local": 4.4, "corners_favor_visita": 4.2, "corners_contra_visita": 5.7, "remates_favor_local": 13.6, "remates_favor_visita": 10.2, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 4.9, "tarjetas_recibidas_local": 2.3, "tarjetas_provocadas_local": 2.3, "tarjetas_recibidas_visita": 2.6, "tarjetas_provocadas_visita": 2.4, "elo_local": 1490, "elo_visita": 1490
+  },
+  "Perú": {
+    "goles_promedio_liga": 1.28, "corners_favor_local": 5.5, "corners_contra_local": 4.2, "corners_favor_visita": 4.0, "corners_contra_visita": 5.8, "remates_favor_local": 12.0, "remates_favor_visita": 9.0, "tiros_arco_local": 4.5, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 5.5, "tarjetas_recibidas_local": 2.3, "tarjetas_provocadas_local": 2.3, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.1, "elo_local": 1400, "elo_visita": 1400
+  },
+  "Colombia": {
+    "goles_promedio_liga": 1.20, "corners_favor_local": 5.3, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.3, "remates_favor_local": 12.2, "remates_favor_visita": 9.1, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 5.7, "tarjetas_recibidas_local": 2.6, "tarjetas_provocadas_local": 2.5, "tarjetas_recibidas_visita": 2.9, "tarjetas_provocadas_visita": 2.7, "elo_local": 1420, "elo_visita": 1420
+  },
+  "Chile": {
+    "goles_promedio_liga": 1.25, "corners_favor_local": 5.4, "corners_contra_local": 4.2, "corners_favor_visita": 4.0, "corners_contra_visita": 5.4, "remates_favor_local": 12.4, "remates_favor_visita": 9.3, "tiros_arco_local": 4.3, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 5.6, "tarjetas_recibidas_local": 2.5, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.8, "tarjetas_provocadas_visita": 2.6, "elo_local": 1410, "elo_visita": 1410
+  },
+  "Uruguay": {
+    "goles_promedio_liga": 1.18, "corners_favor_local": 5.2, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.2, "remates_favor_local": 11.9, "remates_favor_visita": 8.8, "tiros_arco_local": 4.1, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 6.0, "tarjetas_recibidas_local": 2.8, "tarjetas_provocadas_local": 2.7, "tarjetas_recibidas_visita": 3.1, "tarjetas_provocadas_visita": 2.9, "elo_local": 1430, "elo_visita": 1430
+  },
+  "Ecuador": {
+    "goles_promedio_liga": 1.24, "corners_favor_local": 5.4, "corners_contra_local": 4.1, "corners_favor_visita": 4.0, "corners_contra_visita": 5.4, "remates_favor_local": 12.5, "remates_favor_visita": 9.2, "tiros_arco_local": 4.3, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 5.5, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1420, "elo_visita": 1420
+  },
+  "Venezuela": {
+    "goles_promedio_liga": 1.16, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.7, "corners_contra_visita": 5.1, "remates_favor_local": 11.5, "remates_favor_visita": 8.5, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.8, "tarjetas_promedio_arbitro": 5.8, "tarjetas_recibidas_local": 2.7, "tarjetas_provocadas_local": 2.6, "tarjetas_recibidas_visita": 3.0, "tarjetas_provocadas_visita": 2.8, "elo_local": 1380, "elo_visita": 1380
+  },
+  "Paraguay": {
+    "goles_promedio_liga": 1.17, "corners_favor_local": 5.2, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.2, "remates_favor_local": 11.8, "remates_favor_visita": 8.7, "tiros_arco_local": 4.1, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 5.9, "tarjetas_recibidas_local": 2.8, "tarjetas_provocadas_local": 2.7, "tarjetas_recibidas_visita": 3.1, "tarjetas_provocadas_visita": 2.9, "elo_local": 1400, "elo_visita": 1400
+  },
+  "Bolivia": {
+    "goles_promedio_liga": 1.45, "corners_favor_local": 6.0, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 6.0, "remates_favor_local": 14.2, "remates_favor_visita": 9.5, "tiros_arco_local": 5.0, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 5.6, "tarjetas_recibidas_local": 2.5, "tarjetas_provocadas_local": 2.5, "tarjetas_recibidas_visita": 2.8, "tarjetas_provocadas_visita": 2.6, "elo_local": 1370, "elo_visita": 1370
+  },
+  "EE. UU.": {
+    "goles_promedio_liga": 1.46, "corners_favor_local": 5.7, "corners_contra_local": 4.4, "corners_favor_visita": 4.4, "corners_contra_visita": 5.7, "remates_favor_local": 14.1, "remates_favor_visita": 10.8, "tiros_arco_local": 5.0, "tiros_arco_visita": 3.8, "tarjetas_promedio_arbitro": 3.9, "tarjetas_recibidas_local": 1.7, "tarjetas_provocadas_local": 1.7, "tarjetas_recibidas_visita": 1.9, "tarjetas_provocadas_visita": 1.8, "elo_local": 1480, "elo_visita": 1480
+  },
+  "Canadá": {
+    "goles_promedio_liga": 1.35, "corners_favor_local": 5.5, "corners_contra_local": 4.3, "corners_favor_visita": 4.2, "corners_contra_visita": 5.5, "remates_favor_local": 13.0, "remates_favor_visita": 10.0, "tiros_arco_local": 4.5, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 4.1, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1420, "elo_visita": 1420
+  },
+  "Costa Rica": {
+    "goles_promedio_liga": 1.22, "corners_favor_local": 5.3, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.3, "remates_favor_local": 12.1, "remates_favor_visita": 9.0, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 5.4, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1380, "elo_visita": 1380
+  },
+  "Honduras": {
+    "goles_promedio_liga": 1.20, "corners_favor_local": 5.2, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.2, "remates_favor_local": 11.9, "remates_favor_visita": 8.8, "tiros_arco_local": 4.1, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 5.7, "tarjetas_recibidas_local": 2.6, "tarjetas_provocadas_local": 2.5, "tarjetas_recibidas_visita": 2.9, "tarjetas_provocadas_visita": 2.7, "elo_local": 1360, "elo_visita": 1360
+  },
+  "Guatemala": {
+    "goles_promedio_liga": 1.18, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.7, "corners_contra_visita": 5.1, "remates_favor_local": 11.6, "remates_favor_visita": 8.6, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.8, "tarjetas_promedio_arbitro": 5.8, "tarjetas_recibidas_local": 2.7, "tarjetas_provocadas_local": 2.6, "tarjetas_recibidas_visita": 3.0, "tarjetas_provocadas_visita": 2.8, "elo_local": 1340, "elo_visita": 1340
+  },
+  "Panamá": {
+    "goles_promedio_liga": 1.15, "corners_favor_local": 5.1, "corners_contra_local": 3.9, "corners_favor_visita": 3.7, "corners_contra_visita": 5.1, "remates_favor_local": 11.5, "remates_favor_visita": 8.5, "tiros_arco_local": 3.9, "tiros_arco_visita": 2.8, "tarjetas_promedio_arbitro": 5.5, "tarjetas_recibidas_local": 2.5, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.8, "tarjetas_provocadas_visita": 2.6, "elo_local": 1370, "elo_visita": 1370
+  },
+  "El Salvador": {
+    "goles_promedio_liga": 1.14, "corners_favor_local": 5.0, "corners_contra_local": 3.9, "corners_favor_visita": 3.6, "corners_contra_visita": 5.0, "remates_favor_local": 11.2, "remates_favor_visita": 8.3, "tiros_arco_local": 3.8, "tiros_arco_visita": 2.7, "tarjetas_promedio_arbitro": 5.9, "tarjetas_recibidas_local": 2.8, "tarjetas_provocadas_local": 2.7, "tarjetas_recibidas_visita": 3.1, "tarjetas_provocadas_visita": 2.9, "elo_local": 1320, "elo_visita": 1320
+  },
+  "Nicaragua": {
+    "goles_promedio_liga": 1.25, "corners_favor_local": 5.2, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.2, "remates_favor_local": 11.8, "remates_favor_visita": 8.8, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 5.4, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.3, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1300, "elo_visita": 1300
+  },
+  "Arabia Saudita": {
+    "goles_promedio_liga": 1.42, "corners_favor_local": 5.8, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.8, "remates_favor_local": 14.0, "remates_favor_visita": 10.5, "tiros_arco_local": 4.9, "tiros_arco_visita": 3.6, "tarjetas_promedio_arbitro": 4.4, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1460, "elo_visita": 1460
+  },
+  "Japón": {
+    "goles_promedio_liga": 1.32, "corners_favor_local": 5.5, "corners_contra_local": 4.2, "corners_favor_visita": 4.2, "corners_contra_visita": 5.5, "remates_favor_local": 13.5, "remates_favor_visita": 10.1, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 3.2, "tarjetas_recibidas_local": 1.3, "tarjetas_provocadas_local": 1.3, "tarjetas_recibidas_visita": 1.5, "tarjetas_provocadas_visita": 1.4, "elo_local": 1510, "elo_visita": 1510
+  },
+  "Corea del Sur": {
+    "goles_promedio_liga": 1.30, "corners_favor_local": 5.4, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.4, "remates_favor_local": 13.2, "remates_favor_visita": 9.9, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.3, "tarjetas_promedio_arbitro": 3.8, "tarjetas_recibidas_local": 1.7, "tarjetas_provocadas_local": 1.7, "tarjetas_recibidas_visita": 1.9, "tarjetas_provocadas_visita": 1.8, "elo_local": 1480, "elo_visita": 1480
+  },
+  "China": {
+    "goles_promedio_liga": 1.25, "corners_favor_local": 5.3, "corners_contra_local": 4.2, "corners_favor_visita": 4.0, "corners_contra_visita": 5.3, "remates_favor_local": 12.8, "remates_favor_visita": 9.5, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 4.2, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1410, "elo_visita": 1410
+  },
+  "Australia": {
+    "goles_promedio_liga": 1.44, "corners_favor_local": 5.7, "corners_contra_local": 4.4, "corners_favor_visita": 4.3, "corners_contra_visita": 5.7, "remates_favor_local": 13.9, "remates_favor_visita": 10.6, "tiros_arco_local": 4.8, "tiros_arco_visita": 3.6, "tarjetas_promedio_arbitro": 3.9, "tarjetas_recibidas_local": 1.7, "tarjetas_provocadas_local": 1.7, "tarjetas_recibidas_visita": 1.9, "tarjetas_provocadas_visita": 1.8, "elo_local": 1450, "elo_visita": 1450
+  },
+  "Turquía": {
+    "goles_promedio_liga": 1.38, "corners_favor_local": 5.6, "corners_contra_local": 4.3, "corners_favor_visita": 4.2, "corners_contra_visita": 5.6, "remates_favor_local": 13.7, "remates_favor_visita": 10.3, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 5.3, "tarjetas_recibidas_local": 2.5, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.8, "tarjetas_provocadas_visita": 2.6, "elo_local": 1490, "elo_visita": 1490
+  },
+  "Bélgica": {
+    "goles_promedio_liga": 1.45, "corners_favor_local": 5.8, "corners_contra_local": 4.4, "corners_favor_visita": 4.4, "corners_contra_visita": 5.8, "remates_favor_local": 14.2, "remates_favor_visita": 10.8, "tiros_arco_local": 5.0, "tiros_arco_visita": 3.7, "tarjetas_promedio_arbitro": 4.1, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1540, "elo_visita": 1540
+  },
+  "Austria": {
+    "goles_promedio_liga": 1.48, "corners_favor_local": 5.8, "corners_contra_local": 4.5, "corners_favor_visita": 4.5, "corners_contra_visita": 5.8, "remates_favor_local": 14.3, "remates_favor_visita": 10.9, "tiros_arco_local": 5.0, "tiros_arco_visita": 3.7, "tarjetas_promedio_arbitro": 4.2, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1500, "elo_visita": 1500
+  },
+  "Suiza": {
+    "goles_promedio_liga": 1.40, "corners_favor_local": 5.6, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.6, "remates_favor_local": 13.8, "remates_favor_visita": 10.4, "tiros_arco_local": 4.8, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 4.5, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.2, "elo_local": 1490, "elo_visita": 1490
+  },
+  "Dinamarca": {
+    "goles_promedio_liga": 1.42, "corners_favor_local": 5.6, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.6, "remates_favor_local": 13.9, "remates_favor_visita": 10.5, "tiros_arco_local": 4.8, "tiros_arco_visita": 3.6, "tarjetas_promedio_arbitro": 3.8, "tarjetas_recibidas_local": 1.7, "tarjetas_provocadas_local": 1.7, "tarjetas_recibidas_visita": 1.9, "tarjetas_provocadas_visita": 1.8, "elo_local": 1470, "elo_visita": 1470
+  },
+  "Noruega": {
+    "goles_promedio_liga": 1.50, "corners_favor_local": 5.9, "corners_contra_local": 4.5, "corners_favor_visita": 4.5, "corners_contra_visita": 5.9, "remates_favor_local": 14.5, "remates_favor_visita": 11.0, "tiros_arco_local": 5.1, "tiros_arco_visita": 3.8, "tarjetas_promedio_arbitro": 3.5, "tarjetas_recibidas_local": 1.5, "tarjetas_provocadas_local": 1.5, "tarjetas_recibidas_visita": 1.7, "tarjetas_provocadas_visita": 1.6, "elo_local": 1460, "elo_visita": 1460
+  },
+  "Suecia": {
+    "goles_promedio_liga": 1.38, "corners_favor_local": 5.6, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.6, "remates_favor_local": 13.7, "remates_favor_visita": 10.3, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 3.7, "tarjetas_recibidas_local": 1.6, "tarjetas_provocadas_local": 1.6, "tarjetas_recibidas_visita": 1.8, "tarjetas_provocadas_visita": 1.7, "elo_local": 1460, "elo_visita": 1460
+  },
+  "Polonia": {
+    "goles_promedio_liga": 1.30, "corners_favor_local": 5.4, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.4, "remates_favor_local": 13.0, "remates_favor_visita": 9.8, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 4.6, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.1, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.2, "elo_local": 1450, "elo_visita": 1450
+  },
+  "Grecia": {
+    "goles_promedio_liga": 1.25, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.6, "remates_favor_visita": 9.4, "tiros_arco_local": 4.3, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 5.4, "tarjetas_recibidas_local": 2.5, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.8, "tarjetas_provocadas_visita": 2.6, "elo_local": 1450, "elo_visita": 1450
+  },
+  "Ucrania": {
+    "goles_promedio_liga": 1.28, "corners_favor_local": 5.3, "corners_contra_local": 4.1, "corners_favor_visita": 4.0, "corners_contra_visita": 5.3, "remates_favor_local": 12.8, "remates_favor_visita": 9.6, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 4.7, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.1, "tarjetas_recibidas_visita": 2.4, "tarjetas_provocadas_visita": 2.2, "elo_local": 1440, "elo_visita": 1440
+  },
+  "Croacia": {
+    "goles_promedio_liga": 1.35, "corners_favor_local": 5.4, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.4, "remates_favor_local": 13.2, "remates_favor_visita": 9.9, "tiros_arco_local": 4.5, "tiros_arco_visita": 3.3, "tarjetas_promedio_arbitro": 4.8, "tarjetas_recibidas_local": 2.2, "tarjetas_provocadas_local": 2.2, "tarjetas_recibidas_visita": 2.5, "tarjetas_provocadas_visita": 2.3, "elo_local": 1470, "elo_visita": 1470
+  },
+  "Serbia": {
+    "goles_promedio_liga": 1.36, "corners_favor_local": 5.5, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.5, "remates_favor_local": 13.4, "remates_favor_visita": 10.0, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 5.0, "tarjetas_recibidas_local": 2.3, "tarjetas_provocadas_local": 2.3, "tarjetas_recibidas_visita": 2.6, "tarjetas_provocadas_visita": 2.4, "elo_local": 1440, "elo_visita": 1440
+  },
+  "República Checa": {
+    "goles_promedio_liga": 1.38, "corners_favor_local": 5.5, "corners_contra_local": 4.3, "corners_favor_visita": 4.2, "corners_contra_visita": 5.5, "remates_favor_local": 13.5, "remates_favor_visita": 10.1, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 4.6, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.1, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.2, "elo_local": 1450, "elo_visita": 1450
+  },
+  "Escocia": {
+    "goles_promedio_liga": 1.41, "corners_favor_local": 5.7, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.7, "remates_favor_local": 13.8, "remates_favor_visita": 10.3, "tiros_arco_local": 4.8, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 4.2, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1440, "elo_visita": 1440
+  },
+  "Rumanía": {
+    "goles_promedio_liga": 1.25, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.5, "remates_favor_visita": 9.4, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 5.2, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1410, "elo_visita": 1410
+  },
+  "Hungría": {
+    "goles_promedio_liga": 1.30, "corners_favor_local": 5.3, "corners_contra_local": 4.2, "corners_favor_visita": 4.0, "corners_contra_visita": 5.3, "remates_favor_local": 12.8, "remates_favor_visita": 9.6, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 4.5, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.2, "elo_local": 1400, "elo_visita": 1400
+  },
+  "Chipre": {
+    "goles_promedio_liga": 1.28, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 4.0, "corners_contra_visita": 5.2, "remates_favor_local": 12.6, "remates_favor_visita": 9.5, "tiros_arco_local": 4.3, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 5.1, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.3, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1360, "elo_visita": 1360
+  },
+  "Israel": {
+    "goles_promedio_liga": 1.32, "corners_favor_local": 5.4, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.4, "remates_favor_local": 13.0, "remates_favor_visita": 9.8, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 4.8, "tarjetas_recibidas_local": 2.2, "tarjetas_provocadas_local": 2.2, "tarjetas_recibidas_visita": 2.5, "tarjetas_provocadas_visita": 2.3, "elo_local": 1390, "elo_visita": 1390
+  },
+  "Bulgaria": {
+    "goles_promedio_liga": 1.24, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.4, "remates_favor_visita": 9.3, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 5.3, "tarjetas_recibidas_local": 2.5, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.8, "tarjetas_provocadas_visita": 2.6, "elo_local": 1370, "elo_visita": 1370
+  },
+  "Eslovaquia": {
+    "goles_promedio_liga": 1.30, "corners_favor_local": 5.3, "corners_contra_local": 4.2, "corners_favor_visita": 4.0, "corners_contra_visita": 5.3, "remates_favor_local": 12.8, "remates_favor_visita": 9.6, "tiros_arco_local": 4.3, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 4.7, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.1, "tarjetas_recibidas_visita": 2.4, "tarjetas_provocadas_visita": 2.2, "elo_local": 1380, "elo_visita": 1380
+  },
+  "Eslovenia": {
+    "goles_promedio_liga": 1.26, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.5, "remates_favor_visita": 9.4, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 4.9, "tarjetas_recibidas_local": 2.2, "tarjetas_provocadas_local": 2.2, "tarjetas_recibidas_visita": 2.5, "tarjetas_provocadas_visita": 2.3, "elo_local": 1360, "elo_visita": 1360
+  },
+  "Azerbaiyán": {
+    "goles_promedio_liga": 1.20, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.1, "remates_favor_local": 12.0, "remates_favor_visita": 9.0, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 5.2, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1340, "elo_visita": 1340
+  },
+  "Kazajistán": {
+    "goles_promedio_liga": 1.22, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.1, "remates_favor_local": 12.1, "remates_favor_visita": 9.1, "tiros_arco_local": 4.1, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 5.0, "tarjetas_recibidas_local": 2.3, "tarjetas_provocadas_local": 2.2, "tarjetas_recibidas_visita": 2.6, "tarjetas_provocadas_visita": 2.4, "elo_local": 1330, "elo_visita": 1330
+  },
+  "Georgia": {
+    "goles_promedio_liga": 1.24, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.3, "remates_favor_visita": 9.2, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 4.8, "tarjetas_recibidas_local": 2.2, "tarjetas_provocadas_local": 2.1, "tarjetas_recibidas_visita": 2.5, "tarjetas_provocadas_visita": 2.3, "elo_local": 1320, "elo_visita": 1320
+  },
+  "Bosnia y Herzegovina": {
+    "goles_promedio_liga": 1.21, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.1, "remates_favor_local": 12.0, "remates_favor_visita": 9.0, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 5.5, "tarjetas_recibidas_local": 2.6, "tarjetas_provocadas_local": 2.5, "tarjetas_recibidas_visita": 2.9, "tarjetas_provocadas_visita": 2.7, "elo_local": 1330, "elo_visita": 1330
+  },
+  "Armenia": {
+    "goles_promedio_liga": 1.25, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.2, "remates_favor_visita": 9.1, "tiros_arco_local": 4.1, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 5.0, "tarjetas_recibidas_local": 2.3, "tarjetas_provocadas_local": 2.2, "tarjetas_recibidas_visita": 2.6, "tarjetas_provocadas_visita": 2.4, "elo_local": 1300, "elo_visita": 1300
+  },
+  "Macedonia del Norte": {
+    "goles_promedio_liga": 1.22, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.1, "remates_favor_local": 12.0, "remates_favor_visita": 9.0, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 5.2, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.3, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1310, "elo_visita": 1310
+  },
+  "Montenegro": {
+    "goles_promedio_liga": 1.18, "corners_favor_local": 5.0, "corners_contra_local": 3.9, "corners_favor_visita": 3.7, "corners_contra_visita": 5.0, "remates_favor_local": 11.6, "remates_favor_visita": 8.6, "tiros_arco_local": 3.9, "tiros_arco_visita": 2.8, "tarjetas_promedio_arbitro": 5.4, "tarjetas_recibidas_local": 2.5, "tarjetas_provocadas_local": 2.4, "tarjetas_recibidas_visita": 2.8, "tarjetas_provocadas_visita": 2.6, "elo_local": 1290, "elo_visita": 1290
+  },
+  "Kosovo": {
+    "goles_promedio_liga": 1.20, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.1, "remates_favor_local": 11.8, "remates_favor_visita": 8.8, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 5.3, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.3, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1280, "elo_visita": 1280
+  },
+  "Albania": {
+    "goles_promedio_liga": 1.17, "corners_favor_local": 5.0, "corners_contra_local": 3.9, "corners_favor_visita": 3.7, "corners_contra_visita": 5.0, "remates_favor_local": 11.5, "remates_favor_visita": 8.5, "tiros_arco_local": 3.8, "tiros_arco_visita": 2.7, "tarjetas_promedio_arbitro": 5.5, "tarjetas_recibidas_local": 2.6, "tarjetas_provocadas_local": 2.5, "tarjetas_recibidas_visita": 2.9, "tarjetas_provocadas_visita": 2.7, "elo_local": 1300, "elo_visita": 1300
+  },
+  "Islandia": {
+    "goles_promedio_liga": 1.45, "corners_favor_local": 5.7, "corners_contra_local": 4.4, "corners_favor_visita": 4.3, "corners_contra_visita": 5.7, "remates_favor_local": 14.0, "remates_favor_visita": 10.6, "tiros_arco_local": 4.8, "tiros_arco_visita": 3.6, "tarjetas_promedio_arbitro": 4.1, "tarjetas_recibidas_local": 1.8, "tarjetas_provocadas_local": 1.8, "tarjetas_recibidas_visita": 2.0, "tarjetas_provocadas_visita": 1.9, "elo_local": 1380, "elo_visita": 1380
+  },
+  "Finlandia": {
+    "goles_promedio_liga": 1.34, "corners_favor_local": 5.4, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.4, "remates_favor_local": 13.1, "remates_favor_visita": 9.8, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.3, "tarjetas_promedio_arbitro": 3.8, "tarjetas_recibidas_local": 1.7, "tarjetas_provocadas_local": 1.7, "tarjetas_recibidas_visita": 1.9, "tarjetas_provocadas_visita": 1.8, "elo_local": 1370, "elo_visita": 1370
+  },
+  "Irlanda": {
+    "goles_promedio_liga": 1.26, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.4, "remates_favor_visita": 9.3, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 4.4, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1360, "elo_visita": 1360
+  },
+  "Irlanda del Norte": {
+    "goles_promedio_liga": 1.30, "corners_favor_local": 5.3, "corners_contra_local": 4.2, "corners_favor_visita": 4.0, "corners_contra_visita": 5.3, "remates_favor_local": 12.7, "remates_favor_visita": 9.5, "tiros_arco_local": 4.3, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 4.5, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1330, "elo_visita": 1330
+  },
+  "Gales": {
+    "goles_promedio_liga": 1.32, "corners_favor_local": 5.3, "corners_contra_local": 4.2, "corners_favor_visita": 4.0, "corners_contra_visita": 5.3, "remates_favor_local": 12.8, "remates_favor_visita": 9.6, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 4.6, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.1, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.2, "elo_local": 1340, "elo_visita": 1340
+  },
+  "Estonia": {
+    "goles_promedio_liga": 1.38, "corners_favor_local": 5.5, "corners_contra_local": 4.3, "corners_favor_visita": 4.2, "corners_contra_visita": 5.5, "remates_favor_local": 13.5, "remates_favor_visita": 10.1, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 4.0, "tarjetas_recibidas_local": 1.8, "tarjetas_provocadas_local": 1.8, "tarjetas_recibidas_visita": 2.0, "tarjetas_provocadas_visita": 1.9, "elo_local": 1290, "elo_visita": 1290
+  },
+  "Lituania": {
+    "goles_promedio_liga": 1.24, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.1, "remates_favor_local": 12.1, "remates_favor_visita": 9.1, "tiros_arco_local": 4.1, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 4.3, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1280, "elo_visita": 1280
+  },
+  "Letonia": {
+    "goles_promedio_liga": 1.22, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.1, "remates_favor_local": 12.0, "remates_favor_visita": 9.0, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 4.4, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1270, "elo_visita": 1270
+  },
+  "Moldavia": {
+    "goles_promedio_liga": 1.20, "corners_favor_local": 5.0, "corners_contra_local": 3.9, "corners_favor_visita": 3.7, "corners_contra_visita": 5.0, "remates_favor_local": 11.8, "remates_favor_visita": 8.8, "tiros_arco_local": 3.9, "tiros_arco_visita": 2.8, "tarjetas_promedio_arbitro": 4.6, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.2, "elo_local": 1260, "elo_visita": 1260
+  },
+  "Luxemburgo": {
+    "goles_promedio_liga": 1.48, "corners_favor_local": 5.8, "corners_contra_local": 4.5, "corners_favor_visita": 4.5, "corners_contra_visita": 5.8, "remates_favor_local": 14.2, "remates_favor_visita": 10.8, "tiros_arco_local": 4.9, "tiros_arco_visita": 3.6, "tarjetas_promedio_arbitro": 4.1, "tarjetas_recibidas_local": 1.8, "tarjetas_provocadas_local": 1.8, "tarjetas_recibidas_visita": 2.0, "tarjetas_provocadas_visita": 1.9, "elo_local": 1280, "elo_visita": 1280
+  },
+  "Malta": {
+    "goles_promedio_liga": 1.30, "corners_favor_local": 5.3, "corners_contra_local": 4.2, "corners_favor_visita": 4.0, "corners_contra_visita": 5.3, "remates_favor_local": 12.6, "remates_favor_visita": 9.4, "tiros_arco_local": 4.3, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 4.5, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1230, "elo_visita": 1230
+  },
+  "Islas Feroé": {
+    "goles_promedio_liga": 1.42, "corners_favor_local": 5.6, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.6, "remates_favor_local": 13.8, "remates_favor_visita": 10.4, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 3.9, "tarjetas_recibidas_local": 1.7, "tarjetas_provocadas_local": 1.7, "tarjetas_recibidas_visita": 1.9, "tarjetas_provocadas_visita": 1.8, "elo_local": 1240, "elo_visita": 1240
+  },
+  "Egipto": {
+    "goles_promedio_liga": 1.18, "corners_favor_local": 5.2, "corners_contra_local": 4.0, "corners_favor_visita": 3.8, "corners_contra_visita": 5.2, "remates_favor_local": 12.0, "remates_favor_visita": 8.9, "tiros_arco_local": 4.1, "tiros_arco_visita": 2.9, "tarjetas_promedio_arbitro": 4.8, "tarjetas_recibidas_local": 2.2, "tarjetas_provocadas_local": 2.1, "tarjetas_recibidas_visita": 2.5, "tarjetas_provocadas_visita": 2.3, "elo_local": 1410, "elo_visita": 1410
+  },
+  "Sudáfrica": {
+    "goles_promedio_liga": 1.16, "corners_favor_local": 5.1, "corners_contra_local": 4.0, "corners_favor_visita": 3.7, "corners_contra_visita": 5.1, "remates_favor_local": 11.8, "remates_favor_visita": 8.7, "tiros_arco_local": 4.0, "tiros_arco_visita": 2.8, "tarjetas_promedio_arbitro": 4.2, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1390, "elo_visita": 1390
+  },
+  "Tanzania": {
+    "goles_promedio_liga": 1.15, "corners_favor_local": 5.0, "corners_contra_local": 3.9, "corners_favor_visita": 3.6, "corners_contra_visita": 5.0, "remates_favor_local": 11.5, "remates_favor_visita": 8.5, "tiros_arco_local": 3.9, "tiros_arco_visita": 2.7, "tarjetas_promedio_arbitro": 4.3, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1250, "elo_visita": 1250
+  },
+  "Malaui": {
+    "goles_promedio_liga": 1.12, "corners_favor_local": 4.9, "corners_contra_local": 3.8, "corners_favor_visita": 3.5, "corners_contra_visita": 4.9, "remates_favor_local": 11.2, "remates_favor_visita": 8.2, "tiros_arco_local": 3.7, "tiros_arco_visita": 2.6, "tarjetas_promedio_arbitro": 4.4, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1200, "elo_visita": 1200
+  },
+  "Nueva Zelanda": {
+    "goles_promedio_liga": 1.50, "corners_favor_local": 6.0, "corners_contra_local": 4.5, "corners_favor_visita": 4.5, "corners_contra_visita": 6.0, "remates_favor_local": 14.5, "remates_favor_visita": 11.0, "tiros_arco_local": 5.1, "tiros_arco_visita": 3.8, "tarjetas_promedio_arbitro": 3.4, "tarjetas_recibidas_local": 1.5, "tarjetas_provocadas_local": 1.5, "tarjetas_recibidas_visita": 1.7, "tarjetas_provocadas_visita": 1.6, "elo_local": 1330, "elo_visita": 1330
+  },
+  "Fiyi": {
+    "goles_promedio_liga": 1.40, "corners_favor_local": 5.5, "corners_contra_local": 4.3, "corners_favor_visita": 4.2, "corners_contra_visita": 5.5, "remates_favor_local": 13.5, "remates_favor_visita": 10.0, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 3.6, "tarjetas_recibidas_local": 1.6, "tarjetas_provocadas_local": 1.6, "tarjetas_recibidas_visita": 1.8, "tarjetas_provocadas_visita": 1.7, "elo_local": 1150, "elo_visita": 1150
+  },
+  "Islas Salomón": {
+    "goles_promedio_liga": 1.45, "corners_favor_local": 5.7, "corners_contra_local": 4.4, "corners_favor_visita": 4.3, "corners_contra_visita": 5.7, "remates_favor_local": 13.8, "remates_favor_visita": 10.2, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 3.8, "tarjetas_recibidas_local": 1.7, "tarjetas_provocadas_local": 1.7, "tarjetas_recibidas_visita": 1.9, "tarjetas_provocadas_visita": 1.8, "elo_local": 1140, "elo_visita": 1140
+  },
+  "Catar": {
+    "goles_promedio_liga": 1.40, "corners_favor_local": 5.6, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.6, "remates_favor_local": 13.8, "remates_favor_visita": 10.4, "tiros_arco_local": 4.8, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 4.2, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1380, "elo_visita": 1380
+  },
+  "Emiratos Árabes Unidos": {
+    "goles_promedio_liga": 1.38, "corners_favor_local": 5.5, "corners_contra_local": 4.3, "corners_favor_visita": 4.2, "corners_contra_visita": 5.5, "remates_favor_local": 13.6, "remates_favor_visita": 10.2, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 4.3, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1370, "elo_visita": 1370
+  },
+  "Irak": {
+    "goles_promedio_liga": 1.22, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.2, "remates_favor_visita": 9.2, "tiros_arco_local": 4.2, "tiros_arco_visita": 3.0, "tarjetas_promedio_arbitro": 5.0, "tarjetas_recibidas_local": 2.3, "tarjetas_provocadas_local": 2.2, "tarjetas_recibidas_visita": 2.6, "tarjetas_provocadas_visita": 2.4, "elo_local": 1360, "elo_visita": 1360
+  },
+  "Uzbekistán": {
+    "goles_promedio_liga": 1.25, "corners_favor_local": 5.2, "corners_contra_local": 4.1, "corners_favor_visita": 3.9, "corners_contra_visita": 5.2, "remates_favor_local": 12.5, "remates_favor_visita": 9.4, "tiros_arco_local": 4.3, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 4.6, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.2, "elo_local": 1390, "elo_visita": 1390
+  },
+  "Champions League": {
+    "goles_promedio_liga": 1.55, "corners_favor_local": 6.2, "corners_contra_local": 4.5, "corners_favor_visita": 4.8, "corners_contra_visita": 6.2, "remates_favor_local": 15.2, "remates_favor_visita": 12.0, "tiros_arco_local": 5.6, "tiros_arco_visita": 4.3, "tarjetas_promedio_arbitro": 3.9, "tarjetas_recibidas_local": 1.7, "tarjetas_provocadas_local": 1.7, "tarjetas_recibidas_visita": 1.9, "tarjetas_provocadas_visita": 1.8, "elo_local": 1750, "elo_visita": 1750
+  },
+  "Europa League": {
+    "goles_promedio_liga": 1.46, "corners_favor_local": 5.8, "corners_contra_local": 4.4, "corners_favor_visita": 4.5, "corners_contra_visita": 5.8, "remates_favor_local": 14.3, "remates_favor_visita": 11.0, "tiros_arco_local": 5.1, "tiros_arco_visita": 3.9, "tarjetas_promedio_arbitro": 4.4, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1620, "elo_visita": 1620
+  },
+  "Conference League": {
+    "goles_promedio_liga": 1.42, "corners_favor_local": 5.6, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.6, "remates_favor_local": 13.9, "remates_favor_visita": 10.5, "tiros_arco_local": 4.8, "tiros_arco_visita": 3.6, "tarjetas_promedio_arbitro": 4.5, "tarjetas_recibidas_local": 2.1, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.2, "elo_local": 1550, "elo_visita": 1550
+  },
+  "Copa Libertadores": {
+    "goles_promedio_liga": 1.25, "corners_favor_local": 5.5, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.5, "remates_favor_local": 13.2, "remates_favor_visita": 9.8, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.3, "tarjetas_promedio_arbitro": 6.1, "tarjetas_recibidas_local": 2.9, "tarjetas_provocadas_local": 2.8, "tarjetas_recibidas_visita": 3.2, "tarjetas_provocadas_visita": 3.0, "elo_local": 1580, "elo_visita": 1580
+  },
+  "Copa Sudamericana": {
+    "goles_promedio_liga": 1.22, "corners_favor_local": 5.4, "corners_contra_local": 4.1, "corners_favor_visita": 4.0, "corners_contra_visita": 5.4, "remates_favor_local": 12.8, "remates_favor_visita": 9.5, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.1, "tarjetas_promedio_arbitro": 5.9, "tarjetas_recibidas_local": 2.8, "tarjetas_provocadas_local": 2.7, "tarjetas_recibidas_visita": 3.1, "tarjetas_provocadas_visita": 2.9, "elo_local": 1490, "elo_visita": 1490
+  },
+  "CONCACAF Clubs": {
+    "goles_promedio_liga": 1.35, "corners_favor_local": 5.5, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.5, "remates_favor_local": 13.2, "remates_favor_visita": 9.9, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.3, "tarjetas_promedio_arbitro": 5.1, "tarjetas_recibidas_local": 2.4, "tarjetas_provocadas_local": 2.3, "tarjetas_recibidas_visita": 2.7, "tarjetas_provocadas_visita": 2.5, "elo_local": 1460, "elo_visita": 1460
+  },
+  "UEFA": {
+    "goles_promedio_liga": 1.42, "corners_favor_local": 5.7, "corners_contra_local": 4.3, "corners_favor_visita": 4.3, "corners_contra_visita": 5.7, "remates_favor_local": 14.0, "remates_favor_visita": 10.5, "tiros_arco_local": 4.9, "tiros_arco_visita": 3.7, "tarjetas_promedio_arbitro": 4.1, "tarjetas_recibidas_local": 1.8, "tarjetas_provocadas_local": 1.8, "tarjetas_recibidas_visita": 2.0, "tarjetas_provocadas_visita": 1.9, "elo_local": 1600, "elo_visita": 1600
+  },
+  "EUROCOPA": {
+    "goles_promedio_liga": 1.28, "corners_favor_local": 5.4, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.4, "remates_favor_local": 13.1, "remates_favor_visita": 9.8, "tiros_arco_local": 4.5, "tiros_arco_visita": 3.3, "tarjetas_promedio_arbitro": 4.2, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1650, "elo_visita": 1650
+  },
+  "Mundial": {
+    "goles_promedio_liga": 1.35, "corners_favor_local": 5.5, "corners_contra_local": 4.2, "corners_favor_visita": 4.2, "corners_contra_visita": 5.5, "remates_favor_local": 13.5, "remates_favor_visita": 10.0, "tiros_arco_local": 4.7, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 4.1, "tarjetas_recibidas_local": 1.8, "tarjetas_provocadas_local": 1.8, "tarjetas_recibidas_visita": 2.0, "tarjetas_provocadas_visita": 1.9, "elo_local": 1680, "elo_visita": 1680
+  },
+  "AFC": {
+    "goles_promedio_liga": 1.28, "corners_favor_local": 5.3, "corners_contra_local": 4.1, "corners_favor_visita": 4.0, "corners_contra_visita": 5.3, "remates_favor_local": 12.8, "remates_favor_visita": 9.5, "tiros_arco_local": 4.4, "tiros_arco_visita": 3.2, "tarjetas_promedio_arbitro": 4.4, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.2, "tarjetas_provocadas_visita": 2.1, "elo_local": 1420, "elo_visita": 1420
+  },
+  "CAF": {
+    "goles_promedio_liga": 1.15, "corners_favor_local": 5.1, "corners_contra_local": 3.9, "corners_favor_visita": 3.7, "corners_contra_visita": 5.1, "remates_favor_local": 11.6, "remates_favor_visita": 8.6, "tiros_arco_local": 3.9, "tiros_arco_visita": 2.8, "tarjetas_promedio_arbitro": 4.7, "tarjetas_recibidas_local": 2.2, "tarjetas_provocadas_local": 2.1, "tarjetas_recibidas_visita": 2.4, "tarjetas_provocadas_visita": 2.3, "elo_local": 1400, "elo_visita": 1400
+  },
+  "Simulated Reality League": {
+    "goles_promedio_liga": 1.75, "corners_favor_local": 6.8, "corners_contra_local": 5.2, "corners_favor_visita": 5.2, "corners_contra_visita": 6.8, "remates_favor_local": 17.5, "remates_favor_visita": 14.0, "tiros_arco_local": 6.8, "tiros_arco_visita": 5.2, "tarjetas_promedio_arbitro": 3.5, "tarjetas_recibidas_local": 1.5, "tarjetas_provocadas_local": 1.5, "tarjetas_recibidas_visita": 1.7, "tarjetas_provocadas_visita": 1.6, "elo_local": 1500, "elo_visita": 1500
+  },
+  "Esoccer": {
+    "goles_promedio_liga": 2.40, "corners_favor_local": 7.5, "corners_contra_local": 6.0, "corners_favor_visita": 6.0, "corners_contra_visita": 7.5, "remates_favor_local": 20.0, "remates_favor_visita": 18.0, "tiros_arco_local": 9.0, "tiros_arco_visita": 8.0, "tarjetas_promedio_arbitro": 2.0, "tarjetas_recibidas_local": 0.8, "tarjetas_provocadas_local": 0.8, "tarjetas_recibidas_visita": 0.9, "tarjetas_provocadas_visita": 0.9, "elo_local": 1500, "elo_visita": 1500
+  },
+  "Clubes internacionales": {
+    "goles_promedio_liga": 1.40, "corners_favor_local": 5.6, "corners_contra_local": 4.3, "corners_favor_visita": 4.2, "corners_contra_visita": 5.6, "remates_favor_local": 13.8, "remates_favor_visita": 10.3, "tiros_arco_local": 4.8, "tiros_arco_visita": 3.5, "tarjetas_promedio_arbitro": 4.3, "tarjetas_recibidas_local": 1.9, "tarjetas_provocadas_local": 1.9, "tarjetas_recibidas_visita": 2.1, "tarjetas_provocadas_visita": 2.0, "elo_local": 1550, "elo_visita": 1550
+  },
+  "Internacional": {
+    "goles_promedio_liga": 1.36, "corners_favor_local": 5.5, "corners_contra_local": 4.2, "corners_favor_visita": 4.1, "corners_contra_visita": 5.5, "remates_favor_local": 13.4, "remates_favor_visita": 10.0, "tiros_arco_local": 4.6, "tiros_arco_visita": 3.4, "tarjetas_promedio_arbitro": 4.5, "tarjetas_recibidas_local": 2.0, "tarjetas_provocadas_local": 2.0, "tarjetas_recibidas_visita": 2.3, "tarjetas_provocadas_visita": 2.1, "elo_local": 1520, "elo_visita": 1520
+  }
+}
