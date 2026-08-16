@@ -616,7 +616,8 @@ def ejecutar_sistema_pse():
 
   # Inyectar el historial completo y el partido actual en el HTML usando marcadores seguros
   historial_json_str = json.dumps(historial, ensure_ascii=False)
-  nuevo_bloque_js = f"let historialPartidos = {historial_json_str};\nlet currentMatchData = historialPartidos[0];"
+  nuevo_bloque_js = f"""let historialPartidos = {historial_json_str};
+let currentMatchData = (typeof currentMatchData !== 'undefined' && currentMatchData) ? currentMatchData : historialPartidos[0];"""
 
   try:
       with open("index.html", "r", encoding="utf-8") as file:
