@@ -688,26 +688,36 @@ let currentMatchData = historialPartidos[0];
 }
 
             // KPIs
-            const m = currentMatchData.metrics;
-            document.getElementById('kpi-xg-home').innerText = m.xgHome.toFixed(2);
-            document.getElementById('kpi-xg-away').innerText = m.xgAway.toFixed(2);
-            document.getElementById('kpi-xg-total').innerText = (m.xgHome + m.xgAway).toFixed(2);
+    const m = currentMatchData.metrics || currentMatchData;
+    
+    const homeTeam = currentMatchData.teamHome || currentMatchData.local || "Local";
+    const awayTeam = currentMatchData.teamAway || currentMatchData.visitante || "Visita";
 
-            const totalCorners = m.cornersHome + m.cornersAway;
-            document.getElementById('kpi-corners-total').innerText = totalCorners.toFixed(2);
-            document.getElementById('kpi-corners-breakdown').innerText = `${currentMatchData.teamHome} ${m.cornersHome.toFixed(2)} | ${currentMatchData.teamAway} ${m.cornersAway.toFixed(2)}`;
+    const xgH = Number(m.xgHome ?? m.golesEsperadosLocal ?? 0);
+    const xgA = Number(m.xgAway ?? m.golesEsperadosVisitante ?? 0);
+    document.getElementById('kpi-xg-home').innerText = xgH.toFixed(2);
+    document.getElementById('kpi-xg-away').innerText = xgA.toFixed(2);
+    document.getElementById('kpi-xg-total').innerText = (xgH + xgA).toFixed(2);
 
-            const totalShots = m.shotsHome + m.shotsAway;
-            document.getElementById('kpi-shots-total').innerText = totalShots.toFixed(2);
-            document.getElementById('kpi-shots-breakdown').innerText = `${currentMatchData.teamHome} ${m.shotsHome.toFixed(2)} | ${currentMatchData.teamAway} ${m.shotsAway.toFixed(2)}`;
+    const cornersH = Number(m.cornersHome ?? m.proyeccionCornersLocal ?? 0);
+    const cornersA = Number(m.cornersAway ?? m.proyeccionCornersVisitante ?? 0);
+    const totalCorners = cornersH + cornersA;
+    document.getElementById('kpi-corners-total').innerText = totalCorners.toFixed(2);
+    document.getElementById('kpi-corners-breakdown').innerText = `${homeTeam} ${cornersH.toFixed(2)} | ${awayTeam} ${cornersA.toFixed(2)}`;
 
-            document.getElementById('xg-goals-breakdown-home').innerText = m.xgHome.toFixed(2);
-            document.getElementById('xg-goals-breakdown-away').innerText = m.xgAway.toFixed(2);
+    const shotsH = Number(m.shotsHome ?? m.promedioRematesLocal ?? 0);
+    const shotsA = Number(m.shotsAway ?? m.promedioRematesVisitante ?? 0);
+    const totalShots = shotsH + shotsA;
+    document.getElementById('kpi-shots-total').innerText = totalShots.toFixed(2);
+    document.getElementById('kpi-shots-breakdown').innerText = `${homeTeam} ${shotsH.toFixed(2)} | ${awayTeam} ${shotsA.toFixed(2)}`;
 
-            document.getElementById('badge-corners-total-val').innerText = `Total Proyectado: ${totalCorners.toFixed(2)}`;
-            document.getElementById('badge-cards-total-val').innerText = `Total Proyectado: ${(m.cardsHome + m.cardsAway).toFixed(2)}`;
-            document.getElementById('badge-shots-total-val').innerText = `Prom. Esperado: ${totalShots.toFixed(2)}`;
-            document.getElementById('badge-target-total-val').innerText = `Prom. Esperado: ${(m.shotsTargetHome + m.shotsTargetAway).toFixed(2)}`;
+    document.getElementById('xg-goals-breakdown-home').innerText = xgH.toFixed(2);
+    document.getElementById('xg-goals-breakdown-away').innerText = xgA.toFixed(2);
+
+    document.getElementById('badge-corners-total-val').innerText = `Total Proyectado: ${totalCorners.toFixed(2)}`;
+    document.getElementById('badge-cards-total-val').innerText = `Total Proyectado: ${(Number(m.cardsHome || 0) + Number(m.cardsAway || 0)).toFixed(2)}`;
+    document.getElementById('badge-shots-total-val').innerText = `Prom. Esperado: ${totalShots.toFixed(2)}`;
+    document.getElementById('badge-target-total-val').innerText = `Prom. Esperado: ${(Number(m.shotsTargetHome || 0) + Number(m.shotsTargetAway || 0)).toFixed(2)}`;
 
             // Simulator labels
             document.getElementById('sim-label-home').innerText = `Victoria ${currentMatchData.teamHome}`;
