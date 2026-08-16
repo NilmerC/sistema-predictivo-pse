@@ -1270,18 +1270,24 @@ let currentMatchData = historialPartidos[0];
 
         // Función para cambiar de partido al seleccionar una opción del menú
 function cambiarPartidoDesdeHistorial(index) {
-    if (typeof historialPartidos !== 'undefined' && historialPartidos[index]) {
-        currentMatchData = historialPartidos[index];
+    const idx = parseInt(index, 10);
+    if (typeof historialPartidos !== 'undefined' && historialPartidos[idx]) {
+        // 1. Asignamos el partido activo
+        currentMatchData = historialPartidos[idx];
         
-        // Actualiza el formulario del editor si existe la función
+        // 2. Forzamos la actualización de los formularios y la vista completa
         if (typeof populateEditorForm === 'function') {
             populateEditorForm();
         }
-
+        
         if (typeof renderDashboardAll === 'function') {
             renderDashboardAll();
         }
-    }
+        
+                console.log("Partido cambiado exitosamente (Índice:", idx, ") a:", currentMatchData);
+} else {
+    console.warn("No se encontró el partido en el historial para el índice:", index);
+}
 }
 
 // --- AQUÍ PEGABAS EL SCRIPT DE LOGIN ---
@@ -1298,7 +1304,13 @@ function validarAcceso() {
     if (USERS[user] && USERS[user].pass === pass) {
         document.getElementById('login-screen').style.display = 'none';
         document.getElementById('main-app').style.display = 'block';
-        
+
+        // <--- AÑADE ESTAS LÍNEAS AQUÍ:
+        if (typeof renderDashboardAll === 'function') {
+            renderDashboardAll();
+        }
+        // ------------------------------
+
         if (USERS[user].role === 'viewer') {
             restringirEdicion();
         }
