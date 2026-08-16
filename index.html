@@ -21,6 +21,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans">
+
+    <!-- Pantalla de Login -->
+    <div id="login-screen" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
+        <h2>Iniciar Sesión</h2>
+        <input type="text" id="username" placeholder="Usuario">
+        <input type="password" id="password" placeholder="Contraseña">
+        <button onclick="validarAcceso()">Acceder</button>
+        <p id="error-msg" style="color: red;"></p>
+    </div>
+
+    <!-- Contenido Principal (Oculto inicialmente) -->
+    <div id="main-app" style="display: none;">
+        
+        <!-- TODO TU CÓDIGO ACTUAL VA AQUÍ DENTRO -->
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            sans: ['Outfit', 'sans-serif'],
+                        }
+                    }
+                }
+            }
+        </script>
+        <!-- ... el resto de tus elementos, contenedores y scripts ... -->
+
+    </div>
+
+</body>
     <script>
         tailwind.config = {
             theme: {
@@ -1249,10 +1279,43 @@ function cambiarPartidoDesdeHistorial(index) {
         }
 
         if (typeof renderDashboardAll === 'function') {
-            renderDashboardAll(); 
-                }
-            }
+            renderDashboardAll();
         }
-    </script>
+    }
+}
+
+// --- AQUÍ PEGABAS EL SCRIPT DE LOGIN ---
+const USERS = {
+    "admin": { pass: "1234", role: "admin" },
+    "invitado": { pass: "0000", role: "viewer" }
+};
+
+function validarAcceso() {
+    const user = document.getElementById('username').value;
+    const pass = document.getElementById('password').value;
+    const error = document.getElementById('error-msg');
+
+    if (USERS[user] && USERS[user].pass === pass) {
+        document.getElementById('login-screen').style.display = 'none';
+        document.getElementById('main-app').style.display = 'block';
+        
+        if (USERS[user].role === 'viewer') {
+            restringirEdicion();
+        }
+    } else {
+        error.innerText = "Usuario o contraseña incorrectos";
+    }
+}
+
+function restringirEdicion() {
+    const btnEditor = document.getElementById('btn-tab-editor');
+    if (btnEditor) btnEditor.style.display = 'none';
+    
+    const tabEditor = document.getElementById('tab-editor');
+    if (tabEditor) tabEditor.remove();
+}
+</script>
+
+</div> <!-- Aquí cerramos el div id="main-app" que abrimos al principio -->
 </body>
 </html>
