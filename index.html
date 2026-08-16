@@ -1264,31 +1264,36 @@ let currentMatchData = historialPartidos[0];
             renderDashboardAll();
             alert('Se han restaurado los datos por defecto.');
         }
-        // Cargar las opciones del historial en el selector al abrir la página
-        document.addEventListener("DOMContentLoaded", () => {
-            const select = document.getElementById("selectorPartidos");
-            if(select && typeof historialPartidos !== 'undefined') {
-                select.innerHTML = "";
-                historialPartidos.forEach((partido, index) => {
-                    const option = document.createElement("option");
-                    option.value = index;
-                    option.textContent = `${partido.teamHome} vs ${partido.teamAway} (${partido.league})`;
-                    select.appendChild(option);
-                });
-            }
-        });
+        // Cargar las opciones del historial al abrir la página de forma inmediata
+const select = document.getElementById("selectorPartidos");
+if (select && typeof historialPartidos !== 'undefined') {
+    select.innerHTML = "";
+    historialPartidos.forEach((partido, index) => {
+        const option = document.createElement("option");
+        option.value = index;
+        const hTeam = partido.teamHome || partido.local || "Local";
+        const aTeam = partido.teamAway || partido.visitante || "Visita";
+        option.textContent = `${hTeam} vs ${aTeam} (${partido.league || 'Liga'})`;
+        select.appendChild(option);
+    });
+}
 
-        // Función para cambiar de partido al seleccionar una opción del menú
+// Función para cambiar de partido al seleccionar una opción del menú
 function cambiarPartidoDesdeHistorial(index) {
     const idx = parseInt(index, 10);
     if (typeof historialPartidos !== 'undefined' && historialPartidos[idx]) {
         // 1. Asignamos el partido activo
         currentMatchData = historialPartidos[idx];
         
-        // 2. Forzamos la actualización de los formularios y la vista completa
+        // 2. Forzamos la actualización completa de la interfaz y los KPIs
+        if (typeof renderDashboardAll === 'function') {
+            renderDashboardAll();
+        }
         if (typeof populateEditorForm === 'function') {
             populateEditorForm();
         }
+    }
+}
         
         if (typeof renderDashboardAll === 'function') {
             renderDashboardAll();
