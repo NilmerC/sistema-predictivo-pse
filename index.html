@@ -19,68 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body class="bg-slate-950 text-slate-100 font-sans">
-
-    <!-- Pantalla de Login -->
-    <div id="login-screen" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: #060913; z-index: 99999; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow-y: auto; padding: 20px;">
     
-    <!-- Contenedor principal del Login -->
-    <div style="max-width: 420px; width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
-        
-        <!-- Logotipo Cibernético PSE -->
-        <div style="width: 85px; height: 85px; background: radial-gradient(circle, #0e2238 0%, #060913 80%); border: 2px solid #00f2fe; border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-bottom: 18px; box-shadow: 0 0 25px rgba(0, 242, 254, 0.3);">
-            <span style="font-size: 26px; font-weight: bold; color: #ffffff; font-family: sans-serif; text-shadow: 0 0 10px rgba(0, 242, 254, 0.8);">PSE</span>
-        </div>
-        
-        <!-- Títulos y subtítulos con la paleta de tu logo -->
-        <span style="font-size: 11px; font-weight: bold; letter-spacing: 3px; color: #00f2fe; text-transform: uppercase; margin-bottom: 6px;">Data & Civil</span>
-        <h1 style="font-size: 22px; font-weight: bold; color: #ffffff; line-height: 1.3; margin-bottom: 10px;">Sistema Predictivo de Volumen</h1>
-        <p style="font-size: 13px; color: #94a3b8; margin-bottom: 25px; line-height: 1.5; padding: 0 10px;">Accede a los análisis estadísticos avanzados, cuotas y métricas del día en un solo lugar.</p>
-        
-        <!-- Tarjeta del formulario de acceso -->
-        <div style="background-color: #0b1120; border: 1px solid #1e293b; border-radius: 20px; padding: 30px; width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.6); text-align: left;">
-            <h2 style="font-size: 18px; font-weight: bold; color: #ffffff; margin-bottom: 6px;">Iniciar sesión</h2>
-            <p style="font-size: 12px; color: #94a3b8; margin-bottom: 20px;">Ingresa tus credenciales para desbloquear el dashboard.</p>
-            
-            <div style="margin-bottom: 15px;">
-                <label style="display: block; font-size: 12px; font-weight: 600; color: #cbd5e1; margin-bottom: 6px;">Usuario</label>
-                <input type="text" id="username" placeholder="Tu usuario" style="width: 100%; padding: 12px 14px; background-color: #060913; border: 1px solid #1e293b; border-radius: 10px; color: #ffffff; font-size: 14px; outline: none;">
-            </div>
-            
-            <div style="margin-bottom: 20px;">
-                <label style="display: block; font-size: 12px; font-weight: 600; color: #cbd5e1; margin-bottom: 6px;">Contraseña</label>
-                <input type="password" id="password" placeholder="••••••" style="width: 100%; padding: 12px 14px; background-color: #060913; border: 1px solid #1e293b; border-radius: 10px; color: #ffffff; font-size: 14px; outline: none;">
-            </div>
-            
-            <button type="button" onclick="validarAcceso(); return false;" style="width: 100%; padding: 12px; background: linear-gradient(135deg, #00f2fe, #4facfe); color: #060913; font-weight: bold; border: none; border-radius: 10px; font-size: 15px; cursor: pointer; box-shadow: 0 4px 15px rgba(0, 242, 254, 0.3);">Acceder</button>
-            
-            <p id="error-msg" style="color: #ef4444; font-size: 12px; text-align: center; margin-top: 12px;"></p>
-        </div>
-        
-    </div>
-</div>
-
-    <!-- Contenido Principal (Oculto inicialmente) -->
-    <div id="main-app" style="display: none;">
-        
-        <!-- TODO TU CÓDIGO ACTUAL VA AQUÍ DENTRO -->
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        fontFamily: {
-                            sans: ['Outfit', 'sans-serif'],
-                        }
-                    }
-                }
-            }
-        </script>
-        <!-- ... el resto de tus elementos, contenedores y scripts ... -->
-
-    </div>
-
-</body>
     <script>
         tailwind.config = {
             theme: {
@@ -119,7 +58,6 @@
         .glow-blue { box-shadow: 0 0 20px rgba(59, 130, 246, 0.2); }
         .glow-gold { box-shadow: 0 0 20px rgba(245, 158, 11, 0.2); }
         
-        /* Custom scrollbar */
         ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-track { background: #0a0f1d; }
         ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
@@ -128,1258 +66,459 @@
 </head>
 <body class="min-h-screen flex flex-col font-sans antialiased pb-12">
 
-    <!-- TOP HEADER / MATCH BANNER -->
-    <header class="w-full bg-slate-900/90 border-b border-slate-800 sticky top-0 z-50 backdrop-blur-md">
-        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center gap-4">
-            <div class="flex items-center gap-3">
-                <div class="bg-gradient-to-tr from-blue-600 to-indigo-500 p-2.5 rounded-xl shadow-lg">
-                    <i class="fa-solid fa-chart-line text-white text-xl"></i>
-                </div>
-                <div>
-                    <div class="flex items-center gap-2">
-                        <span class="bg-blue-500/20 text-blue-400 text-xs font-semibold px-2.5 py-0.5 rounded-full border border-blue-500/30" id="header-league-badge">SISTEMA PSE - LIGA 1</span>
-                        <span class="text-xs text-slate-400" id="header-league-name">Liga 1 Perú</span>
-                    </div>
-                    <h1 class="text-lg md:text-xl font-bold text-white tracking-wide" id="header-match-title">UTC de Cajamarca <span class="text-slate-500 font-normal">vs</span> Sport Huancayo</h1>
-                </div>
+    <!-- Pantalla de Login -->
+    <div id="login-screen" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: #060913; z-index: 99999; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow-y: auto; padding: 20px;">
+        <div style="max-width: 420px; width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <div style="width: 85px; height: 85px; background: radial-gradient(circle, #0e2238 0%, #060913 80%); border: 2px solid #00f2fe; border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-bottom: 18px; box-shadow: 0 0 25px rgba(0, 242, 254, 0.3);">
+                <span style="font-size: 26px; font-weight: bold; color: #ffffff; font-family: sans-serif; text-shadow: 0 0 10px rgba(0, 242, 254, 0.8);">PSE</span>
             </div>
-
-            <!-- Selector de Partidos y Cuotas -->
-            <div class="flex items-center gap-3">
-                <!-- Selector de Historial (Desplegable) -->
-                <div class="flex items-center gap-2 bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700 shadow-sm">
-                    <select id="selectorPartidos" onchange="cambiarPartidoDesdeHistorial(this.value)" 
-                class="bg-slate-900 text-slate-200 text-xs rounded px-2 py-1 border border-slate-700 focus:outline-none focus:border-blue-500 max-w-[180px] sm:max-w-xs truncate">
-                <!-- Se llena dinámicamente con JavaScript -->
-            </select>
-                </div>
-                <button onclick="switchTab('tab-editor')" class="px-3 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white rounded-xl text-xs font-bold transition shadow-lg flex items-center gap-1.5">
-                    <i class="fa-solid fa-pen-to-square"></i> Cargar/Editar Datos
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <!-- MAIN CONTENT -->
-    <main class="max-w-7xl mx-auto px-4 mt-6 flex-1 w-full space-y-6">
-
-        <!-- STATS KPI HIGHLIGHTS -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="glass-panel p-4 rounded-2xl relative overflow-hidden group hover:border-blue-500/50 transition">
-                <div class="absolute -right-3 -bottom-3 text-slate-800/30 text-6xl font-bold select-none group-hover:scale-110 transition">⚽</div>
-                <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">Goles Esperados (xG)</span>
-                <div class="text-2xl md:text-3xl font-bold font-mono text-white mt-1" id="kpi-xg"><span id="kpi-xg-home">1.45</span> <span class="text-sm font-normal text-slate-500">vs</span> <span id="kpi-xg-away">0.92</span></div>
-                <p class="text-xs text-emerald-400 mt-2 flex items-center gap-1">
-                    <i class="fa-solid fa-fire"></i> Total xG: <strong id="kpi-xg-total">2.37</strong>
-                </p>
-            </div>
-
-            <div class="glass-panel p-4 rounded-2xl relative overflow-hidden group hover:border-purple-500/50 transition">
-                <div class="absolute -right-3 -bottom-3 text-slate-800/30 text-6xl font-bold select-none group-hover:scale-110 transition">🎯</div>
-                <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">Marcador Probable</span>
-                <div class="text-2xl md:text-3xl font-bold font-mono text-purple-400 mt-1" id="kpi-top-score">1 - 0</div>
-                <p class="text-xs text-slate-400 mt-2" id="kpi-top-score-prob">
-                    Poisson: <strong class="text-purple-300" id="kpi-poisson-score">1 - 1</strong>
-                </p>
-            </div>
-
-            <div class="glass-panel p-4 rounded-2xl relative overflow-hidden group hover:border-cyan-500/50 transition">
-                <div class="absolute -right-3 -bottom-3 text-slate-800/30 text-6xl font-bold select-none group-hover:scale-110 transition">📐</div>
-                <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">Córners Totales</span>
-                <div class="text-2xl md:text-3xl font-bold font-mono text-cyan-400 mt-1" id="kpi-corners-total">9.20</div>
-                <p class="text-xs text-cyan-300 mt-2" id="kpi-corners-breakdown">
-                    UTC 5.20 | Huancayo 4.00
-                </p>
-            </div>
-
-            <div class="glass-panel p-4 rounded-2xl relative overflow-hidden group hover:border-amber-500/50 transition">
-                <div class="absolute -right-3 -bottom-3 text-slate-800/30 text-6xl font-bold select-none group-hover:scale-110 transition">🏹</div>
-                <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">Remates Totales</span>
-                <div class="text-2xl md:text-3xl font-bold font-mono text-amber-400 mt-1" id="kpi-shots-total">21.80</div>
-                <p class="text-xs text-amber-300 mt-2" id="kpi-shots-breakdown">
-                    UTC 12.50 | Huancayo 9.30
-                </p>
-            </div>
-        </div>
-
-        <!-- NAVIGATION TABS -->
-        <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-2">
-            <nav class="flex gap-2 overflow-x-auto pb-1 max-w-full">
-                <button onclick="switchTab('tab-overview')" id="btn-tab-overview" class="tab-btn active px-4 py-2 rounded-xl text-sm font-semibold transition bg-blue-600 text-white shadow-lg">
-                    <i class="fa-solid fa-border-all mr-1.5"></i> Resumen General
-                </button>
-                <button onclick="switchTab('tab-goals')" id="btn-tab-goals" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800">
-                    <i class="fa-solid fa-futbol mr-1.5"></i> Goles
-                </button>
-                <button onclick="switchTab('tab-corners')" id="btn-tab-corners" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800">
-                    <i class="fa-solid fa-flag mr-1.5"></i> Córners & Tarjetas
-                </button>
-                <button onclick="switchTab('tab-shots')" id="btn-tab-shots" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800">
-                    <i class="fa-solid fa-bullseye mr-1.5"></i> Remates & Tiros
-                </button>
-                <button onclick="switchTab('tab-builder')" id="btn-tab-builder" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800 text-amber-400">
-                    <i class="fa-solid fa-wand-magic-sparkles mr-1.5"></i> Bet Builder
-                </button>
-                <button onclick="switchTab('tab-simulator')" id="btn-tab-simulator" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800 text-purple-400">
-                    <i class="fa-solid fa-dice mr-1.5"></i> Simulador Poisson
-                </button>
-                <button onclick="switchTab('tab-editor')" id="btn-tab-editor" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800 text-cyan-400 border border-cyan-500/30">
-                    <i class="fa-solid fa-sliders mr-1.5"></i> ⚙️ Cargar / Editar Datos
-                </button>
-            </nav>
-
-            <!-- Probability Filter Slider -->
-            <div class="flex items-center gap-3 bg-slate-900/80 px-3 py-1.5 rounded-xl border border-slate-800 text-xs">
-                <span class="text-slate-400 font-medium whitespace-nowrap">Filtrar Probabilidad:</span>
-                <input type="range" id="prob-filter" min="30" max="90" value="50" step="5" oninput="updateProbabilityFilter(this.value)" class="w-24 accent-blue-500 cursor-pointer">
-                <span id="prob-filter-val" class="font-mono text-blue-400 font-bold min-w-[36px]">&ge; 50%</span>
-            </div>
-        </div>
-
-        <!-- TAB 1: OVERVIEW -->
-        <div id="tab-overview" class="tab-content space-y-6">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <span style="font-size: 11px; font-weight: bold; letter-spacing: 3px; color: #00f2fe; text-transform: uppercase; margin-bottom: 6px;">Data & Civil</span>
+            <h1 style="font-size: 22px; font-weight: bold; color: #ffffff; line-height: 1.3; margin-bottom: 10px;">Sistema Predictivo de Volumen</h1>
+            <p style="font-size: 13px; color: #94a3b8; margin-bottom: 25px; line-height: 1.5; padding: 0 10px;">Accede a los análisis estadísticos avanzados, cuotas y métricas del día en un solo lugar.</p>
+            
+            <div style="background-color: #0b1120; border: 1px solid #1e293b; border-radius: 20px; padding: 30px; width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.6); text-align: left;">
+                <h2 style="font-size: 18px; font-weight: bold; color: #ffffff; margin-bottom: 6px;">Iniciar sesión</h2>
+                <p style="font-size: 12px; color: #94a3b8; margin-bottom: 20px;">Ingresa tus credenciales para desbloquear el dashboard.</p>
                 
-                <!-- Match Radar Comparison -->
-                <div class="glass-panel p-5 rounded-2xl lg:col-span-2">
-                    <div class="flex justify-between items-center mb-4">
-                        <h3 class="font-bold text-white text-base flex items-center gap-2">
-                            <i class="fa-solid fa-chart-pie text-blue-400"></i> Perfil Comparativo de Equipos
-                        </h3>
-                        <span class="text-xs text-slate-400">Métricas Proyectadas</span>
-                    </div>
-                    <div class="h-72 relative">
-                        <canvas id="radarChart"></canvas>
-                    </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; font-size: 12px; font-weight: 600; color: #cbd5e1; margin-bottom: 6px;">Usuario</label>
+                    <input type="text" id="username" placeholder="Tu usuario" style="width: 100%; padding: 12px 14px; background-color: #060913; border: 1px solid #1e293b; border-radius: 10px; color: #ffffff; font-size: 14px; outline: none;">
                 </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; font-size: 12px; font-weight: 600; color: #cbd5e1; margin-bottom: 6px;">Contraseña</label>
+                    <input type="password" id="password" placeholder="••••••" style="width: 100%; padding: 12px 14px; background-color: #060913; border: 1px solid #1e293b; border-radius: 10px; color: #ffffff; font-size: 14px; outline: none;">
+                </div>
+                
+                <button type="button" onclick="validarAcceso(); return false;" style="width: 100%; padding: 12px; background: linear-gradient(135deg, #00f2fe, #4facfe); color: #060913; font-weight: bold; border: none; border-radius: 10px; font-size: 15px; cursor: pointer; box-shadow: 0 4px 15px rgba(0, 242, 254, 0.3);">Acceder</button>
+                
+                <p id="error-msg" style="color: #ef4444; font-size: 12px; text-align: center; margin-top: 12px;"></p>
+            </div>
+        </div>
+    </div>
 
-                <!-- Score Matrix Heatmap -->
-                <div class="glass-panel p-5 rounded-2xl flex flex-col justify-between">
+    <!-- Contenido Principal (Oculto inicialmente hasta login) -->
+    <div id="main-app" style="display: none; flex: 1; display: flex; flex-direction: column;">
+        
+        <!-- TOP HEADER / MATCH BANNER -->
+        <header class="w-full bg-slate-900/90 border-b border-slate-800 sticky top-0 z-50 backdrop-blur-md">
+            <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center gap-4">
+                <div class="flex items-center gap-3">
+                    <div class="bg-gradient-to-tr from-blue-600 to-indigo-500 p-2.5 rounded-xl shadow-lg">
+                        <i class="fa-solid fa-chart-line text-white text-xl"></i>
+                    </div>
                     <div>
-                        <h3 class="font-bold text-white text-base mb-3 flex items-center gap-2">
-                            <i class="fa-solid fa-table-cells text-purple-400"></i> Matriz de Marcadores Probables
-                        </h3>
-                        <p class="text-xs text-slate-400 mb-4">Probabilidad calculada dinámicamente con modelo Poisson.</p>
-                        
-                        <div class="grid grid-cols-3 gap-2 text-center text-xs" id="score-matrix-grid">
-                            <!-- Dynamic score grid cells injected here -->
+                        <div class="flex items-center gap-2">
+                            <span class="bg-blue-500/20 text-blue-400 text-xs font-semibold px-2.5 py-0.5 rounded-full border border-blue-500/30" id="header-league-badge">SISTEMA PSE - LIGA 1</span>
+                            <span class="text-xs text-slate-400" id="header-league-name">Liga 1 Perú</span>
                         </div>
-                    </div>
-
-                    <div class="mt-4 p-3 bg-blue-500/10 rounded-xl border border-blue-500/20 text-xs text-blue-300" id="overview-conclusion-box">
-                        <i class="fa-solid fa-lightbulb mr-1"></i> <strong>Conclusión Clave:</strong> <span id="overview-conclusion-text">UTC de Cajamarca parte con ligera ventaja en casa. Se prevé un partido disputado en mediocampo.</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Top Value Bets Grid -->
-            <div>
-                <h3 class="font-bold text-white text-base mb-3 flex items-center gap-2">
-                    <i class="fa-solid fa-star text-amber-400"></i> Opciones Destacadas de Alta Probabilidad
-                </h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="top-value-grid">
-                    <!-- Cards injected by JS -->
-                </div>
-            </div>
-        </div>
-
-        <!-- TAB 2: GOALS -->
-        <div id="tab-goals" class="tab-content space-y-6 hidden">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <!-- Goal Metrics Bars -->
-                <div class="glass-panel p-5 rounded-2xl">
-                    <h3 class="font-bold text-white text-base mb-4 flex items-center gap-2">
-                        <i class="fa-solid fa-futbol text-emerald-400"></i> Desglose de Mercados de Goles
-                    </h3>
-                    <div class="space-y-4" id="goals-list">
-                        <!-- Goal Items injected by JS -->
+                        <h1 class="text-lg md:text-xl font-bold text-white tracking-wide" id="header-match-title">UTC de Cajamarca <span class="text-slate-500 font-normal">vs</span> Sport Huancayo</h1>
                     </div>
                 </div>
 
-                <!-- Goals Chart -->
-                <div class="glass-panel p-5 rounded-2xl flex flex-col justify-between">
-                    <div>
-                        <h3 class="font-bold text-white text-base mb-4">Distribución de Proyección de Goles</h3>
-                        <div class="h-64 relative">
-                            <canvas id="goalsChart"></canvas>
-                        </div>
+                <div class="flex items-center gap-3">
+                    <div class="flex items-center gap-2 bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700 shadow-sm">
+                        <select id="selectorPartidos" onchange="cambiarPartidoDesdeHistorial(this.value)" 
+                            class="bg-slate-900 text-slate-200 text-xs rounded px-2 py-1 border border-slate-700 focus:outline-none focus:border-blue-500 max-w-[180px] sm:max-w-xs truncate">
+                        </select>
                     </div>
-                    <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2 mt-4">
-                        <div class="flex justify-between">
-                            <span>xG Local:</span>
-                            <strong class="font-mono text-emerald-400" id="xg-goals-breakdown-home">1.45</strong>
-                        </div>
-                        <div class="flex justify-between">
-                            <span>xG Visitante:</span>
-                            <strong class="font-mono text-rose-400" id="xg-goals-breakdown-away">0.92</strong>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- TAB 3: CORNERS & CARDS -->
-        <div id="tab-corners" class="tab-content space-y-6 hidden">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <!-- Corners Panel -->
-                <div class="glass-panel p-5 rounded-2xl">
-                    <div class="flex justify-between items-center mb-4">
-                        <h3 class="font-bold text-white text-base flex items-center gap-2">
-                            <i class="fa-solid fa-flag text-cyan-400"></i> Análisis de Córners
-                        </h3>
-                        <span class="text-xs font-mono text-cyan-400 bg-cyan-500/10 px-2 py-1 rounded" id="badge-corners-total-val">Total Proyectado: 9.20</span>
-                    </div>
-                    <div class="space-y-4" id="corners-list">
-                        <!-- Corners items injected by JS -->
-                    </div>
-                </div>
-
-                <!-- Cards Panel -->
-                <div class="glass-panel p-5 rounded-2xl">
-                    <div class="flex justify-between items-center mb-4">
-                        <h3 class="font-bold text-white text-base flex items-center gap-2">
-                            <i class="fa-solid fa-clone text-amber-400"></i> Análisis de Tarjetas
-                        </h3>
-                        <span class="text-xs font-mono text-amber-400 bg-amber-500/10 px-2 py-1 rounded" id="badge-cards-total-val">Total Proyectado: 4.80</span>
-                    </div>
-                    <div class="space-y-4" id="cards-list">
-                        <!-- Cards items injected by JS -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- TAB 4: SHOTS -->
-        <div id="tab-shots" class="tab-content space-y-6 hidden">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                <!-- Total Shots Panel -->
-                <div class="glass-panel p-5 rounded-2xl">
-                    <div class="flex justify-between items-center mb-4">
-                        <h3 class="font-bold text-white text-base flex items-center gap-2">
-                            <i class="fa-solid fa-circle-dot text-amber-400"></i> Remates Totales
-                        </h3>
-                        <span class="text-xs font-mono text-amber-400 bg-amber-500/10 px-2 py-1 rounded" id="badge-shots-total-val">Prom. Esperado: 21.80</span>
-                    </div>
-                    <div class="space-y-4" id="remates-list">
-                        <!-- Remates injected by JS -->
-                    </div>
-                </div>
-
-                <!-- Shots on Target Panel -->
-                <div class="glass-panel p-5 rounded-2xl">
-                    <div class="flex justify-between items-center mb-4">
-                        <h3 class="font-bold text-white text-base flex items-center gap-2">
-                            <i class="fa-solid fa-bullseye text-rose-400"></i> Tiros al Arco (A Puerta)
-                        </h3>
-                        <span class="text-xs font-mono text-rose-400 bg-rose-500/10 px-2 py-1 rounded" id="badge-target-total-val">Prom. Esperado: 7.89</span>
-                    </div>
-                    <div class="space-y-4" id="tiros-list">
-                        <!-- Tiros injected by JS -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- TAB 5: BET BUILDER -->
-        <div id="tab-builder" class="tab-content space-y-6 hidden">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                <!-- Selection Pickers -->
-                <div class="glass-panel p-5 rounded-2xl lg:col-span-2 space-y-4">
-                    <h3 class="font-bold text-white text-base mb-2 flex items-center gap-2">
-                        <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i> Creador de Apuesta Personalizado
-                    </h3>
-                    <p class="text-xs text-slate-400 mb-4">Selecciona los mercados para calcular la probabilidad combinada estimada y la cuota justa total.</p>
-                    
-                    <div id="builder-options" class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                        <!-- Checkboxes injected by JS -->
-                    </div>
-                </div>
-
-                <!-- Builder Summary Card -->
-                <div class="glass-panel p-5 rounded-2xl flex flex-col justify-between h-fit sticky top-20 border-amber-500/30">
-                    <div>
-                        <h4 class="font-bold text-amber-400 text-sm uppercase tracking-wider mb-3">Ticket Combinado</h4>
-                        <div id="selected-bets-list" class="space-y-2 min-h-[120px] max-h-[220px] overflow-y-auto mb-4 text-xs text-slate-300 border-b border-slate-800 pb-3">
-                            <p class="text-slate-500 italic">No has seleccionado ninguna opción aún.</p>
-                        </div>
-                    </div>
-
-                    <div class="space-y-3 pt-2">
-                        <div class="flex justify-between items-center">
-                            <span class="text-xs text-slate-400">Probabilidad Estimada:</span>
-                            <strong id="builder-prob" class="font-mono text-lg text-emerald-400">0.0%</strong>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-xs text-slate-400">Cuota Justa Estimada:</span>
-                            <strong id="builder-odds" class="font-mono text-2xl text-amber-400">1.00</strong>
-                        </div>
-                        <button onclick="copyBetBuilder()" class="w-full py-2.5 bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold rounded-xl text-xs transition flex items-center justify-center gap-2">
-                            <i class="fa-solid fa-copy"></i> Copiar Apuesta Combinada
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- TAB 6: POISSON SIMULATOR -->
-        <div id="tab-simulator" class="tab-content space-y-6 hidden">
-            <div class="glass-panel p-6 rounded-2xl">
-                <div class="flex flex-wrap justify-between items-center gap-4 mb-6">
-                    <div>
-                        <h3 class="font-bold text-white text-lg flex items-center gap-2">
-                            <i class="fa-solid fa-dice text-purple-400"></i> Simulador Monte Carlo (Poisson)
-                        </h3>
-                        <p class="text-xs text-slate-400" id="sim-desc-text">Simula 10,000 partidos virtuales en tiempo real utilizando el modelo de probabilidad.</p>
-                    </div>
-                    <button onclick="runSimulation()" id="sim-btn" class="px-5 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold rounded-xl text-xs transition shadow-lg flex items-center gap-2">
-                        <i class="fa-solid fa-play"></i> Simular 10,000 Partidos
+                    <button onclick="switchTab('tab-editor')" class="px-3 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white rounded-xl text-xs font-bold transition shadow-lg flex items-center gap-1.5">
+                        <i class="fa-solid fa-pen-to-square"></i> Cargar/Editar Datos
                     </button>
                 </div>
+            </div>
+        </header>
 
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-                    <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
-                        <span class="text-xs text-slate-400 block" id="sim-label-home">Victoria Local</span>
-                        <strong id="sim-win-home" class="text-2xl font-mono text-emerald-400">-- %</strong>
-                    </div>
-                    <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
-                        <span class="text-xs text-slate-400 block">Empates</span>
-                        <strong id="sim-draw" class="text-2xl font-mono text-amber-400">-- %</strong>
-                    </div>
-                    <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
-                        <span class="text-xs text-slate-400 block" id="sim-label-away">Victoria Visitante</span>
-                        <strong id="sim-win-away" class="text-2xl font-mono text-rose-400">-- %</strong>
-                    </div>
-                    <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center">
-                        <span class="text-xs text-slate-400 block">Promedio Goles Totales</span>
-                        <strong id="sim-avg-goals" class="text-2xl font-mono text-cyan-400">--</strong>
-                    </div>
+        <!-- MAIN CONTENT -->
+        <main class="max-w-7xl mx-auto px-4 mt-6 flex-1 w-full space-y-6">
+
+            <!-- STATS KPI HIGHLIGHTS -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="glass-panel p-4 rounded-2xl relative overflow-hidden group hover:border-blue-500/50 transition">
+                    <div class="absolute -right-3 -bottom-3 text-slate-800/30 text-6xl font-bold select-none group-hover:scale-110 transition">⚽</div>
+                    <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">Goles Esperados (xG)</span>
+                    <div class="text-2xl md:text-3xl font-bold font-mono text-white mt-1"><span id="kpi-xg-home">1.45</span> <span class="text-sm font-normal text-slate-500">vs</span> <span id="kpi-xg-away">0.92</span></div>
+                    <p class="text-xs text-emerald-400 mt-2 flex items-center gap-1">
+                        <i class="fa-solid fa-fire"></i> Total xG: <strong id="kpi-xg-total">2.37</strong>
+                    </p>
                 </div>
 
-                <div class="h-64 relative">
-                    <canvas id="simChart"></canvas>
+                <div class="glass-panel p-4 rounded-2xl relative overflow-hidden group hover:border-purple-500/50 transition">
+                    <div class="absolute -right-3 -bottom-3 text-slate-800/30 text-6xl font-bold select-none group-hover:scale-110 transition">🎯</div>
+                    <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">Marcador Probable</span>
+                    <div class="text-2xl md:text-3xl font-bold font-mono text-purple-400 mt-1" id="kpi-top-score">1 - 0</div>
+                    <p class="text-xs text-slate-400 mt-2">
+                        Poisson: <strong class="text-purple-300" id="kpi-poisson-score">1 - 1</strong>
+                    </p>
+                </div>
+
+                <div class="glass-panel p-4 rounded-2xl relative overflow-hidden group hover:border-cyan-500/50 transition">
+                    <div class="absolute -right-3 -bottom-3 text-slate-800/30 text-6xl font-bold select-none group-hover:scale-110 transition">📐</div>
+                    <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">Córners Totales</span>
+                    <div class="text-2xl md:text-3xl font-bold font-mono text-cyan-400 mt-1" id="kpi-corners-total">9.20</div>
+                    <p class="text-xs text-cyan-300 mt-2" id="kpi-corners-breakdown">UTC 5.20 | Huancayo 4.00</p>
+                </div>
+
+                <div class="glass-panel p-4 rounded-2xl relative overflow-hidden group hover:border-amber-500/50 transition">
+                    <div class="absolute -right-3 -bottom-3 text-slate-800/30 text-6xl font-bold select-none group-hover:scale-110 transition">🏹</div>
+                    <span class="text-xs text-slate-400 font-medium uppercase tracking-wider">Remates Totales</span>
+                    <div class="text-2xl md:text-3xl font-bold font-mono text-amber-400 mt-1" id="kpi-shots-total">21.80</div>
+                    <p class="text-xs text-amber-300 mt-2" id="kpi-shots-breakdown">UTC 12.50 | Huancayo 9.30</p>
                 </div>
             </div>
-        </div>
 
-        <!-- TAB 7: DATA EDITOR & JSON / TEXT IMPORTER -->
-        <div id="tab-editor" class="tab-content space-y-6 hidden">
-            <div class="glass-panel p-6 rounded-2xl space-y-6">
-                <div class="flex flex-wrap justify-between items-center gap-4 border-b border-slate-800 pb-4">
-                    <div>
-                        <h3 class="font-bold text-white text-lg flex items-center gap-2">
-                            <i class="fa-solid fa-sliders text-cyan-400"></i> Panel de Configuración y Carga de Datos
-                        </h3>
-                        <p class="text-xs text-slate-400">Edita los parámetros de cualquier partido o pega un informe de texto PSE para actualizar el dashboard al instante.</p>
-                    </div>
-                    <div class="flex gap-2">
-                        <button onclick="resetToDefaultData()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold rounded-xl text-xs transition border border-slate-700">
-                            <i class="fa-solid fa-rotate-left mr-1"></i> Restaurar Datos Ejemplo
-                        </button>
-                        <button onclick="applyEditorData()" class="px-5 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs transition shadow-lg flex items-center gap-1.5">
-                            <i class="fa-solid fa-check"></i> Actualizar Dashboard
-                        </button>
-                    </div>
+            <!-- NAVIGATION TABS -->
+            <div class="flex flex-wrap items-center justify-between gap-4 border-b border-slate-800 pb-2">
+                <nav class="flex gap-2 overflow-x-auto pb-1 max-w-full">
+                    <button onclick="switchTab('tab-overview')" id="btn-tab-overview" class="tab-btn active px-4 py-2 rounded-xl text-sm font-semibold transition bg-blue-600 text-white shadow-lg">
+                        <i class="fa-solid fa-border-all mr-1.5"></i> Resumen General
+                    </button>
+                    <button onclick="switchTab('tab-goals')" id="btn-tab-goals" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800">
+                        <i class="fa-solid fa-futbol mr-1.5"></i> Goles
+                    </button>
+                    <button onclick="switchTab('tab-corners')" id="btn-tab-corners" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800">
+                        <i class="fa-solid fa-flag mr-1.5"></i> Córners & Tarjetas
+                    </button>
+                    <button onclick="switchTab('tab-shots')" id="btn-tab-shots" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800">
+                        <i class="fa-solid fa-bullseye mr-1.5"></i> Remates & Tiros
+                    </button>
+                    <button onclick="switchTab('tab-builder')" id="btn-tab-builder" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800 text-amber-400">
+                        <i class="fa-solid fa-wand-magic-sparkles mr-1.5"></i> Bet Builder
+                    </button>
+                    <button onclick="switchTab('tab-simulator')" id="btn-tab-simulator" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800 text-purple-400">
+                        <i class="fa-solid fa-dice mr-1.5"></i> Simulador Poisson
+                    </button>
+                    <button onclick="switchTab('tab-editor')" id="btn-tab-editor" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800 text-cyan-400 border border-cyan-500/30">
+                        <i class="fa-solid fa-sliders mr-1.5"></i> ⚙️ Cargar / Editar Datos
+                    </button>
+                </nav>
+
+                <div class="flex items-center gap-3 bg-slate-900/80 px-3 py-1.5 rounded-xl border border-slate-800 text-xs">
+                    <span class="text-slate-400 font-medium whitespace-nowrap">Filtrar Probabilidad:</span>
+                    <input type="range" id="prob-filter" min="30" max="90" value="50" step="5" oninput="updateProbabilityFilter(this.value)" class="w-24 accent-blue-500 cursor-pointer">
+                    <span id="prob-filter-val" class="font-mono text-blue-400 font-bold min-w-[36px]">&ge; 50%</span>
                 </div>
+            </div>
 
-                <!-- FORM GRID -->
+            <!-- TAB 1: OVERVIEW -->
+            <div id="tab-overview" class="tab-content space-y-6">
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    
-                    <!-- Basic Info & 1X2 -->
-                    <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 space-y-4">
-                        <h4 class="font-bold text-cyan-400 text-sm flex items-center gap-2 border-b border-slate-800 pb-2">
-                            <i class="fa-solid fa-trophy"></i> Información del Partido
-                        </h4>
+                    <div class="glass-panel p-5 rounded-2xl lg:col-span-2">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-bold text-white text-base flex items-center gap-2">
+                                <i class="fa-solid fa-chart-pie text-blue-400"></i> Perfil Comparativo de Equipos
+                            </h3>
+                            <span class="text-xs text-slate-400">Métricas Proyectadas</span>
+                        </div>
+                        <div class="h-72 relative">
+                            <canvas id="radarChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel p-5 rounded-2xl flex flex-col justify-between">
                         <div>
-                            <label class="block text-xs text-slate-400 mb-1">Nombre de la Liga</label>
-                            <input type="text" id="edit-league" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-white focus:border-cyan-500 outline-none">
+                            <h3 class="font-bold text-white text-base mb-3 flex items-center gap-2">
+                                <i class="fa-solid fa-table-cells text-purple-400"></i> Matriz de Marcadores Probables
+                            </h3>
+                            <p class="text-xs text-slate-400 mb-4">Probabilidad calculada dinámicamente con modelo Poisson.</p>
+                            <div class="grid grid-cols-3 gap-2 text-center text-xs" id="score-matrix-grid"></div>
                         </div>
-                        <div class="grid grid-cols-2 gap-2">
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Equipo Local</label>
-                                <input type="text" id="edit-team1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-white focus:border-cyan-500 outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Equipo Visitante</label>
-                                <input type="text" id="edit-team2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-white focus:border-cyan-500 outline-none">
-                            </div>
-                        </div>
-
-                        <h5 class="font-semibold text-slate-300 text-xs pt-2">Probabilidades 1X2 (%)</h5>
-                        <div class="grid grid-cols-3 gap-2">
-                            <div>
-                                <label class="block text-[10px] text-slate-400 mb-1">Local (1)</label>
-                                <input type="number" step="0.1" id="edit-p1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-emerald-400 focus:border-emerald-500 outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-[10px] text-slate-400 mb-1">Empate (X)</label>
-                                <input type="number" step="0.1" id="edit-px" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-amber-400 focus:border-amber-500 outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-[10px] text-slate-400 mb-1">Visitante (2)</label>
-                                <input type="number" step="0.1" id="edit-p2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-rose-400 focus:border-rose-500 outline-none">
-                            </div>
+                        <div class="mt-4 p-3 bg-blue-500/10 rounded-xl border border-blue-500/20 text-xs text-blue-300">
+                            <i class="fa-solid fa-lightbulb mr-1"></i> <strong>Conclusión Clave:</strong> <span id="overview-conclusion-text">Partido competitivo con ligera tendencia favorable al local según xG.</span>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Metrics Expectations -->
-                    <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 space-y-4">
-                        <h4 class="font-bold text-blue-400 text-sm flex items-center gap-2 border-b border-slate-800 pb-2">
-                            <i class="fa-solid fa-chart-bar"></i> Métricas Promedio Proyectadas
-                        </h4>
-                        <div class="grid grid-cols-2 gap-3">
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">xG Local</label>
-                                <input type="number" step="0.01" id="edit-xg1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">xG Visitante</label>
-                                <input type="number" step="0.01" id="edit-xg2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Córners Local</label>
-                                <input type="number" step="0.01" id="edit-corn1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Córners Visitante</label>
-                                <input type="number" step="0.01" id="edit-corn2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Tarjetas Local</label>
-                                <input type="number" step="0.01" id="edit-card1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Tarjetas Visitante</label>
-                                <input type="number" step="0.01" id="edit-card2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Remates Local</label>
-                                <input type="number" step="0.01" id="edit-rem1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Remates Visitante</label>
-                                <input type="number" step="0.01" id="edit-rem2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Tiros Arco Local</label>
-                                <input type="number" step="0.01" id="edit-tir1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                            <div>
-                                <label class="block text-xs text-slate-400 mb-1">Tiros Arco Visitante</label>
-                                <input type="number" step="0.01" id="edit-tir2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs font-mono text-white outline-none">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- JSON & TEXT IMPORT -->
-                    <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 space-y-4 flex flex-col justify-between">
-                        <div>
-                            <h4 class="font-bold text-amber-400 text-sm flex items-center justify-between border-b border-slate-800 pb-2 mb-2">
-                                <span class="flex items-center gap-2"><i class="fa-solid fa-code"></i> Carga Directa JSON</span>
-                                <button onclick="exportJSON()" class="text-[10px] text-amber-300 hover:underline">
-                                    <i class="fa-solid fa-download"></i> Copiar JSON
-                                </button>
-                            </h4>
-                            <textarea id="edit-json-area" rows="4" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-[11px] font-mono text-slate-300 focus:border-amber-500 outline-none resize-none"></textarea>
-                            <button onclick="importJSON()" class="w-full mt-2 py-1.5 bg-amber-500/20 hover:bg-amber-500/30 text-amber-400 border border-amber-500/40 font-bold rounded-lg text-xs transition flex items-center justify-center gap-2">
-                                <i class="fa-solid fa-file-import"></i> Cargar Datos desde JSON
-                            </button>
-                        </div>
-
-                        <!-- TEXT REPORT PARSER -->
-                        <div class="border-t border-slate-800 pt-3">
-                            <h4 class="font-bold text-emerald-400 text-sm flex items-center justify-between border-b border-slate-800 pb-2 mb-2">
-                                <span class="flex items-center gap-2"><i class="fa-solid fa-file-lines"></i> Importar Informe de Texto PSE</span>
-                            </h4>
-                            <p class="text-[11px] text-slate-400 mb-2">Pega aquí el informe copiado de WhatsApp/Telegram para actualizar automáticamente:</p>
-                            <textarea id="edit-text-report" rows="8" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2.5 text-[11px] font-mono text-emerald-300 focus:border-emerald-500 outline-none resize-none" placeholder="Pega el informe de texto completo aquí..."></textarea>
-                            <button onclick="importTextReport()" class="w-full mt-2 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs transition shadow-lg flex items-center justify-center gap-2">
-                                <i class="fa-solid fa-wand-magic-sparkles"></i> Importar Informe de Texto
-                            </button>
-                        </div>
-                    </div>
-
+                <div>
+                    <h3 class="font-bold text-white text-base mb-3 flex items-center gap-2">
+                        <i class="fa-solid fa-star text-amber-400"></i> Opciones Destacadas de Alta Probabilidad
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="top-value-grid"></div>
                 </div>
             </div>
-        </div>
 
-    </main>
+            <!-- TAB 2: GOALS -->
+            <div id="tab-goals" class="tab-content space-y-6 hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="glass-panel p-5 rounded-2xl">
+                        <h3 class="font-bold text-white text-base mb-4 flex items-center gap-2">
+                            <i class="fa-solid fa-futbol text-emerald-400"></i> Desglose de Mercados de Goles
+                        </h3>
+                        <div class="space-y-4" id="goals-list"></div>
+                    </div>
+                    <div class="glass-panel p-5 rounded-2xl flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-bold text-white text-base mb-4">Distribución de Proyección de Goles</h3>
+                            <div class="h-64 relative"><canvas id="goalsChart"></canvas></div>
+                        </div>
+                        <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-800 text-xs text-slate-300 space-y-2 mt-4">
+                            <div class="flex justify-between"><span>xG Local:</span><strong class="font-mono text-emerald-400" id="xg-goals-breakdown-home">1.45</strong></div>
+                            <div class="flex justify-between"><span>xG Visitante:</span><strong class="font-mono text-rose-400" id="xg-goals-breakdown-away">0.92</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- FOOTER -->
-    <footer class="max-w-7xl mx-auto px-4 mt-8 text-center text-xs text-slate-500 space-y-1">
-        <p>Sistema Predictivo de Volumen (PSE) &bull; Liga 1 Perú</p>
-        <p class="text-[10px] opacity-75">Este dashboard es un análisis estadístico informativo basado en modelos estocásticos. Apuesta de forma responsable.</p>
-    </footer>
+            <!-- TAB 3: CORNERS & CARDS -->
+            <div id="tab-corners" class="tab-content space-y-6 hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="glass-panel p-5 rounded-2xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-bold text-white text-base flex items-center gap-2"><i class="fa-solid fa-flag text-cyan-400"></i> Análisis de Córners</h3>
+                            <span class="text-xs font-mono text-cyan-400 bg-cyan-500/10 px-2 py-1 rounded" id="badge-corners-total-val">Total Proyectado: 9.20</span>
+                        </div>
+                        <div class="space-y-4" id="corners-list"></div>
+                    </div>
+                    <div class="glass-panel p-5 rounded-2xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-bold text-white text-base flex items-center gap-2"><i class="fa-solid fa-clone text-amber-400"></i> Análisis de Tarjetas</h3>
+                            <span class="text-xs font-mono text-amber-400 bg-amber-500/10 px-2 py-1 rounded" id="badge-cards-total-val">Total Proyectado: 4.80</span>
+                        </div>
+                        <div class="space-y-4" id="cards-list"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: SHOTS -->
+            <div id="tab-shots" class="tab-content space-y-6 hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="glass-panel p-5 rounded-2xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-bold text-white text-base flex items-center gap-2"><i class="fa-solid fa-circle-dot text-amber-400"></i> Remates Totales</h3>
+                            <span class="text-xs font-mono text-amber-400 bg-amber-500/10 px-2 py-1 rounded" id="badge-shots-total-val">Prom. Esperado: 21.80</span>
+                        </div>
+                        <div class="space-y-4" id="remates-list"></div>
+                    </div>
+                    <div class="glass-panel p-5 rounded-2xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-bold text-white text-base flex items-center gap-2"><i class="fa-solid fa-bullseye text-rose-400"></i> Tiros al Arco</h3>
+                            <span class="text-xs font-mono text-rose-400 bg-rose-500/10 px-2 py-1 rounded" id="badge-target-total-val">Prom. Esperado: 7.89</span>
+                        </div>
+                        <div class="space-y-4" id="tiros-list"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 5: BET BUILDER -->
+            <div id="tab-builder" class="tab-content space-y-6 hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div class="glass-panel p-5 rounded-2xl lg:col-span-2 space-y-4">
+                        <h3 class="font-bold text-white text-base mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i> Creador de Apuesta Personalizado
+                        </h3>
+                        <p class="text-xs text-slate-400 mb-4">Selecciona los mercados para calcular la probabilidad combinada estimada y la cuota justa total.</p>
+                        <div id="builder-options" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+                    </div>
+                    <div class="glass-panel p-5 rounded-2xl flex flex-col justify-between h-fit sticky top-20 border-amber-500/30">
+                        <div>
+                            <h4 class="font-bold text-amber-400 text-sm uppercase tracking-wider mb-3">Ticket Combinado</h4>
+                            <div id="selected-bets-list" class="space-y-2 min-h-[120px] max-h-[220px] overflow-y-auto mb-4 text-xs text-slate-300 border-b border-slate-800 pb-3">
+                                <p class="text-slate-500 italic">No has seleccionado ninguna opción aún.</p>
+                            </div>
+                        </div>
+                        <div class="space-y-3 pt-2">
+                            <div class="flex justify-between items-center"><span class="text-xs text-slate-400">Probabilidad Estimada:</span><strong id="builder-prob" class="font-mono text-lg text-emerald-400">0.0%</strong></div>
+                            <div class="flex justify-between items-center"><span class="text-xs text-slate-400">Cuota Justa Estimada:</span><strong id="builder-odds" class="font-mono text-2xl text-amber-400">1.00</strong></div>
+                            <button onclick="copyBetBuilder()" class="w-full py-2.5 bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold rounded-xl text-xs transition flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-copy"></i> Copiar Apuesta Combinada
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 6: SIMULATOR -->
+            <div id="tab-simulator" class="tab-content space-y-6 hidden">
+                <div class="glass-panel p-6 rounded-2xl">
+                    <div class="flex flex-wrap justify-between items-center gap-4 mb-6">
+                        <div>
+                            <h3 class="font-bold text-white text-lg flex items-center gap-2"><i class="fa-solid fa-dice text-purple-400"></i> Simulador Monte Carlo (Poisson)</h3>
+                            <p class="text-xs text-slate-400">Simula 10,000 partidos virtuales en tiempo real.</p>
+                        </div>
+                        <button onclick="runSimulation()" class="px-5 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold rounded-xl text-xs transition shadow-lg flex items-center gap-2">
+                            <i class="fa-solid fa-play"></i> Simular 10,000 Partidos
+                        </button>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center"><span class="text-xs text-slate-400 block" id="sim-label-home">Victoria Local</span><strong id="sim-win-home" class="text-2xl font-mono text-emerald-400">-- %</strong></div>
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center"><span class="text-xs text-slate-400 block">Empates</span><strong id="sim-draw" class="text-2xl font-mono text-amber-400">-- %</strong></div>
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center"><span class="text-xs text-slate-400 block" id="sim-label-away">Victoria Visitante</span><strong id="sim-win-away" class="text-2xl font-mono text-rose-400">-- %</strong></div>
+                        <div class="bg-slate-900/80 p-4 rounded-xl border border-slate-800 text-center"><span class="text-xs text-slate-400 block">Promedio Goles Totales</span><strong id="sim-avg-goals" class="text-2xl font-mono text-cyan-400">--</strong></div>
+                    </div>
+                    <div class="h-64 relative"><canvas id="simChart"></canvas></div>
+                </div>
+            </div>
+
+            <!-- TAB 7: DATA EDITOR -->
+            <div id="tab-editor" class="tab-content space-y-6 hidden">
+                <div class="glass-panel p-6 rounded-2xl space-y-6">
+                    <div class="flex flex-wrap justify-between items-center gap-4 border-b border-slate-800 pb-4">
+                        <div>
+                            <h3 class="font-bold text-white text-lg flex items-center gap-2"><i class="fa-solid fa-sliders text-cyan-400"></i> Panel de Configuración y Carga de Datos</h3>
+                            <p class="text-xs text-slate-400">Edita los parámetros o importa informes.</p>
+                        </div>
+                        <div class="flex gap-2">
+                            <button onclick="resetToDefaultData()" class="px-4 py-2 bg-slate-800 text-slate-300 font-semibold rounded-xl text-xs transition border border-slate-700">Restaurar Ejemplo</button>
+                            <button onclick="applyEditorData()" class="px-5 py-2 bg-emerald-600 text-white font-bold rounded-xl text-xs transition shadow-lg">Actualizar Dashboard</button>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                        <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 space-y-4">
+                            <h4 class="font-bold text-cyan-400 text-sm">Información del Partido</h4>
+                            <div><label class="block text-xs text-slate-400 mb-1">Liga</label><input type="text" id="edit-league" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-white outline-none"></div>
+                            <div class="grid grid-cols-2 gap-2">
+                                <div><label class="block text-xs text-slate-400 mb-1">Local</label><input type="text" id="edit-team1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-white outline-none"></div>
+                                <div><label class="block text-xs text-slate-400 mb-1">Visitante</label><input type="text" id="edit-team2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-white outline-none"></div>
+                            </div>
+                        </div>
+                        <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 space-y-4">
+                            <h4 class="font-bold text-blue-400 text-sm">Métricas Proyectadas</h4>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div><label class="block text-xs text-slate-400 mb-1">xG Local</label><input type="number" step="0.01" id="edit-xg1" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-white outline-none"></div>
+                                <div><label class="block text-xs text-slate-400 mb-1">xG Visitante</label><input type="number" step="0.01" id="edit-xg2" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-xs text-white outline-none"></div>
+                            </div>
+                        </div>
+                        <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 space-y-4">
+                            <h4 class="font-bold text-amber-400 text-sm">Carga JSON</h4>
+                            <textarea id="edit-json-area" rows="4" class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-[11px] font-mono text-slate-300 outline-none"></textarea>
+                            <button onclick="importJSON()" class="w-full py-1.5 bg-amber-500/20 text-amber-400 border border-amber-500/40 rounded-lg text-xs font-bold">Cargar JSON</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="max-w-7xl mx-auto px-4 mt-8 text-center text-xs text-slate-500 space-y-1">
+            <p>Sistema Predictivo de Volumen (PSE) &bull; Liga 1 Perú</p>
+        </footer>
+    </div>
 
     <!-- JAVASCRIPT LOGIC -->
     <script>
-    // --- CREDENCIALES DE ACCESO GLOBALES ---
-    var USERS_CREDENTIALS = {
-        "admin": { pass: "1234", role: "admin" },
-        "invitado": { pass: "0000", role: "viewer" },
-        "usuario1": { pass: "1111", role: "viewer" },
-        "usuario2": { pass: "2222", role: "viewer" },
-        "usuario3": { pass: "3333", role: "viewer" },
-        "usuario4": { pass: "4444", role: "viewer" },
-        "usuario5": { pass: "5555", role: "viewer" },
-        "usuario6": { pass: "6666", role: "viewer" },
-        "usuario7": { pass: "7777", role: "viewer" },
-        "usuario8": { pass: "8888", role: "viewer" },
-        "usuario9": { pass: "9999", role: "viewer" },
-        "usuario10": { pass: "1010", role: "viewer" }
-    };
-    <!-- PSE_DATA_START -->
-let historialPartidos = [{"id": "RC_Lens_vs_Paris_Saint_Germain", "league": "Trophee des Champions", "badgeLeague": "SISTEMA PSE - TROPHEE DES CHAMPIONS", "teamHome": "RC Lens", "teamAway": "Paris Saint Germain", "p1": 19.22, "pX": 28.5, "p2": 52.28, "metrics": {"xgHome": 0.8, "xgAway": 1.56, "cornersHome": 4.65, "cornersAway": 5.25, "cardsHome": 1.6, "cardsAway": 1.6, "shotsHome": 14.2, "shotsAway": 16.8, "shotsTargetHome": 5.3, "shotsTargetAway": 6.5}, "markets": [{"id": "g1", "category": "goals", "label": "RC Lens anota >0.5 goles", "prob": 53.0, "odds": 1.89, "team": "RC Lens"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 63.5, "odds": 1.57, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 88.1, "odds": 1.13, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Paris Saint Germain anota >0.5 goles", "prob": 75.3, "odds": 1.33, "team": "Paris Saint Germain"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 67.8, "odds": 1.47, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 58.4, "odds": 1.71, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 58.7, "odds": 1.71, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 39.1, "odds": 2.55, "team": "Partido"}]}, {"id": "Mirassol_SP_vs_Flamengo_RJ", "league": "Brasileirao Serie A Betano", "badgeLeague": "SISTEMA PSE - BRASILEIRAO SERIE A BETANO", "teamHome": "Mirassol SP", "teamAway": "Flamengo RJ", "p1": 24.82, "pX": 31.22, "p2": 43.95, "metrics": {"xgHome": 0.88, "xgAway": 1.3, "cornersHome": 4.85, "cornersAway": 5.1, "cardsHome": 2.55, "cardsAway": 2.51, "shotsHome": 13.5, "shotsAway": 15.2, "shotsTargetHome": 4.8, "shotsTargetAway": 5.7}, "markets": [{"id": "g1", "category": "goals", "label": "Mirassol SP anota >0.5 goles", "prob": 56.4, "odds": 1.77, "team": "Mirassol SP"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 60.0, "odds": 1.67, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 90.3, "odds": 1.11, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Flamengo RJ anota >0.5 goles", "prob": 69.5, "odds": 1.44, "team": "Flamengo RJ"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 68.2, "odds": 1.47, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 58.9, "odds": 1.7, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 82.4, "odds": 1.21, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 68.5, "odds": 1.46, "team": "Partido"}]}, {"id": "Club_Cienciano_vs_Deportivo_Garcilaso", "league": "Peru Liga 1", "badgeLeague": "SISTEMA PSE - PERU LIGA 1", "teamHome": "Club Cienciano", "teamAway": "Deportivo Garcilaso", "p1": 63.45, "pX": 17.5, "p2": 19.06, "metrics": {"xgHome": 2.55, "xgAway": 1.22, "cornersHome": 6.5, "cornersAway": 4.15, "cardsHome": 3.33, "cardsAway": 3.61, "shotsHome": 16.08, "shotsAway": 11.2, "shotsTargetHome": 6.46, "shotsTargetAway": 4.0}, "markets": [{"id": "g1", "category": "goals", "label": "Club Cienciano anota >0.5 goles", "prob": 88.5, "odds": 1.13, "team": "Club Cienciano"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 82.8, "odds": 1.21, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 66.8, "odds": 1.5, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Deportivo Garcilaso anota >0.5 goles", "prob": 67.2, "odds": 1.49, "team": "Deportivo Garcilaso"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 73.1, "odds": 1.37, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 64.5, "odds": 1.55, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 92.6, "odds": 1.08, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 84.8, "odds": 1.18, "team": "Partido"}]}, {"id": "FC_Cajamarca_vs_Universitario_de_Deportes", "league": "Peru Liga 1", "badgeLeague": "SISTEMA PSE - PERU LIGA 1", "teamHome": "FC Cajamarca", "teamAway": "Universitario de Deportes", "p1": 14.14, "pX": 30.26, "p2": 55.6, "metrics": {"xgHome": 0.55, "xgAway": 1.44, "cornersHome": 4.85, "cornersAway": 4.65, "cardsHome": 3.01, "cardsAway": 3.01, "shotsHome": 12.5, "shotsAway": 13.5, "shotsTargetHome": 4.38, "shotsTargetAway": 5.1}, "markets": [{"id": "g1", "category": "goals", "label": "FC Cajamarca anota >0.5 goles", "prob": 41.3, "odds": 2.42, "team": "FC Cajamarca"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 55.7, "odds": 1.8, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 92.5, "odds": 1.08, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Universitario de Deportes anota >0.5 goles", "prob": 72.8, "odds": 1.37, "team": "Universitario de Deportes"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 64.7, "odds": 1.55, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 55.0, "odds": 1.82, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 88.7, "odds": 1.13, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 78.2, "odds": 1.28, "team": "Partido"}]}, {"id": "CD_Moquegua_vs_Sport_Boys_Association", "league": "Peru Liga 1", "badgeLeague": "SISTEMA PSE - PERU LIGA 1", "teamHome": "CD Moquegua", "teamAway": "Sport Boys Association", "p1": 57.87, "pX": 25.63, "p2": 16.5, "metrics": {"xgHome": 1.81, "xgAway": 0.8, "cornersHome": 5.57, "cornersAway": 4.0, "cardsHome": 2.9, "cardsAway": 3.11, "shotsHome": 12.9, "shotsAway": 10.5, "shotsTargetHome": 4.65, "shotsTargetAway": 3.5}, "markets": [{"id": "g1", "category": "goals", "label": "CD Moquegua anota >0.5 goles", "prob": 79.8, "odds": 1.25, "team": "CD Moquegua"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 68.2, "odds": 1.47, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 84.7, "odds": 1.18, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Sport Boys Association anota >0.5 goles", "prob": 53.0, "odds": 1.89, "team": "Sport Boys Association"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 65.2, "odds": 1.53, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 55.6, "odds": 1.8, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 88.7, "odds": 1.13, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 78.2, "odds": 1.28, "team": "Partido"}]}, {"id": "Sporting_Cristal_vs_Sport_Huancayo", "league": "Peru Liga 1", "badgeLeague": "SISTEMA PSE - PERU LIGA 1", "teamHome": "Sporting Cristal", "teamAway": "Sport Huancayo", "p1": 84.4, "pX": 10.65, "p2": 4.95, "metrics": {"xgHome": 3.29, "xgAway": 0.54, "cornersHome": 6.65, "cornersAway": 3.4, "cardsHome": 2.43, "cardsAway": 3.11, "shotsHome": 17.5, "shotsAway": 10.2, "shotsTargetHome": 7.0, "shotsTargetAway": 3.5}, "markets": [{"id": "g1", "category": "goals", "label": "Sporting Cristal anota >0.5 goles", "prob": 93.1, "odds": 1.07, "team": "Sporting Cristal"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 83.4, "odds": 1.2, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 65.8, "odds": 1.52, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Sport Huancayo anota >0.5 goles", "prob": 40.6, "odds": 2.46, "team": "Sport Huancayo"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 68.9, "odds": 1.45, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 59.7, "odds": 1.68, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 85.9, "odds": 1.16, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 73.8, "odds": 1.36, "team": "Partido"}]}, {"id": "Dorados_de_Sinaloa_vs_Tlaxcala_FC", "league": "Liga de Expansión MX", "badgeLeague": "SISTEMA PSE - LIGA DE EXPANSIÓN MX", "teamHome": "Dorados de Sinaloa", "teamAway": "Tlaxcala FC", "p1": 69.93, "pX": 17.76, "p2": 12.31, "metrics": {"xgHome": 2.38, "xgAway": 0.76, "cornersHome": 5.4, "cornersAway": 4.2, "cardsHome": 1.88, "cardsAway": 2.09, "shotsHome": 13.5, "shotsAway": 10.4, "shotsTargetHome": 4.8, "shotsTargetAway": 3.5}, "markets": [{"id": "g1", "category": "goals", "label": "Dorados de Sinaloa anota >0.5 goles", "prob": 87.0, "odds": 1.15, "team": "Dorados de Sinaloa"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 76.2, "odds": 1.31, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 76.6, "odds": 1.31, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Tlaxcala FC anota >0.5 goles", "prob": 51.5, "odds": 1.94, "team": "Tlaxcala FC"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 65.5, "odds": 1.53, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 55.8, "odds": 1.79, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 70.7, "odds": 1.41, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 52.9, "odds": 1.89, "team": "Partido"}]}, {"id": "Real_Salt_Lake_vs_Minnesota_United_FC", "league": "MLS", "badgeLeague": "SISTEMA PSE - MLS", "teamHome": "Real Salt Lake", "teamAway": "Minnesota United FC", "p1": 61.75, "pX": 19.18, "p2": 19.08, "metrics": {"xgHome": 2.28, "xgAway": 1.08, "cornersHome": 5.85, "cornersAway": 4.4, "cardsHome": 1.49, "cardsAway": 1.71, "shotsHome": 15.18, "shotsAway": 12.5, "shotsTargetHome": 5.54, "shotsTargetAway": 4.4}, "markets": [{"id": "g1", "category": "goals", "label": "Real Salt Lake anota >0.5 goles", "prob": 85.9, "odds": 1.16, "team": "Real Salt Lake"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 78.7, "odds": 1.27, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 73.3, "odds": 1.36, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Minnesota United FC anota >0.5 goles", "prob": 63.2, "odds": 1.58, "team": "Minnesota United FC"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 70.4, "odds": 1.42, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 61.4, "odds": 1.63, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 58.7, "odds": 1.71, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 39.1, "odds": 2.55, "team": "Partido"}]}, {"id": "Colorado_Rapids_vs_Sporting_Kansas_City", "league": "MLS", "badgeLeague": "SISTEMA PSE - MLS", "teamHome": "Colorado Rapids", "teamAway": "Sporting Kansas City", "p1": 68.47, "pX": 16.05, "p2": 15.48, "metrics": {"xgHome": 2.76, "xgAway": 1.1, "cornersHome": 6.07, "cornersAway": 4.45, "cardsHome": 1.49, "cardsAway": 1.71, "shotsHome": 14.97, "shotsAway": 12.2, "shotsTargetHome": 5.38, "shotsTargetAway": 4.2}, "markets": [{"id": "g1", "category": "goals", "label": "Colorado Rapids anota >0.5 goles", "prob": 90.1, "odds": 1.11, "team": "Colorado Rapids"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 83.6, "odds": 1.2, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 65.3, "odds": 1.53, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Sporting Kansas City anota >0.5 goles", "prob": 64.0, "odds": 1.56, "team": "Sporting Kansas City"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 72.2, "odds": 1.39, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 63.4, "odds": 1.58, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 58.6, "odds": 1.71, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 39.0, "odds": 2.56, "team": "Partido"}]}, {"id": "Los_Angeles_FC_vs_San_Diego_FC", "league": "MLS", "badgeLeague": "SISTEMA PSE - MLS", "teamHome": "Los Angeles FC", "teamAway": "San Diego FC", "p1": 68.93, "pX": 18.31, "p2": 12.76, "metrics": {"xgHome": 2.32, "xgAway": 0.76, "cornersHome": 5.85, "cornersAway": 4.1, "cardsHome": 1.53, "cardsAway": 1.79, "shotsHome": 15.4, "shotsAway": 11.8, "shotsTargetHome": 5.6, "shotsTargetAway": 4.1}, "markets": [{"id": "g1", "category": "goals", "label": "Los Angeles FC anota >0.5 goles", "prob": 86.3, "odds": 1.16, "team": "Los Angeles FC"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 75.3, "odds": 1.33, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 77.6, "odds": 1.29, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "San Diego FC anota >0.5 goles", "prob": 51.5, "odds": 1.94, "team": "San Diego FC"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 68.2, "odds": 1.47, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 58.9, "odds": 1.7, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 60.7, "odds": 1.65, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 41.3, "odds": 2.42, "team": "Partido"}]}, {"id": "New_Mexico_United_vs_FC_Tulsa", "league": "USL Championship", "badgeLeague": "SISTEMA PSE - USL CHAMPIONSHIP", "teamHome": "New Mexico United", "teamAway": "FC Tulsa", "p1": 63.2, "pX": 19.41, "p2": 17.39, "metrics": {"xgHome": 2.23, "xgAway": 0.97, "cornersHome": 5.61, "cornersAway": 4.25, "cardsHome": 1.64, "cardsAway": 1.91, "shotsHome": 13.96, "shotsAway": 11.2, "shotsTargetHome": 4.98, "shotsTargetAway": 3.8}, "markets": [{"id": "g1", "category": "goals", "label": "New Mexico United anota >0.5 goles", "prob": 85.4, "odds": 1.17, "team": "New Mexico United"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 76.9, "odds": 1.3, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 75.8, "odds": 1.32, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "FC Tulsa anota >0.5 goles", "prob": 59.5, "odds": 1.68, "team": "FC Tulsa"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 67.5, "odds": 1.48, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 58.1, "odds": 1.72, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 64.6, "odds": 1.55, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 45.6, "odds": 2.19, "team": "Partido"}]}, {"id": "Nashville_SC_vs_Inter_Miami_CF", "league": "MLS", "badgeLeague": "SISTEMA PSE - MLS", "teamHome": "Nashville SC", "teamAway": "Inter Miami CF", "p1": 59.42, "pX": 16.24, "p2": 24.35, "metrics": {"xgHome": 2.86, "xgAway": 1.7, "cornersHome": 4.95, "cornersAway": 4.9, "cardsHome": 1.38, "cardsAway": 1.59, "shotsHome": 14.2, "shotsAway": 15.6, "shotsTargetHome": 5.1, "shotsTargetAway": 5.8}, "markets": [{"id": "g1", "category": "goals", "label": "Nashville SC anota >0.5 goles", "prob": 90.8, "odds": 1.1, "team": "Nashville SC"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 88.5, "odds": 1.13, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 54.9, "odds": 1.82, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Inter Miami CF anota >0.5 goles", "prob": 78.0, "odds": 1.28, "team": "Inter Miami CF"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 67.4, "odds": 1.48, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 58.0, "odds": 1.72, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 54.2, "odds": 1.85, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 34.6, "odds": 2.89, "team": "Partido"}]}, {"id": "Alianza_Lima_vs_UTC_Cajamarca", "league": "Liga 1", "badgeLeague": "SISTEMA PSE - LIGA 1", "teamHome": "Alianza Lima", "teamAway": "UTC Cajamarca", "p1": 83.55, "pX": 12.33, "p2": 4.12, "metrics": {"xgHome": 2.84, "xgAway": 0.37, "cornersHome": 6.2, "cornersAway": 3.55, "cardsHome": 2.03, "cardsAway": 2.55, "shotsHome": 15.2, "shotsAway": 10.1, "shotsTargetHome": 5.9, "shotsTargetAway": 3.4}, "markets": [{"id": "g1", "category": "goals", "label": "Alianza Lima anota >0.5 goles", "prob": 90.6, "odds": 1.1, "team": "Alianza Lima"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 76.9, "odds": 1.3, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 75.7, "odds": 1.32, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "UTC Cajamarca anota >0.5 goles", "prob": 30.2, "odds": 3.31, "team": "UTC Cajamarca"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 66.6, "odds": 1.5, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 57.1, "odds": 1.75, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 78.0, "odds": 1.28, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 62.3, "odds": 1.6, "team": "Partido"}]}, {"id": "Fluminense_RJ_vs_Palmeiras_SP", "league": "Brasileirao Serie A Betano", "badgeLeague": "SISTEMA PSE - BRASILEIRAO SERIE A BETANO", "teamHome": "Fluminense RJ", "teamAway": "Palmeiras SP", "p1": 19.5, "pX": 30.26, "p2": 50.24, "metrics": {"xgHome": 0.75, "xgAway": 1.42, "cornersHome": 5.15, "cornersAway": 4.7, "cardsHome": 2.36, "cardsAway": 2.36, "shotsHome": 13.9, "shotsAway": 13.1, "shotsTargetHome": 5.2, "shotsTargetAway": 5.0}, "markets": [{"id": "g1", "category": "goals", "label": "Fluminense RJ anota >0.5 goles", "prob": 50.8, "odds": 1.97, "team": "Fluminense RJ"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 59.7, "odds": 1.67, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 90.5, "odds": 1.11, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Palmeiras SP anota >0.5 goles", "prob": 72.4, "odds": 1.38, "team": "Palmeiras SP"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 67.4, "odds": 1.48, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 58.0, "odds": 1.72, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 79.4, "odds": 1.26, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 64.3, "odds": 1.56, "team": "Partido"}]}, {"id": "Los_Chankas_CYC_vs_FBC_Melgar", "league": "Liga 1 Perú", "badgeLeague": "SISTEMA PSE - LIGA 1 PERÚ", "teamHome": "Los Chankas CYC", "teamAway": "FBC Melgar", "p1": 48.94, "pX": 26.1, "p2": 24.97, "metrics": {"xgHome": 1.72, "xgAway": 1.13, "cornersHome": 5.36, "cornersAway": 4.45, "cardsHome": 2.9, "cardsAway": 2.9, "shotsHome": 15.03, "shotsAway": 12.8, "shotsTargetHome": 5.66, "shotsTargetAway": 4.6}, "markets": [{"id": "g1", "category": "goals", "label": "Los Chankas CYC anota >0.5 goles", "prob": 78.4, "odds": 1.27, "team": "Los Chankas CYC"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 72.1, "odds": 1.39, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 81.1, "odds": 1.23, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "FBC Melgar anota >0.5 goles", "prob": 64.7, "odds": 1.55, "team": "FBC Melgar"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 67.1, "odds": 1.49, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 57.7, "odds": 1.73, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 87.5, "odds": 1.14, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 76.3, "odds": 1.31, "team": "Partido"}]}, {"id": "Asociacion_Deportiva_Tarma_vs_Alianza_Atletico", "league": "Peru Liga 1", "badgeLeague": "SISTEMA PSE - PERU LIGA 1", "teamHome": "Asociacion Deportiva Tarma", "teamAway": "Alianza Atletico", "p1": 62.68, "pX": 26.56, "p2": 10.76, "metrics": {"xgHome": 1.69, "xgAway": 0.51, "cornersHome": 5.8, "cornersAway": 3.7, "cardsHome": 2.9, "cardsAway": 2.95, "shotsHome": 13.7, "shotsAway": 10.1, "shotsTargetHome": 5.36, "shotsTargetAway": 3.4}, "markets": [{"id": "g1", "category": "goals", "label": "Asociacion Deportiva Tarma anota >0.5 goles", "prob": 77.8, "odds": 1.29, "team": "Asociacion Deportiva Tarma"}, {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 60.2, "odds": 1.66, "team": "Partido"}, {"id": "g3", "category": "goals", "label": "Goles Totales MENOS de 4.5", "prob": 90.2, "odds": 1.11, "team": "Partido"}, {"id": "g4", "category": "goals", "label": "Alianza Atletico anota >0.5 goles", "prob": 38.6, "odds": 2.59, "team": "Alianza Atletico"}, {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 64.7, "odds": 1.55, "team": "Partido"}, {"id": "c2", "category": "corners", "label": "Córners Totales MÁS de 8.5", "prob": 55.0, "odds": 1.82, "team": "Partido"}, {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 87.8, "odds": 1.14, "team": "Partido"}, {"id": "k2", "category": "cards", "label": "Tarjetas Totales MÁS de 3.5", "prob": 76.8, "odds": 1.3, "team": "Partido"}]}]; let currentMatchData = (typeof currentMatchData !== 'undefined' && currentMatchData) ? currentMatchData : historialPartidos[0];
-<!-- PSE_DATA_END -->
+        var USERS_CREDENTIALS = {
+            "admin": { pass: "1234", role: "admin" },
+            "invitado": { pass: "0000", role: "viewer" }
+        };
 
-    // Resto de tu código JS, funciones, etc.
+        let historialPartidos = [
+            {
+                "id": "Sporting_Cristal_vs_Sport_Huancayo", 
+                "league": "Peru Liga 1", 
+                "badgeLeague": "SISTEMA PSE - PERU LIGA 1", 
+                "teamHome": "Sporting Cristal", 
+                "teamAway": "Sport Huancayo", 
+                "p1": 84.4, "pX": 10.65, "p2": 4.95, 
+                "metrics": {"xgHome": 3.29, "xgAway": 0.54, "cornersHome": 6.65, "cornersAway": 3.4, "cardsHome": 2.43, "cardsAway": 3.11, "shotsHome": 17.5, "shotsAway": 10.2, "shotsTargetHome": 7.0, "shotsTargetAway": 3.5}, 
+                "markets": [
+                    {"id": "g1", "category": "goals", "label": "Sporting Cristal anota >0.5 goles", "prob": 93.1, "odds": 1.07, "team": "Sporting Cristal"},
+                    {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 83.4, "odds": 1.2, "team": "Partido"},
+                    {"id": "c1", "category": "corners", "label": "Córners Totales MÁS de 7.5", "prob": 68.9, "odds": 1.45, "team": "Partido"},
+                    {"id": "k1", "category": "cards", "label": "Tarjetas Totales MÁS de 2.5", "prob": 85.9, "odds": 1.16, "team": "Partido"}
+                ]
+            }
+        ];
 
-        let currentThreshold = 50;
-        let selectedBuilderIds = new Set();
-        let radarChartInstance = null;
-        let goalsChartInstance = null;
-        let simChartInstance = null;
+        let partidoActual = historialPartidos[0];
 
-        // INITIALIZATION
-        document.addEventListener('DOMContentLoaded', () => {
-            populateEditorForm();
-            renderDashboardAll();
-        });
+        function validarAcceso() {
+            let user = document.getElementById("username").value.trim();
+            let pass = document.getElementById("password").value.trim();
+            let err = document.getElementById("error-msg");
 
-        // TAB SWITCHING
+            if (USERS_CREDENTIALS[user] && USERS_CREDENTIALS[user].pass === pass) {
+                document.getElementById("login-screen").style.display = "none";
+                document.getElementById("main-app").style.display = "flex";
+                inicializarDashboard();
+            } else {
+                err.innerText = "Usuario o contraseña incorrectos.";
+            }
+        }
+
         function switchTab(tabId) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
             document.querySelectorAll('.tab-btn').forEach(el => {
-                el.classList.remove('active', 'bg-blue-600', 'text-white', 'shadow-lg');
+                el.classList.remove('bg-blue-600', 'text-white', 'shadow-lg');
                 el.classList.add('text-slate-400');
             });
-
             document.getElementById(tabId).classList.remove('hidden');
-            const btn = document.getElementById('btn-' + tabId);
-            if (btn) {
-                btn.classList.add('active', 'bg-blue-600', 'text-white', 'shadow-lg');
-                btn.classList.remove('text-slate-400');
+            let activeBtn = document.getElementById('btn-' + tabId);
+            if(activeBtn) {
+                activeBtn.classList.add('bg-blue-600', 'text-white', 'shadow-lg');
+                activeBtn.classList.remove('text-slate-400');
             }
+        }
+
+        function inicializarDashboard() {
+            let select = document.getElementById("selectorPartidos");
+            select.innerHTML = "";
+            historialPartidos.forEach(p => {
+                let opt = document.createElement("option");
+                opt.value = p.id;
+                opt.text = p.teamHome + " vs " + p.teamAway;
+                if(p.id === partidoActual.id) opt.selected = true;
+                select.appendChild(opt);
+            });
+            actualizarVistaPartido();
+        }
+
+        function cambiarPartidoDesdeHistorial(id) {
+            let found = historialPartidos.find(p => p.id === id);
+            if(found) {
+                partidoActual = found;
+                actualizarVistaPartido();
+            }
+        }
+
+        function actualizarVistaPartido() {
+            document.getElementById("header-league-badge").innerText = partidoActual.badgeLeague;
+            document.getElementById("header-league-name").innerText = partidoActual.league;
+            document.getElementById("header-match-title").innerHTML = `${partidoActual.teamHome} <span class="text-slate-500 font-normal">vs</span> ${partidoActual.teamAway}`;
+            
+            document.getElementById("kpi-xg-home").innerText = partidoActual.metrics.xgHome.toFixed(2);
+            document.getElementById("kpi-xg-away").innerText = partidoActual.metrics.xgAway.toFixed(2);
+            document.getElementById("kpi-xg-total").innerText = (partidoActual.metrics.xgHome + partidoActual.metrics.xgAway).toFixed(2);
+            
+            let totalCorners = partidoActual.metrics.cornersHome + partidoActual.metrics.cornersAway;
+            document.getElementById("kpi-corners-total").innerText = totalCorners.toFixed(2);
+            document.getElementById("kpi-corners-breakdown").innerText = `${partidoActual.teamHome.split(' ')[0]} ${partidoActual.metrics.cornersHome} | ${partidoActual.teamAway.split(' ')[0]} ${partidoActual.metrics.cornersAway}`;
+
+            let totalShots = partidoActual.metrics.shotsHome + partidoActual.metrics.shotsAway;
+            document.getElementById("kpi-shots-total").innerText = totalShots.toFixed(2);
+            document.getElementById("kpi-shots-breakdown").innerText = `${partidoActual.teamHome.split(' ')[0]} ${partidoActual.metrics.shotsHome} | ${partidoActual.teamAway.split(' ')[0]} ${partidoActual.metrics.shotsAway}`;
         }
 
         function updateProbabilityFilter(val) {
-            currentThreshold = parseFloat(val);
-            document.getElementById('prob-filter-val').innerHTML = '&ge; ' + val + '%';
-            renderOverviewTopValue();
-            renderCategoryLists();
-        }
-
-        // RENDER ALL DASHBOARD UI
-        function renderDashboardAll() {
-            renderHeaderAndKPIs();
-            renderOverviewTopValue();
-            renderScoreMatrix();
-            renderCategoryLists();
-            renderBuilderOptions();
-            renderRadarChart();
-            renderGoalsChart();
-            runSimulation();
-        }
-
-        function renderHeaderAndKPIs() {
-    // Header
-    const elBadge = document.getElementById('header-league-badge');
-    if (elBadge) elBadge.innerText = currentMatchData.badgeLeague || 'SISTEMA PSE';
-
-    const elLeagueName = document.getElementById('header-league-name');
-    if (elLeagueName) elLeagueName.innerText = currentMatchData.league;
-
-    const elMatchTitle = document.getElementById('header-match-title');
-    if (elMatchTitle) elMatchTitle.innerHTML = `${currentMatchData.teamHome} <span class="text-slate-400">vs</span> ${currentMatchData.teamAway}`;
-
-    // Odds Badge
-    const elT1Name = document.getElementById('badge-team1-name');
-    if (elT1Name) elT1Name.innerText = `${currentMatchData.teamHome} (1)`;
-
-    const elT1Prob = document.getElementById('badge-team1-prob');
-    if (elT1Prob) elT1Prob.innerText = `${currentMatchData.p1.toFixed(1)}%`;
-
-    const elT1Odds = document.getElementById('badge-team1-odds');
-    if (elT1Odds) elT1Odds.innerText = `(${(100/Math.max(0.1, currentMatchData.p1)).toFixed(2)})`;
-
-    const elDrawProb = document.getElementById('badge-draw-prob');
-    if (elDrawProb) elDrawProb.innerText = `${currentMatchData.pX.toFixed(1)}%`;
-
-    const elDrawOdds = document.getElementById('badge-draw-odds');
-    if (elDrawOdds) elDrawOdds.innerText = `(${(100/Math.max(0.1, currentMatchData.pX)).toFixed(2)})`;
-
-    const elT2Name = document.getElementById('badge-team2-name');
-    if (elT2Name) elT2Name.innerText = `${currentMatchData.teamAway} (2)`;
-
-    const elT2Prob = document.getElementById('badge-team2-prob');
-    if (elT2Prob) elT2Prob.innerText = `${currentMatchData.p2.toFixed(1)}%`;
-
-    const elT2Odds = document.getElementById('badge-team2-odds');
-    if (elT2Odds) elT2Odds.innerText = `(${(100/Math.max(0.1, currentMatchData.p2)).toFixed(2)})`;
-
-    // KPIs
-    if (currentMatchData.metrics) {
-        const m = currentMatchData.metrics;
-        
-        const elXgH = document.getElementById('kpi-xg-home');
-        if (elXgH) elXgH.innerText = m.xgHome.toFixed(2);
-
-        const elXgA = document.getElementById('kpi-xg-away');
-        if (elXgA) elXgA.innerText = m.xgAway.toFixed(2);
-
-        const elXgT = document.getElementById('kpi-xg-total');
-        if (elXgT) elXgT.innerText = (m.xgHome + m.xgAway).toFixed(2);
-    }
-}
-            // KPIs
-    const m = currentMatchData.metrics || currentMatchData;
-    
-    const homeTeam = currentMatchData.teamHome || currentMatchData.local || "Local";
-    const awayTeam = currentMatchData.teamAway || currentMatchData.visitante || "Visita";
-
-    const xgH = Number(m.xgHome ?? m.golesEsperadosLocal ?? 0);
-    const xgA = Number(m.xgAway ?? m.golesEsperadosVisitante ?? 0);
-    document.getElementById('kpi-xg-home').innerText = xgH.toFixed(2);
-    document.getElementById('kpi-xg-away').innerText = xgA.toFixed(2);
-    document.getElementById('kpi-xg-total').innerText = (xgH + xgA).toFixed(2);
-
-    const cornersH = Number(m.cornersHome ?? m.proyeccionCornersLocal ?? 0);
-    const cornersA = Number(m.cornersAway ?? m.proyeccionCornersVisitante ?? 0);
-    const totalCorners = cornersH + cornersA;
-    document.getElementById('kpi-corners-total').innerText = totalCorners.toFixed(2);
-    document.getElementById('kpi-corners-breakdown').innerText = `${homeTeam} ${cornersH.toFixed(2)} | ${awayTeam} ${cornersA.toFixed(2)}`;
-
-    const shotsH = Number(m.shotsHome ?? m.promedioRematesLocal ?? 0);
-    const shotsA = Number(m.shotsAway ?? m.promedioRematesVisitante ?? 0);
-    const totalShots = shotsH + shotsA;
-    document.getElementById('kpi-shots-total').innerText = totalShots.toFixed(2);
-    document.getElementById('kpi-shots-breakdown').innerText = `${homeTeam} ${shotsH.toFixed(2)} | ${awayTeam} ${shotsA.toFixed(2)}`;
-
-    document.getElementById('xg-goals-breakdown-home').innerText = xgH.toFixed(2);
-    document.getElementById('xg-goals-breakdown-away').innerText = xgA.toFixed(2);
-
-    document.getElementById('badge-corners-total-val').innerText = `Total Proyectado: ${totalCorners.toFixed(2)}`;
-    document.getElementById('badge-cards-total-val').innerText = `Total Proyectado: ${(Number(m.cardsHome || 0) + Number(m.cardsAway || 0)).toFixed(2)}`;
-    document.getElementById('badge-shots-total-val').innerText = `Prom. Esperado: ${totalShots.toFixed(2)}`;
-    document.getElementById('badge-target-total-val').innerText = `Prom. Esperado: ${(Number(m.shotsTargetHome || 0) + Number(m.shotsTargetAway || 0)).toFixed(2)}`;
-
-            // Simulator labels
-            document.getElementById('sim-label-home').innerText = `Victoria ${currentMatchData.teamHome}`;
-            document.getElementById('sim-label-away').innerText = `Victoria ${currentMatchData.teamAway}`;
-            document.getElementById('sim-desc-text').innerText = `Simula 10,000 partidos virtuales en tiempo real utilizando xG ${m.xgHome.toFixed(2)} (${currentMatchData.teamHome}) y ${m.xgAway.toFixed(2)} (${currentMatchData.teamAway}).`;
-
-        // POISSON PROBABILITY MATRIX
-        function poissonFactorial(n) {
-            let res = 1;
-            for(let i=2; i<=n; i++) res *= i;
-            return res;
-        }
-
-        function poissonProb(k, lambda) {
-            return (Math.pow(lambda, k) * Math.exp(-lambda)) / poissonFactorial(k);
-        }
-
-        function renderScoreMatrix() {
-            const grid = document.getElementById('score-matrix-grid');
-            const lambdaH = currentMatchData.metrics.xgHome;
-            const lambdaA = currentMatchData.metrics.xgAway;
-
-            const scores = [];
-            let maxP = 0;
-            let topScore = "1 - 0";
-
-            for(let h=0; h<=2; h++) {
-                for(let a=0; a<=2; a++) {
-                    let p = poissonProb(h, lambdaH) * poissonProb(a, lambdaA) * 100;
-                    scores.push({ h, a, p });
-                    if(p > maxP) {
-                        maxP = p;
-                        topScore = `${h} - ${a}`;
-                    }
-                }
-            }
-
-            document.getElementById('kpi-top-score').innerText = topScore;
-            document.getElementById('kpi-poisson-score').innerText = topScore;
-
-            grid.innerHTML = scores.map(s => `
-                <div class="bg-slate-900/80 p-2.5 rounded-xl border border-slate-800">
-                    <span class="block text-slate-400 font-mono text-[11px]">${s.h} - ${s.a}</span>
-                    <strong class="text-sm font-mono text-purple-400">${s.p.toFixed(1)}%</strong>
-                </div>
-            `).join('');
-
-            document.getElementById('overview-conclusion-text').innerText = 
-                `${currentMatchData.teamHome} presenta un xG de ${lambdaH.toFixed(2)} frente a ${lambdaA.toFixed(2)} de ${currentMatchData.teamAway}. Marcador estocástico más probable: ${topScore}.`;
-        }
-
-        // RENDER TOP VALUE BETS
-        function renderOverviewTopValue() {
-            const container = document.getElementById('top-value-grid');
-            const filtered = currentMatchData.markets.filter(m => m.prob >= Math.max(currentThreshold, 60))
-                                                     .sort((a,b) => b.prob - a.prob);
-
-            if(filtered.length === 0) {
-                container.innerHTML = `<div class="col-span-3 text-slate-500 text-xs py-4 text-center">No hay selecciones que superen el filtro actual (${currentThreshold}%).</div>`;
-                return;
-            }
-
-            container.innerHTML = filtered.map(item => `
-                <div class="glass-panel p-4 rounded-xl flex justify-between items-center border-l-4 ${item.prob >= 75 ? 'border-l-emerald-500' : 'border-l-blue-500'}">
-                    <div>
-                        <span class="text-[10px] font-semibold text-slate-400 uppercase tracking-wider">${item.team}</span>
-                        <h4 class="text-sm font-bold text-white">${item.label}</h4>
-                        <span class="text-xs text-slate-400">Cuota Justa: <strong class="text-amber-400 font-mono">${item.odds.toFixed(2)}</strong></span>
-                    </div>
-                    <div class="text-right">
-                        <span class="text-base font-bold font-mono ${item.prob >= 75 ? 'text-emerald-400' : 'text-blue-400'}">${item.prob.toFixed(1)}%</span>
-                        <button onclick="toggleBuilderItem('${item.id}')" class="block text-[10px] mt-1 text-slate-400 hover:text-amber-400 transition">
-                            <i class="fa-solid fa-plus"></i> Builder
-                        </button>
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        function createMarketRowHtml(item) {
-            const colorClass = item.prob >= 75 ? 'bg-emerald-500' : (item.prob >= 60 ? 'bg-blue-500' : 'bg-slate-600');
-            return `
-                <div class="space-y-1">
-                    <div class="flex justify-between text-xs">
-                        <span class="text-slate-200 font-medium">${item.label}</span>
-                        <div>
-                            <span class="font-mono text-white font-bold mr-2">${item.prob}%</span>
-                            <span class="text-slate-400 font-mono text-[11px]">(Cuota: ${item.odds.toFixed(2)})</span>
-                        </div>
-                    </div>
-                    <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
-                        <div class="${colorClass} h-full rounded-full transition-all duration-500" style="width: ${item.prob}%"></div>
-                    </div>
-                </div>
-            `;
-        }
-
-        function renderCategoryLists() {
-            const goals = currentMatchData.markets.filter(m => m.category === 'goals' && m.prob >= currentThreshold);
-            document.getElementById('goals-list').innerHTML = goals.length ? goals.map(createMarketRowHtml).join('') : '<p class="text-xs text-slate-500">Ningún mercado coincide con el filtro.</p>';
-
-            const corners = currentMatchData.markets.filter(m => m.category === 'corners' && m.prob >= currentThreshold);
-            document.getElementById('corners-list').innerHTML = corners.length ? corners.map(createMarketRowHtml).join('') : '<p class="text-xs text-slate-500">Ningún mercado coincide con el filtro.</p>';
-
-            const cards = currentMatchData.markets.filter(m => m.category === 'cards' && m.prob >= currentThreshold);
-            document.getElementById('cards-list').innerHTML = cards.length ? cards.map(createMarketRowHtml).join('') : '<p class="text-xs text-slate-500">Ningún mercado coincide con el filtro.</p>';
-
-            const remates = currentMatchData.markets.filter(m => m.category === 'remates' && m.prob >= currentThreshold);
-            document.getElementById('remates-list').innerHTML = remates.length ? remates.map(createMarketRowHtml).join('') : '<p class="text-xs text-slate-500">Ningún mercado coincide con el filtro.</p>';
-
-            const tiros = currentMatchData.markets.filter(m => m.category === 'tiros' && m.prob >= currentThreshold);
-            document.getElementById('tiros-list').innerHTML = tiros.length ? tiros.map(createMarketRowHtml).join('') : '<p class="text-xs text-slate-500">Ningún mercado coincide con el filtro.</p>';
-        }
-
-        // BUILDER
-        function renderBuilderOptions() {
-            const container = document.getElementById('builder-options');
-            container.innerHTML = currentMatchData.markets.map(item => `
-                <label class="flex items-center justify-between p-3 rounded-xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-slate-700 transition">
-                    <div class="flex items-center gap-2.5">
-                        <input type="checkbox" id="chk-${item.id}" ${selectedBuilderIds.has(item.id) ? 'checked' : ''} onchange="onBuilderCheckChange('${item.id}')" class="rounded accent-amber-500 w-4 h-4 cursor-pointer">
-                        <span class="text-xs text-slate-200">${item.label}</span>
-                    </div>
-                    <span class="text-xs font-mono text-amber-400 font-bold">${item.odds.toFixed(2)}</span>
-                </label>
-            `).join('');
-            updateBuilderSummary();
-        }
-
-        function toggleBuilderItem(id) {
-            switchTab('tab-builder');
-            if(selectedBuilderIds.has(id)) selectedBuilderIds.delete(id);
-            else selectedBuilderIds.add(id);
-            renderBuilderOptions();
-        }
-
-        function onBuilderCheckChange(id) {
-            const chk = document.getElementById(`chk-${id}`);
-            if(chk && chk.checked) selectedBuilderIds.add(id);
-            else selectedBuilderIds.delete(id);
-            updateBuilderSummary();
-        }
-
-        function updateBuilderSummary() {
-            const listEl = document.getElementById('selected-bets-list');
-            const probEl = document.getElementById('builder-prob');
-            const oddsEl = document.getElementById('builder-odds');
-
-            if(selectedBuilderIds.size === 0) {
-                listEl.innerHTML = `<p class="text-slate-500 italic">No has seleccionado ninguna opción aún.</p>`;
-                probEl.innerText = '0.0%';
-                oddsEl.innerText = '1.00';
-                return;
-            }
-
-            const selectedItems = currentMatchData.markets.filter(m => selectedBuilderIds.has(m.id));
-            let combinedProbDecimal = 1.0;
-            selectedItems.forEach(item => { combinedProbDecimal *= (item.prob / 100); });
-            
-            const correlationFactor = Math.pow(1.12, selectedItems.length - 1);
-            let finalProbDecimal = Math.min(0.95, combinedProbDecimal * correlationFactor);
-
-            listEl.innerHTML = selectedItems.map(item => `
-                <div class="flex justify-between items-center py-1 border-b border-slate-800/50">
-                    <span class="text-slate-300 font-medium">${item.label}</span>
-                    <span class="font-mono text-amber-400 font-bold">${item.odds.toFixed(2)}</span>
-                </div>
-            `).join('');
-
-            probEl.innerText = `${(finalProbDecimal * 100).toFixed(1)}%`;
-            oddsEl.innerText = (1 / finalProbDecimal).toFixed(2);
-        }
-
-        function copyBetBuilder() {
-            if(selectedBuilderIds.size === 0) return;
-            const selectedItems = currentMatchData.markets.filter(m => selectedBuilderIds.has(m.id));
-            const text = `🎯 APUESTA COMBINADA (PSE - ${currentMatchData.teamHome} vs ${currentMatchData.teamAway})\n` +
-                selectedItems.map(i => `• ${i.label}`).join('\n') +
-                `\n\nCuota Justa Total: ${document.getElementById('builder-odds').innerText}`;
-            
-            navigator.clipboard.writeText(text);
-            alert('¡Ticket de Apuesta copiado al portapapeles!');
-        }
-
-        // CHARTS
-        function renderRadarChart() {
-            const ctx = document.getElementById('radarChart').getContext('2d');
-            const m = currentMatchData.metrics;
-
-            if(radarChartInstance) radarChartInstance.destroy();
-
-            radarChartInstance = new Chart(ctx, {
-                type: 'radar',
-                data: {
-                    labels: ['xG (Goles)', 'Córners', 'Tarjetas', 'Remates', 'Tiros Arco'],
-                    datasets: [
-                        {
-                            label: currentMatchData.teamHome,
-                            data: [m.xgHome, m.cornersHome, m.cardsHome, m.shotsHome, m.shotsTargetHome],
-                            backgroundColor: 'rgba(59, 130, 246, 0.25)',
-                            borderColor: '#3b82f6',
-                            pointBackgroundColor: '#3b82f6'
-                        },
-                        {
-                            label: currentMatchData.teamAway,
-                            data: [m.xgAway, m.cornersAway, m.cardsAway, m.shotsAway, m.shotsTargetAway],
-                            backgroundColor: 'rgba(249, 115, 22, 0.25)',
-                            borderColor: '#f97316',
-                            pointBackgroundColor: '#f97316'
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        r: {
-                            angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
-                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
-                            pointLabels: { color: '#94a3b8', font: { size: 11 } },
-                            ticks: { display: false }
-                        }
-                    },
-                    plugins: { legend: { labels: { color: '#f8fafc', font: { family: 'Outfit' } } } }
-                }
-            });
-        }
-
-        function renderGoalsChart() {
-            const ctx = document.getElementById('goalsChart').getContext('2d');
-            const topGoalsMarkets = currentMatchData.markets.filter(m => m.category === 'goals').slice(0, 5);
-
-            if(goalsChartInstance) goalsChartInstance.destroy();
-
-            goalsChartInstance = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: topGoalsMarkets.map(m => m.label.replace('Totales ', '')),
-                    datasets: [{
-                        label: 'Probabilidad (%)',
-                        data: topGoalsMarkets.map(m => m.prob),
-                        backgroundColor: ['#10b981', '#3b82f6', '#8b5cf6', '#f59e0b', '#ef4444'],
-                        borderRadius: 8
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        y: { max: 100, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8' } },
-                        x: { grid: { display: false }, ticks: { color: '#94a3b8', font: { size: 10 } } }
-                    },
-                    plugins: { legend: { display: false } }
-                }
-            });
+            document.getElementById("prob-filter-val").innerText = "≥ " + val + "%";
         }
 
         function runSimulation() {
-            const lambdaHome = currentMatchData.metrics.xgHome;
-            const lambdaAway = currentMatchData.metrics.xgAway;
-            const N = 10000;
-
-            let homeWins = 0, draws = 0, awayWins = 0, totalGoalsSum = 0;
-            const scoreCounts = {};
-
-            function poissonRand(l) {
-                let L = Math.exp(-l), k = 0, p = 1;
-                do { k++; p *= Math.random(); } while (p > L);
-                return k - 1;
-            }
-
-            for(let i = 0; i < N; i++) {
-                let h = poissonRand(lambdaHome);
-                let a = poissonRand(lambdaAway);
-                totalGoalsSum += (h + a);
-
-                if(h > a) homeWins++;
-                else if(h === a) draws++;
-                else awayWins++;
-
-                let key = `${h}-${a}`;
-                scoreCounts[key] = (scoreCounts[key] || 0) + 1;
-            }
-
-            document.getElementById('sim-win-home').innerText = (homeWins / N * 100).toFixed(1) + '%';
-            document.getElementById('sim-draw').innerText = (draws / N * 100).toFixed(1) + '%';
-            document.getElementById('sim-win-away').innerText = (awayWins / N * 100).toFixed(1) + '%';
-            document.getElementById('sim-avg-goals').innerText = (totalGoalsSum / N).toFixed(2);
-
-            const sortedScores = Object.entries(scoreCounts).sort((a,b) => b[1] - a[1]).slice(0, 8);
-            const ctx = document.getElementById('simChart').getContext('2d');
-
-            if(simChartInstance) simChartInstance.destroy();
-
-            simChartInstance = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: sortedScores.map(s => s[0]),
-                    datasets: [{
-                        label: 'Frecuencia Simulación (%)',
-                        data: sortedScores.map(s => (s[1] / N * 100).toFixed(1)),
-                        backgroundColor: '#8b5cf6',
-                        borderRadius: 6
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8' } },
-                        x: { grid: { display: false }, ticks: { color: '#94a3b8' } }
-                    },
-                    plugins: { legend: { display: false } }
-                }
-            });
-        }
-
-        // FORM STATE BINDING & IMPORTERS
-        function populateEditorForm() {
-            document.getElementById('edit-league').value = currentMatchData.league;
-            document.getElementById('edit-team1').value = currentMatchData.teamHome;
-            document.getElementById('edit-team2').value = currentMatchData.teamAway;
-
-            document.getElementById('edit-p1').value = currentMatchData.p1;
-            document.getElementById('edit-px').value = currentMatchData.pX;
-            document.getElementById('edit-p2').value = currentMatchData.p2;
-
-            const m = currentMatchData.metrics;
-            document.getElementById('edit-xg1').value = m.xgHome;
-            document.getElementById('edit-xg2').value = m.xgAway;
-            document.getElementById('edit-corn1').value = m.cornersHome;
-            document.getElementById('edit-corn2').value = m.cornersAway;
-            document.getElementById('edit-card1').value = m.cardsHome;
-            document.getElementById('edit-card2').value = m.cardsAway;
-            document.getElementById('edit-rem1').value = m.shotsHome;
-            document.getElementById('edit-rem2').value = m.shotsAway;
-            document.getElementById('edit-tir1').value = m.shotsTargetHome;
-            document.getElementById('edit-tir2').value = m.shotsTargetAway;
-
-            document.getElementById('edit-json-area').value = JSON.stringify(currentMatchData, null, 2);
+            document.getElementById("sim-win-home").innerText = partidoActual.p1.toFixed(1) + "%";
+            document.getElementById("sim-draw").innerText = partidoActual.pX.toFixed(1) + "%";
+            document.getElementById("sim-win-away").innerText = partidoActual.p2.toFixed(1) + "%";
+            document.getElementById("sim-avg-goals").innerText = (partidoActual.metrics.xgHome + partidoActual.metrics.xgAway).toFixed(2);
         }
 
         function applyEditorData() {
-            currentMatchData.league = document.getElementById('edit-league').value;
-            currentMatchData.teamHome = document.getElementById('edit-team1').value;
-            currentMatchData.teamAway = document.getElementById('edit-team2').value;
-
-            currentMatchData.p1 = parseFloat(document.getElementById('edit-p1').value) || 33.3;
-            currentMatchData.pX = parseFloat(document.getElementById('edit-px').value) || 33.3;
-            currentMatchData.p2 = parseFloat(document.getElementById('edit-p2').value) || 33.3;
-
-            currentMatchData.metrics = {
-                xgHome: parseFloat(document.getElementById('edit-xg1').value) || 1.0,
-                xgAway: parseFloat(document.getElementById('edit-xg2').value) || 1.0,
-                cornersHome: parseFloat(document.getElementById('edit-corn1').value) || 5.0,
-                cornersAway: parseFloat(document.getElementById('edit-corn2').value) || 4.0,
-                cardsHome: parseFloat(document.getElementById('edit-card1').value) || 2.0,
-                cardsAway: parseFloat(document.getElementById('edit-card2').value) || 2.0,
-                shotsHome: parseFloat(document.getElementById('edit-rem1').value) || 10.0,
-                shotsAway: parseFloat(document.getElementById('edit-rem2').value) || 8.0,
-                shotsTargetHome: parseFloat(document.getElementById('edit-tir1').value) || 4.0,
-                shotsTargetAway: parseFloat(document.getElementById('edit-tir2').value) || 3.0
-            };
-
-            renderDashboardAll();
-            alert('¡Dashboard actualizado con éxito!');
-            switchTab('tab-overview');
+            alert("Datos actualizados correctamente en memoria.");
         }
 
-        function exportJSON() {
-            const text = JSON.stringify(currentMatchData, null, 2);
-            navigator.clipboard.writeText(text);
-            alert('JSON copiado al portapapeles.');
+        function resetToDefaultData() {
+            inicializarDashboard();
         }
 
         function importJSON() {
             try {
-                const raw = document.getElementById('edit-json-area').value;
-                const parsed = JSON.parse(raw);
-                if(parsed && parsed.teamHome && parsed.metrics) {
-                    currentMatchData = parsed;
-                    populateEditorForm();
-                    renderDashboardAll();
-                    alert('¡Datos JSON cargados con éxito!');
-                    switchTab('tab-overview');
-                } else {
-                    alert('El JSON introducido no contiene la estructura requerida.');
-                }
+                let json = JSON.parse(document.getElementById("edit-json-area").value);
+                historialPartidos.push(json);
+                partidoActual = json;
+                inicializarDashboard();
+                alert("JSON importado con éxito.");
             } catch(e) {
-                alert('JSON inválido: ' + e.message);
+                alert("JSON inválido: " + e.message);
             }
         }
-
-        // INTELLIGENT MULTI-PATTERN TEXT REPORT PARSER
-        function importTextReport() {
-            const text = document.getElementById('edit-text-report').value.trim();
-            if(!text) {
-                alert('Por favor pega un informe de texto primero.');
-                return;
-            }
-
-            try {
-                // 1. Teams Extraction
-                let home = "", away = "";
-                
-                // Match "Partido: Team1 vs Team2" or "Team1 vs Team2"
-                let matchHeader = text.match(/(?:Partido:?\s*)?([A-Za-z0-9\sÁÉÍÓÚáéíóúÑñ]+?)\s+vs\.?\s+([A-Za-z0-9\sÁÉÍÓÚáéíóúÑñ]+?)(?:\s*\||\s*\n|$)/i);
-                if(matchHeader) {
-                    home = matchHeader[1].replace(/^[^\w]+/, '').trim();
-                    away = matchHeader[2].replace(/[^\w]+$/, '').trim();
-                }
-
-                // If teams not found in header, look in average metric lines
-                if (!home || !away) {
-                    let metricTeamMatch = text.match(/Promedio\s+(?:Tiros al Arco|Remates|Corners|Tarjetas)\s+([A-Za-z0-9\sÁÉÍÓÚáéíóúÑñ]+?):\s*[\d\.]+\s*\|\s*([A-Za-z0-9\sÁÉÍÓÚáéíóúÑñ]+?):/i);
-                    if (metricTeamMatch) {
-                        home = metricTeamMatch[1].trim();
-                        away = metricTeamMatch[2].trim();
-                    }
-                }
-
-                if (home) currentMatchData.teamHome = home;
-                if (away) currentMatchData.teamAway = away;
-
-                // League Extraction
-                let leagueMatch = text.match(/Liga:?\s*([A-Za-z0-9\sÁÉÍÓÚáéíóúÑñ]+)/i);
-                if (leagueMatch) currentMatchData.league = leagueMatch[1].trim();
-
-                // 2. 1X2 Probabilities
-                let p1x2Match = text.match(/(?:Local|1):\s*([\d\.]+)%\s*\|\s*(?:Empate|X):\s*([\d\.]+)%\s*\|\s*(?:Visita|2):\s*([\d\.]+)%/i);
-                if(p1x2Match) {
-                    currentMatchData.p1 = parseFloat(p1x2Match[1]);
-                    currentMatchData.pX = parseFloat(p1x2Match[2]);
-                    currentMatchData.p2 = parseFloat(p1x2Match[3]);
-                }
-
-                // 3. Expected Metrics Parsing
-                // xG
-                let xgMatch = text.match(/Goles Esperados.*?(?:Local|Esperados)?.*?:?\s*([\d\.]+).*?(?:Visitante)?.*?:?\s*([\d\.]+)/i);
-                if(xgMatch) {
-                    currentMatchData.metrics.xgHome = parseFloat(xgMatch[1]);
-                    currentMatchData.metrics.xgAway = parseFloat(xgMatch[2]);
-                }
-
-                // Corners
-                let cornersMatch = text.match(/(?:Promedio|Proyección)?\s*Corners?\s*(.*?):\s*([\d\.]+)\s*\|\s*(.*?):\s*([\d\.]+)/i);
-                if(cornersMatch) {
-                    currentMatchData.metrics.cornersHome = parseFloat(cornersMatch[2]);
-                    currentMatchData.metrics.cornersAway = parseFloat(cornersMatch[4]);
-                }
-
-                // Cards
-                let cardsMatch = text.match(/(?:Promedio|Proyección)?\s*Tarjetas?\s*(.*?):\s*([\d\.]+)\s*\|\s*(.*?):\s*([\d\.]+)/i);
-                if(cardsMatch) {
-                    currentMatchData.metrics.cardsHome = parseFloat(cardsMatch[2]);
-                    currentMatchData.metrics.cardsAway = parseFloat(cardsMatch[4]);
-                }
-
-                // Remates (Shots)
-                let shotsMatch = text.match(/(?:Promedio|Proyección)?\s*Remates?\s*(.*?):\s*([\d\.]+)\s*\|\s*(.*?):\s*([\d\.]+)/i);
-                if(shotsMatch) {
-                    currentMatchData.metrics.shotsHome = parseFloat(shotsMatch[2]);
-                    currentMatchData.metrics.shotsAway = parseFloat(shotsMatch[4]);
-                }
-
-                // Tiros al arco (Shots on Target)
-                let targetMatch = text.match(/(?:Promedio|Proyección)?\s*Tiros al Arco\s*(.*?):\s*([\d\.]+)\s*\|\s*(.*?):\s*([\d\.]+)/i);
-                if(targetMatch) {
-                    currentMatchData.metrics.shotsTargetHome = parseFloat(targetMatch[2]);
-                    currentMatchData.metrics.shotsTargetAway = parseFloat(targetMatch[4]);
-                }
-
-                // 4. Parse Market Lines (* Prob. ... : XX% | Cuota Justa: YY)
-                const marketRegex = /\*\s*(?:Prob\.|Probabilidad)\s*(.*?):\s*([\d\.]+)%\s*\|\s*Cuota Justa:\s*([\d\.]+)/gi;
-                let match;
-                const newMarkets = [];
-                let idx = 1;
-
-                while ((match = marketRegex.exec(text)) !== null) {
-                    const label = match[1].trim();
-                    const prob = parseFloat(match[2]);
-                    const odds = parseFloat(match[3]);
-
-                    let category = 'goals';
-                    if (/córner|corner/i.test(label)) category = 'corners';
-                    else if (/tarjeta/i.test(label)) category = 'cards';
-                    else if (/tiros al arco/i.test(label)) category = 'tiros';
-                    else if (/remate/i.test(label)) category = 'remates';
-
-                    let team = 'Partido';
-                    if (currentMatchData.teamHome && label.includes(currentMatchData.teamHome)) team = currentMatchData.teamHome;
-                    else if (currentMatchData.teamAway && label.includes(currentMatchData.teamAway)) team = currentMatchData.teamAway;
-
-                    newMarkets.push({
-                        id: `m_${idx++}`,
-                        category: category,
-                        label: label,
-                        prob: prob,
-                        odds: odds,
-                        team: team
-                    });
-                }
-
-                if(newMarkets.length > 0) {
-                    currentMatchData.markets = newMarkets;
-                }
-
-                selectedBuilderIds.clear();
-                populateEditorForm();
-                renderDashboardAll();
-                alert('¡Informe de texto procesado e importado con éxito!');
-                switchTab('tab-overview');
-
-            } catch(e) {
-                alert('Error al analizar el informe de texto: ' + e.message);
-            }
-        }
-
-        function resetToDefaultData() {
-            currentMatchData = {
-                league: 'Liga 1 Perú',
-                badgeLeague: 'SISTEMA PSE - LIGA 1',
-                teamHome: 'UTC de Cajamarca',
-                teamAway: 'Sport Huancayo',
-                p1: 52.3, pX: 26.1, p2: 21.6,
-                metrics: {
-                    xgHome: 1.45, xgAway: 0.92,
-                    cornersHome: 5.20, cornersAway: 4.00,
-                    cardsHome: 2.30, cardsAway: 2.50,
-                    shotsHome: 12.50, shotsAway: 9.30,
-                    shotsTargetHome: 4.59, shotsTargetAway: 3.30
-                },
-                markets: [
-                    { id: 'g1', category: 'goals', label: 'UTC de Cajamarca anota >0.5 goles', prob: 76.5, odds: 1.31, team: 'UTC de Cajamarca' },
-                    { id: 'g2', category: 'goals', label: 'Goles Totales MÁS de 1.5', prob: 68.2, odds: 1.47, team: 'Partido' },
-                    { id: 'c1', category: 'corners', label: 'Córners Totales MÁS de 7.5', prob: 72.4, odds: 1.38, team: 'Partido' },
-                    { id: 'k1', category: 'cards', label: 'Tarjetas Totales MÁS de 3.5', prob: 75.3, odds: 1.33, team: 'Partido' },
-                    { id: 'r1', category: 'remates', label: 'Remates Totales MÁS de 18.5', prob: 74.2, odds: 1.35, team: 'Partido' },
-                    { id: 't1', category: 'tiros', label: 'UTC Tiros al Arco MÁS de 2.5', prob: 78.1, odds: 1.28, team: 'UTC de Cajamarca' }
-                ]
-            };
-            selectedBuilderIds.clear();
-            populateEditorForm();
-            renderDashboardAll();
-            alert('Se han restaurado los datos por defecto.');
-        }
-        // Cargar las opciones del historial al abrir la página de forma inmediata
-const select = document.getElementById("selectorPartidos");
-if (select && typeof historialPartidos !== 'undefined') {
-    select.innerHTML = "";
-    historialPartidos.forEach((partido, index) => {
-        const option = document.createElement("option");
-        option.value = index;
-        const hTeam = partido.teamHome || partido.local || "Local";
-        const aTeam = partido.teamAway || partido.visitante || "Visita";
-        option.textContent = `${hTeam} vs ${aTeam} (${partido.league || 'Liga'})`;
-        select.appendChild(option);
-    });
-}
-
-// Función para cambiar de partido al seleccionar una opción del menú
-function cambiarPartidoDesdeHistorial(index) {
-    const idx = parseInt(index, 10);
-    if (typeof historialPartidos !== 'undefined' && historialPartidos[idx]) {
-        // 1. Asignamos el partido activo
-        currentMatchData = historialPartidos[idx];
-        
-        // 2. Forzamos la actualización completa de la interfaz y los KPIs
-        if (typeof renderDashboardAll === 'function') {
-            renderDashboardAll();
-        }
-        if (typeof populateEditorForm === 'function') {
-            populateEditorForm();
-        }
-    }
-}
-        
-        if (typeof renderDashboardAll === 'function') {
-            renderDashboardAll();
-        }
-        
-                console.log("Partido cambiado exitosamente (Índice:", idx, ") a:", currentMatchData);
-
-function validarAcceso() {
-    const user = document.getElementById('username').value.trim();
-    const pass = document.getElementById('password').value.trim();
-    const error = document.getElementById('error-msg');
-
-    if (USERS_CREDENTIALS[user] && USERS_CREDENTIALS[user].pass === pass) {
-        document.getElementById('login-screen').style.display = 'none';
-        document.getElementById('main-app').style.display = 'block';
-        
-        if (typeof renderDashboardAll === 'function') {
-            renderDashboardAll();
-        }
-
-        if (USERS_CREDENTIALS[user].role === 'viewer' && typeof restringirEdicion === 'function') {
-            restringirEdicion();
-        }
-    } else {
-        if (error) {
-            error.textContent = "Usuario o contraseña incorrectos.";
-        }
-    }
-}
-
-function restringirEdicion() {
-    // Ocultar el botón de Cargar/Editar Datos de manera limpia
-    const btnEditor = document.getElementById('btn-tab-editor');
-    if (btnEditor) btnEditor.style.display = 'none';
-    
-    // Si tienes una sección de edición o formulario, solo ocúltala, no la elimines (.remove)
-    const tabEditor = document.getElementById('tab-editor');
-    if (tabEditor) tabEditor.style.display = 'none';
-    
-    console.log("Modo Visualizador activado correctamente sin romper eventos");
-}
-</script>
-
-</div> <!-- Aquí cerramos el div id="main-app" que abrimos al principio -->
+    </script>
 </body>
 </html>
