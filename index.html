@@ -53,7 +53,7 @@
                 <input type="password" id="password" placeholder="••••••" style="width: 100%; padding: 12px 14px; background-color: #060913; border: 1px solid #1e293b; border-radius: 10px; color: #ffffff; font-size: 14px; outline: none;">
             </div>
             
-            <button onclick="validarAcceso()" style="width: 100%; padding: 12px; background: linear-gradient(135deg, #00f2fe, #4facfe); color: #060913; font-weight: bold; border: none; border-radius: 10px; font-size: 15px; cursor: pointer; box-shadow: 0 4px 15px rgba(0, 242, 254, 0.3); transition: opacity 0.2s;">Acceder</button>
+            <button type="button" onclick="validarAcceso(); return false;" style="width: 100%; padding: 12px; background: linear-gradient(135deg, #00f2fe, #4facfe); color: #060913; font-weight: bold; border: none; border-radius: 10px; font-size: 15px; cursor: pointer; box-shadow: 0 4px 15px rgba(0, 242, 254, 0.3);">Acceder</button>
             
             <p id="error-msg" style="color: #ef4444; font-size: 12px; text-align: center; margin-top: 12px;"></p>
         </div>
@@ -1329,23 +1329,29 @@ function cambiarPartidoDesdeHistorial(index) {
         }
         
                 console.log("Partido cambiado exitosamente (Índice:", idx, ") a:", currentMatchData);
-} else {
-    console.warn("No se encontró el partido en el historial para el índice:", index);
-}
-}
 
 // --- SCRIPT DE LOGIN COMPLETO ---
-const USERS = {
+const USERS_CREDENTIALS = {
     "admin": { pass: "1234", role: "admin" },
-    "invitado": { pass: "0000", role: "viewer" }
+    "invitado": { pass: "0000", role: "viewer" },
+    "usuario1": { pass: "1111", role: "viewer" },
+    "usuario2": { pass: "2222", role: "viewer" },
+    "usuario3": { pass: "3333", role: "viewer" },
+    "usuario4": { pass: "4444", role: "viewer" },
+    "usuario5": { pass: "5555", role: "viewer" },
+    "usuario6": { pass: "6666", role: "viewer" },
+    "usuario7": { pass: "7777", role: "viewer" },
+    "usuario8": { pass: "8888", role: "viewer" },
+    "usuario9": { pass: "9999", role: "viewer" },
+    "usuario10": { pass: "1010", role: "viewer" }
 };
 
 function validarAcceso() {
-    const user = document.getElementById('username').value;
-    const pass = document.getElementById('password').value;
+    const user = document.getElementById('username').value.trim();
+    const pass = document.getElementById('password').value.trim();
     const error = document.getElementById('error-msg');
 
-    if (USERS[user] && USERS[user].pass === pass) {
+    if (USERS_CREDENTIALS[user] && USERS_CREDENTIALS[user].pass === pass) {
         document.getElementById('login-screen').style.display = 'none';
         document.getElementById('main-app').style.display = 'block';
         
@@ -1353,11 +1359,13 @@ function validarAcceso() {
             renderDashboardAll();
         }
 
-        if (USERS[user].role === 'viewer') {
+        if (USERS_CREDENTIALS[user].role === 'viewer' && typeof restringirEdicion === 'function') {
             restringirEdicion();
         }
     } else {
-        error.textContent = "Usuario o contraseña incorrectos.";
+        if (error) {
+            error.textContent = "Usuario o contraseña incorrectos.";
+        }
     }
 }
 
