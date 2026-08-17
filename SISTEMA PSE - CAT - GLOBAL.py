@@ -34,43 +34,43 @@ PROMEDIOS_ESTANDAR = {
 
 DATOS_PARTIDO = {
     # --- Datos Básicos ---
-    "liga": "Trophee des Champions",
-    "equipo_local": "RC Lens",
-    "equipo_visitante": "Paris Saint Germain",
+    "liga": "Portugal Primera Liga",
+    "equipo_local": "Casa Pia AC",
+    "equipo_visitante": "SL Benfica",
 
     # --- Configuración Geográfica / Condición del Partido ---
-    "altura_msnm": 40, # Lens está ubicado a baja altitud (cerca del nivel del mar)
-    "es_partido_abierto": True, # Partido dinámico con alta capacidad ofensiva de ambos equipos
+    "altura_msnm": 40, # Lisboa está ubicada a baja altitud (cerca del nivel del mar)
+    "es_partido_abierto": True, # Benfica promueve partidos dinámicos y de alto volumen ofensivo
 
     # --- Goles Promedio (Últimos 10 partidos) ---
-    "goles_favor_local": 1.5,    # Goles anotados por el local jugando en su estadio
-    "goles_contra_local": 0.9,   # Goles recibidos por el local jugando en su estadio
-    "goles_favor_visita": 2.1,   # Goles anotados por el visitante fuera de casa
-    "goles_contra_visita": 0.8,  # Goles recibidos por el visitante fuera de casa
-    "goles_promedio_liga": 1.45, # Promedio general de goles por equipo por partido en competiciones francesas de alto nivel
+    "goles_favor_local": 1.10,   # Goles anotados por el local jugando en su estadio
+    "goles_contra_local": 1.25,  # Goles recibidos por el local jugando en su estadio
+    "goles_favor_visita": 2.20,  # Goles anotados por el visitante fuera de casa
+    "goles_contra_visita": 0.75, # Goles recibidos por el visitante fuera de casa
+    "goles_promedio_liga": 1.42, # Promedio general de goles por equipo por partido en esa liga
 
     # --- Saques de Esquina (Córners) ---
-    "corners_favor_local": 5.7,    # Córners a favor del local en casa
-    "corners_contra_local": 4.1,   # Córners en contra del local en casa
-    "corners_favor_visita": 6.4,   # Córners a favor del visitante fuera
-    "corners_contra_visita": 3.6,  # Córners en contra del visitante fuera
+    "corners_favor_local": 4.5,   # Córners a favor del local en casa
+    "corners_contra_local": 5.6,  # Córners en contra del local en casa
+    "corners_favor_visita": 6.8,  # Córners a favor del visitante fuera
+    "corners_contra_visita": 3.4, # Córners en contra del visitante fuera
 
     # --- Volumen de Remates y Tiros (Totales por partido) ---
-    "remates_favor_local": 14.2,    # Disparos totales a favor del local
-    "remates_favor_visita": 16.8,   # Disparos totales a favor del visitante
-    "tiros_arco_local": 5.3,        # Disparos DIRECTOS a puerta del local
-    "tiros_arco_visita": 6.5,       # Disparos DIRECTOS a puerta del visitante
+    "remates_favor_local": 11.2,  # Disparos totales a favor del local
+    "remates_favor_visita": 17.5, # Disparos totales a favor del visitante
+    "tiros_arco_local": 3.8,      # Disparos DIRECTOS a puerta del local
+    "tiros_arco_visita": 6.9,     # Disparos DIRECTOS a puerta del visitante
 
     # --- Disciplina (Tarjetas Amarillas + Rojas) ---
-    "tarjetas_promedio_arbitro": 4.1, # Promedio histórico de tarjetas por partido
-    "tarjetas_recibidas_local": 2.2,
-    "tarjetas_provocadas_local": 2.4,
-    "tarjetas_recibidas_visita": 1.9,
-    "tarjetas_provocadas_visita": 2.1,
+    "tarjetas_promedio_arbitro": 5.2, # Promedio histórico de tarjetas por partido del árbitro asignado (o promedio de liga si no se conoce)
+    "tarjetas_recibidas_local": 2.7,
+    "tarjetas_provocadas_local": 2.5,
+    "tarjetas_recibidas_visita": 2.2,
+    "tarjetas_provocadas_visita": 2.8,
 
     # --- Fuerza de Equipos ---
-    "elo_local": 1710,  # Rating ELO aproximado del local
-    "elo_visita": 1920  # Rating ELO aproximado del visitante
+    "elo_local": 1510, # Rating ELO aproximado del local
+    "elo_visita": 1840 # Rating ELO aproximado del visitante
 }
 # =====================================================================
 # MOTOR MATH & ESTADÍSTICA (PSE ENGINE 6.2 - LIGA 1 EDITION)
@@ -512,6 +512,7 @@ def ejecutar_sistema_pse():
       "p1": round(float(prob_poi_l * 100), 2),
       "pX": round(float(prob_poi_e * 100), 2),
       "p2": round(float(prob_poi_v * 100), 2),
+      "poissonScore": marcador_poisson,  # <--- INSÉRTALO AQUÍ (Línea 515)
       "metrics": {
           "xgHome": round(float(lambda_goles_l), 2),
           "xgAway": round(float(lambda_goles_v), 2),
