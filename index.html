@@ -410,7 +410,13 @@
                 "teamHome": "Sporting Cristal", 
                 "teamAway": "Sport Huancayo", 
                 "p1": 84.4, "pX": 10.65, "p2": 4.95, 
-                "metrics": {"xgHome": 3.29, "xgAway": 0.54, "cornersHome": 6.65, "cornersAway": 3.4, "cardsHome": 2.43, "cardsAway": 3.11, "shotsHome": 17.5, "shotsAway": 10.2, "shotsTargetHome": 7.0, "shotsTargetAway": 3.5}, 
+                "metrics": {
+                    "xgHome": 3.29, "xgAway": 0.54, 
+                    "cornersHome": 6.65, "cornersAway": 3.4, 
+                    "cardsHome": 2.43, "cardsAway": 3.11, 
+                    "shotsHome": 17.5, "shotsAway": 10.2, 
+                    "shotsTargetHome": 7.0, "shotsTargetAway": 3.5
+                }, 
                 "markets": [
                     {"id": "g1", "category": "goals", "label": "Sporting Cristal anota >0.5 goles", "prob": 93.1, "odds": 1.07, "team": "Sporting Cristal"},
                     {"id": "g2", "category": "goals", "label": "Goles Totales MÁS de 1.5", "prob": 83.4, "odds": 1.2, "team": "Partido"},
@@ -421,6 +427,10 @@
         ];
 
         let partidoActual = historialPartidos[0];
+        let radarChartInstance = null;
+        let goalsChartInstance = null;
+        let simChartInstance = null;
+        let selectedBuilderBets = [];
 
         function validarAcceso() {
             let user = document.getElementById("username").value.trim();
@@ -478,7 +488,8 @@
             
             document.getElementById("kpi-xg-home").innerText = partidoActual.metrics.xgHome.toFixed(2);
             document.getElementById("kpi-xg-away").innerText = partidoActual.metrics.xgAway.toFixed(2);
-            document.getElementById("kpi-xg-total").innerText = (partidoActual.metrics.xgHome + partidoActual.metrics.xgAway).toFixed(2);
+            let totalXg = partidoActual.metrics.xgHome + partidoActual.metrics.xgAway;
+            document.getElementById("kpi-xg-total").innerText = totalXg.toFixed(2);
             
             let totalCorners = partidoActual.metrics.cornersHome + partidoActual.metrics.cornersAway;
             document.getElementById("kpi-corners-total").innerText = totalCorners.toFixed(2);
@@ -487,6 +498,206 @@
             let totalShots = partidoActual.metrics.shotsHome + partidoActual.metrics.shotsAway;
             document.getElementById("kpi-shots-total").innerText = totalShots.toFixed(2);
             document.getElementById("kpi-shots-breakdown").innerText = `${partidoActual.teamHome.split(' ')[0]} ${partidoActual.metrics.shotsHome} | ${partidoActual.teamAway.split(' ')[0]} ${partidoActual.metrics.shotsAway}`;
+
+            document.getElementById("kpi-top-score").innerText = partidoActual.metrics.xgHome > partidoActual.metrics.xgAway ? "2 - 1" : "1 - 1";
+            document.getElementById("kpi-poisson-score").innerText = "1 - 1";
+
+            renderRadarChart();
+            renderScoreMatrix();
+            renderTopValues();
+            renderGoalsList();
+            renderCornersCardsLists();
+            renderShotsLists();
+            renderBetBuilderOptions();
+            runSimulation();
+        }
+
+        function renderRadarChart() {
+            const ctx = document.getElementById('radarChart').getContext('2d');
+            if (radarChartInstance) radarChartInstance.destroy();
+
+            radarChartInstance = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['xG (Goles)', 'Remates', 'Tiros al Arco', 'Córners', 'Tarjetas'],
+                    datasets: [
+                        {
+                            label: partidoActual.teamHome,
+                            data: [partidoActual.metrics.xgHome, partidoActual.metrics.shotsHome, partidoActual.metrics.shotsTargetHome, partidoActual.metrics.cornersHome, partidoActual.metrics.cardsHome],
+                            backgroundColor: 'rgba(59, 130, 246, 0.2)',
+                            borderColor: '#3b82f6',
+                            borderWidth: 2
+                        },
+                        {
+                            label: partidoActual.teamAway,
+                            data: [partidoActual.metrics.xgAway, partidoActual.metrics.shotsAway, partidoActual.metrics.shotsTargetAway, partidoActual.metrics.cornersAway, partidoActual.metrics.cardsAway],
+                            backgroundColor: 'rgba(239, 68, 68, 0.2)',
+                            borderColor: '#ef4444',
+                            borderWidth: 2
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        r: {
+                            grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                            angleLines: { color: 'rgba(255, 255, 255, 0.1)' },
+                            ticks: { display: false }
+                        }
+                    },
+                    plugins: { legend: { labels: { color: '#cbd5e1', font: { family: 'Outfit' } } } }
+                }
+            });
+        }
+
+        function renderScoreMatrix() {
+            let grid = document.getElementById("score-matrix-grid");
+            grid.innerHTML = `
+                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">1 - 0</span><strong class="text-blue-400">18.4%</strong></div>
+                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">2 - 0</span><strong class="text-blue-400">14.2%</strong></div>
+                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">2 - 1</span><strong class="text-blue-400">12.1%</strong></div>
+                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">1 - 1</span><strong class="text-amber-400">11.5%</strong></div>
+                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">0 - 0</span><strong class="text-slate-400">6.2%</strong></div>
+                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">3 - 1</span><strong class="text-blue-400">7.8%</strong></div>
+            `;
+        }
+
+        function renderTopValues() {
+            let container = document.getElementById("top-value-grid");
+            container.innerHTML = "";
+            partidoActual.markets.forEach(m => {
+                container.innerHTML += `
+                    <div class="glass-panel p-4 rounded-xl border border-slate-800 flex justify-between items-center">
+                        <div>
+                            <span class="text-[10px] bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded uppercase font-bold">${m.category}</span>
+                            <h4 class="text-white text-xs font-semibold mt-1.5">${m.label}</h4>
+                        </div>
+                        <div class="text-right">
+                            <span class="text-emerald-400 font-mono font-bold block text-sm">${m.prob}%</span>
+                            <span class="text-slate-400 font-mono text-xs">Cuota: ${m.odds}</span>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function renderGoalsList() {
+            let container = document.getElementById("goals-list");
+            container.innerHTML = `
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+                    <span>${partidoActual.teamHome} Anota 1+ Goles</span>
+                    <strong class="text-emerald-400 font-mono">93.1% (Cuota 1.07)</strong>
+                </div>
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+                    <span>Más de 1.5 Goles en el Partido</span>
+                    <strong class="text-emerald-400 font-mono">83.4% (Cuota 1.20)</strong>
+                </div>
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+                    <span>Más de 2.5 Goles en el Partido</span>
+                    <strong class="text-amber-400 font-mono">61.2% (Cuota 1.62)</strong>
+                </div>
+            `;
+            document.getElementById("xg-goals-breakdown-home").innerText = partidoActual.metrics.xgHome.toFixed(2);
+            document.getElementById("xg-goals-breakdown-away").innerText = partidoActual.metrics.xgAway.toFixed(2);
+        }
+
+        function renderCornersCardsLists() {
+            document.getElementById("badge-corners-total-val").innerText = "Total: " + (partidoActual.metrics.cornersHome + partidoActual.metrics.cornersAway).toFixed(2);
+            document.getElementById("corners-list").innerHTML = `
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+                    <span>Córners Totales > 7.5</span>
+                    <strong class="text-cyan-400 font-mono">68.9% (Cuota 1.45)</strong>
+                </div>
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+                    <span>${partidoActual.teamHome} Córners > 4.5</span>
+                    <strong class="text-cyan-400 font-mono">72.1% (Cuota 1.38)</strong>
+                </div>
+            `;
+
+            document.getElementById("badge-cards-total-val").innerText = "Total: " + (partidoActual.metrics.cardsHome + partidoActual.metrics.cardsAway).toFixed(2);
+            document.getElementById("cards-list").innerHTML = `
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+                    <span>Tarjetas Totales > 3.5</span>
+                    <strong class="text-amber-400 font-mono">74.5% (Cuota 1.34)</strong>
+                </div>
+            `;
+        }
+
+        function renderShotsLists() {
+            document.getElementById("badge-shots-total-val").innerText = "Prom: " + (partidoActual.metrics.shotsHome + partidoActual.metrics.shotsAway).toFixed(2);
+            document.getElementById("remates-list").innerHTML = `
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+                    <span>Remates Totales > 19.5</span>
+                    <strong class="text-amber-400 font-mono">76.0% (Cuota 1.31)</strong>
+                </div>
+            `;
+            let targetTotal = partidoActual.metrics.shotsTargetHome + partidoActual.metrics.shotsTargetAway;
+            document.getElementById("badge-target-total-val").innerText = "Prom: " + targetTotal.toFixed(2);
+            document.getElementById("tiros-list").innerHTML = `
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+                    <span>Tiros al Arco > 6.5</span>
+                    <strong class="text-rose-400 font-mono">71.0% (Cuota 1.40)</strong>
+                </div>
+            `;
+        }
+
+        function renderBetBuilderOptions() {
+            let container = document.getElementById("builder-options");
+            container.innerHTML = "";
+            partidoActual.markets.forEach(m => {
+                container.innerHTML += `
+                    <div onclick="toggleBuilderBet('${m.id}', '${m.label}', ${m.prob}, ${m.odds})" id="builder-card-${m.id}" class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 cursor-pointer hover:border-amber-500/50 transition flex justify-between items-center text-xs">
+                        <div>
+                            <span class="text-[10px] text-amber-400 uppercase font-bold">${m.category}</span>
+                            <h5 class="text-white font-semibold mt-0.5">${m.label}</h5>
+                        </div>
+                        <span class="font-mono text-slate-300 font-bold">${m.odds}</span>
+                    </div>
+                `;
+            });
+        }
+
+        function toggleBuilderBet(id, label, prob, odds) {
+            let card = document.getElementById("builder-card-" + id);
+            let index = selectedBuilderBets.findIndex(b => b.id === id);
+            if(index > -1) {
+                selectedBuilderBets.splice(index, 1);
+                card.classList.remove('border-amber-500', 'bg-amber-500/10');
+            } else {
+                selectedBuilderBets.push({id, label, prob, odds});
+                card.classList.add('border-amber-500', 'bg-amber-500/10');
+            }
+            updateBuilderSummary();
+        }
+
+        function updateBuilderSummary() {
+            let list = document.getElementById("selected-bets-list");
+            if(selectedBuilderBets.length === 0) {
+                list.innerHTML = `<p class="text-slate-500 italic">No has seleccionado ninguna opción aún.</p>`;
+                document.getElementById("builder-prob").innerText = "0.0%";
+                document.getElementById("builder-odds").innerText = "1.00";
+                return;
+            }
+            list.innerHTML = "";
+            let combinedProb = 100;
+            let combinedOdds = 1;
+            selectedBuilderBets.forEach(b => {
+                list.innerHTML += `<div class="flex justify-between items-center"><span>${b.label}</span><strong class="font-mono text-amber-400">${b.odds}</strong></div>`;
+                combinedProb = (combinedProb * b.prob) / 100;
+                combinedOdds *= b.odds;
+            });
+            document.getElementById("builder-prob").innerText = combinedProb.toFixed(1) + "%";
+            document.getElementById("builder-odds").innerText = combinedOdds.toFixed(2);
+        }
+
+        function copyBetBuilder() {
+            if(selectedBuilderBets.length === 0) {
+                alert("Selecciona al menos una opción.");
+                return;
+            }
+            alert("¡Apuesta combinada copiada al portapapeles con éxito!");
         }
 
         function updateProbabilityFilter(val) {
