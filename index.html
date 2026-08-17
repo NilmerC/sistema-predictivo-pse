@@ -480,17 +480,44 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
         function inicializarDashboard() {
-            let select = document.getElementById("selectorPartidos");
-            select.innerHTML = "";
-            historialPartidos.forEach(p => {
-                let opt = document.createElement("option");
-                opt.value = p.id;
-                opt.text = p.teamHome + " vs " + p.teamAway;
-                if(p.id === partidoActual.id) opt.selected = true;
-                select.appendChild(opt);
-            });
-            actualizarVistaPartido();
+    // 1. Verificamos en la consola del navegador si los datos llegaron bien
+    console.log("Historial cargado:", typeof historialPartidos !== 'undefined' ? historialPartidos : "No definido");
+
+    let select = document.getElementById("selectorPartidos");
+    if (!select) {
+        console.error("¡No se encontró el elemento <select id='selectorPartidos'> en el HTML!");
+        return;
+    }
+
+    if (typeof historialPartidos === 'undefined' || historialPartidos.length === 0) {
+        console.warn("El arreglo historialPartidos está vacío.");
+        return;
+    }
+
+    select.innerHTML = "";
+
+    // Si partidoActual no está definido, asignamos el primero por seguridad
+    if (typeof partidoActual === 'undefined' || !partidoActual) {
+        partidoActual = historialPartidos[0];
+    }
+
+    // Llenar las opciones del selector
+    historialPartidos.forEach(p => {
+        let opt = document.createElement("option");
+        opt.value = p.id;
+        opt.text = (p.teamHome || "Local") + " vs " + (p.teamAway || "Visita");
+        
+        if (partidoActual && p.id === partidoActual.id) {
+            opt.selected = true;
         }
+        select.appendChild(opt);
+    });
+
+    // Actualizar la vista si la función existe
+    if (typeof actualizarVistaPartido === 'function') {
+        actualizarVistaPartido();
+    }
+}
 
         function cambiarPartidoDesdeHistorial(id) {
             let found = historialPartidos.find(p => p.id === id);
