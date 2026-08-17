@@ -1,5 +1,357 @@
 [
     {
+        "id": "Cardiff_City_vs_Wrexham_FC",
+        "league": "Inglaterra Championship",
+        "badgeLeague": "SISTEMA PSE - INGLATERRA CHAMPIONSHIP",
+        "teamHome": "Cardiff City",
+        "teamAway": "Wrexham FC",
+        "p1": 40.53,
+        "pX": 28.85,
+        "p2": 30.62,
+        "metrics": {
+            "xgHome": 1.39,
+            "xgAway": 1.16,
+            "cornersHome": 5.45,
+            "cornersAway": 5.0,
+            "cardsHome": 1.91,
+            "cardsAway": 1.99,
+            "shotsHome": 12.8,
+            "shotsAway": 12.1,
+            "shotsTargetHome": 4.5,
+            "shotsTargetAway": 4.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Cardiff City anota >0.5 goles",
+                "prob": 71.7,
+                "odds": 1.39,
+                "team": "Cardiff City"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 67.2,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 85.5,
+                "odds": 1.17,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Wrexham FC anota >0.5 goles",
+                "prob": 65.7,
+                "odds": 1.52,
+                "team": "Wrexham FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.7,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.9,
+                "odds": 1.59,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 69.7,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 51.6,
+                "odds": 1.94,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "UD_Almeria_vs_CD_Eldense",
+        "league": "España La Liga",
+        "badgeLeague": "SISTEMA PSE - ESPAÑA LA LIGA",
+        "teamHome": "UD Almeria",
+        "teamAway": "CD Eldense",
+        "p1": 67.38,
+        "pX": 18.06,
+        "p2": 14.56,
+        "metrics": {
+            "xgHome": 2.39,
+            "xgAway": 0.89,
+            "cornersHome": 6.0,
+            "cornersAway": 4.0,
+            "cardsHome": 2.36,
+            "cardsAway": 2.74,
+            "shotsHome": 15.0,
+            "shotsAway": 10.2,
+            "shotsTargetHome": 5.4,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "UD Almeria anota >0.5 goles",
+                "prob": 87.0,
+                "odds": 1.15,
+                "team": "UD Almeria"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 77.8,
+                "odds": 1.29,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 74.5,
+                "odds": 1.34,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "CD Eldense anota >0.5 goles",
+                "prob": 56.6,
+                "odds": 1.77,
+                "team": "CD Eldense"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.5,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.3,
+                "odds": 1.69,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 82.7,
+                "odds": 1.21,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 69.0,
+                "odds": 1.45,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Deportivo_de_La_Coruña_vs_Elche_CF",
+        "league": "España La Liga",
+        "badgeLeague": "SISTEMA PSE - ESPAÑA LA LIGA",
+        "teamHome": "Deportivo de La Coruña",
+        "teamAway": "Elche CF",
+        "p1": 41.87,
+        "pX": 33.96,
+        "p2": 24.17,
+        "metrics": {
+            "xgHome": 1.13,
+            "xgAway": 0.77,
+            "cornersHome": 5.35,
+            "cornersAway": 4.25,
+            "cardsHome": 2.36,
+            "cardsAway": 2.36,
+            "shotsHome": 12.5,
+            "shotsAway": 11.0,
+            "shotsTargetHome": 4.2,
+            "shotsTargetAway": 3.7
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Deportivo de La Coruña anota >0.5 goles",
+                "prob": 64.9,
+                "odds": 1.54,
+                "team": "Deportivo de La Coruña"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 53.6,
+                "odds": 1.87,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 93.4,
+                "odds": 1.07,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Elche CF anota >0.5 goles",
+                "prob": 51.9,
+                "odds": 1.93,
+                "team": "Elche CF"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 65.5,
+                "odds": 1.53,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 55.8,
+                "odds": 1.79,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 79.4,
+                "odds": 1.26,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 64.2,
+                "odds": 1.56,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Casa_Pia_AC_vs_SL_Benfica",
+        "league": "Portugal Primera Liga",
+        "badgeLeague": "SISTEMA PSE - PORTUGAL PRIMERA LIGA",
+        "teamHome": "Casa Pia AC",
+        "teamAway": "SL Benfica",
+        "p1": 6.82,
+        "pX": 18.14,
+        "p2": 75.04,
+        "metrics": {
+            "xgHome": 0.52,
+            "xgAway": 2.44,
+            "cornersHome": 3.95,
+            "cornersAway": 6.2,
+            "cardsHome": 2.6,
+            "cardsAway": 2.22,
+            "shotsHome": 11.2,
+            "shotsAway": 17.5,
+            "shotsTargetHome": 3.8,
+            "shotsTargetAway": 6.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Casa Pia AC anota >0.5 goles",
+                "prob": 39.6,
+                "odds": 2.52,
+                "team": "Casa Pia AC"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 73.7,
+                "odds": 1.36,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 79.5,
+                "odds": 1.26,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "SL Benfica anota >0.5 goles",
+                "prob": 87.5,
+                "odds": 1.14,
+                "team": "SL Benfica"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.6,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.5,
+                "odds": 1.65,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 80.3,
+                "odds": 1.25,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 65.5,
+                "odds": 1.53,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
         "id": "CF_Pachuca_vs_Club_Puebla",
         "league": "Mexico Liga MX",
         "badgeLeague": "SISTEMA PSE - MEXICO LIGA MX",
