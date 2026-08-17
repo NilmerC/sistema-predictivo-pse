@@ -513,6 +513,9 @@ def ejecutar_sistema_pse():
       "pX": round(float(prob_poi_e * 100), 2),
       "p2": round(float(prob_poi_v * 100), 2),
       "poissonScore": marcador_poisson,  # <--- INSÉRTALO AQUÍ (Línea 515)
+      "scoreDixonColes": marcador_dc,       # <--- Usa "marcador_dc" aquí
+    "scorePoisson": marcador_poisson,      # Ajusta el nombre de tu variable en Python si es diferente
+    "scoreSkellam": marcador_skellam,      # Ajusta el nombre de tu variable en Python si es diferente
       "metrics": {
           "xgHome": round(float(lambda_goles_l), 2),
           "xgAway": round(float(lambda_goles_v), 2),

@@ -9,6 +9,9 @@
         "pX": 18.14,
         "p2": 75.04,
         "poissonScore": "0 - 2",
+        "scoreDixonColes": "0 - 2",
+        "scorePoisson": "0 - 2",
+        "scoreSkellam": "1 - 2",
         "metrics": {
             "xgHome": 0.52,
             "xgAway": 2.44,
