@@ -1334,7 +1334,7 @@ function cambiarPartidoDesdeHistorial(index) {
 }
 }
 
-// --- AQUÍ PEGABAS EL SCRIPT DE LOGIN ---
+// --- SCRIPT DE LOGIN COMPLETO ---
 const USERS = {
     "admin": { pass: "1234", role: "admin" },
     "invitado": { pass: "0000", role: "viewer" }
@@ -1348,18 +1348,16 @@ function validarAcceso() {
     if (USERS[user] && USERS[user].pass === pass) {
         document.getElementById('login-screen').style.display = 'none';
         document.getElementById('main-app').style.display = 'block';
-
-        // <--- AÑADE ESTAS LÍNEAS AQUÍ:
+        
         if (typeof renderDashboardAll === 'function') {
             renderDashboardAll();
         }
-        // ------------------------------
 
         if (USERS[user].role === 'viewer') {
             restringirEdicion();
         }
     } else {
-        error.innerText = "Usuario o contraseña incorrectos";
+        error.textContent = "Usuario o contraseña incorrectos.";
     }
 }
 
