@@ -442,6 +442,13 @@ function poblarSelectorPartidos() {
     };
 }
 
+// Ejecutar al cargar la página
+window.addEventListener('DOMContentLoaded', () => {
+    if (typeof poblarSelectorPartidos === 'function') {
+        poblarSelectorPartidos();
+    }
+});
+
 // 4. Variables globales para los gráficos y apuestas
 let radarChartInstance = null;
 let goalsChartInstance = null;
