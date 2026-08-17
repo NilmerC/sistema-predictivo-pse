@@ -418,28 +418,20 @@ if (typeof actualizarDashboard === 'function' && historialPartidos.length > 0) {
 
 // 3. Función para llenar la lista desplegable dinámicamente
 function poblarSelectorPartidos() {
-    // Reemplaza "tu-select-id" por el ID real que tenga tu etiqueta <select> en el HTML
-    const selectorPartidos = document.getElementById("selectorPartidos"); 
+    const selectorPartidos = document.getElementById("selectorPartidos");
     if (!selectorPartidos) return;
 
     selectorPartidos.innerHTML = "";
-    historialPartidos.forEach(partido => {
-        let opt = document.createElement("option");
-        opt.value = partido.id;
-        opt.textContent = `${partido.teamHome} vs ${partido.teamAway} (${partido.league})`;
-        if (partido.id === partidoActual.id) opt.selected = true;
-        selectorPartidos.appendChild(opt);
-    });
-
-    selectorPartidos.onchange = function(e) {
-        let seleccionado = historialPartidos.find(p => p.id === e.target.value);
-        if (seleccionado) {
-            partidoActual = seleccionado;
-            if (typeof actualizarDashboard === 'function') {
-                actualizarDashboard(partidoActual);
-            }
-        }
-    };
+    
+    if (typeof historialPartidos !== 'undefined' && historialPartidos.length > 0) {
+        historialPartidos.forEach(partido => {
+            let opt = document.createElement("option");
+            opt.value = partido.id;
+            opt.textContent = `${partido.teamHome} vs ${partido.teamAway} (${partido.league})`;
+            if (partidoActual && partido.id === partidoActual.id) opt.selected = true;
+            selectorPartidos.appendChild(opt);
+        });
+    }
 }
 
 // Ejecutar al cargar la página
@@ -507,6 +499,12 @@ window.addEventListener('DOMContentLoaded', () => {
                 actualizarVistaPartido();
             }
         }
+        // Ejecutar al cargar la página
+window.addEventListener('DOMContentLoaded', () => {
+    if (typeof inicializarDashboard === 'function') {
+        inicializarDashboard();
+    }
+});
 
         function actualizarVistaPartido() {
             document.getElementById("header-league-badge").innerText = partidoActual.badgeLeague;
