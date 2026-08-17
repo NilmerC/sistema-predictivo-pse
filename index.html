@@ -394,6 +394,11 @@
             <p>Sistema Predictivo de Volumen (PSE) &bull; Liga 1 Perú</p>
         </footer>
     </div>
+<button onclick="cerrarSesion()" class="px-3 py-1.5 bg-red-600 text-white font-semibold rounded-xl text-xs hover:bg-red-700 transition shadow">
+            Cerrar Sesión
+        </button>
+    </div>
+</footer>
 
     <!-- JAVASCRIPT LOGIC -->
     <script>
@@ -833,6 +838,12 @@ window.addEventListener('DOMContentLoaded', () => {
                 alert("JSON inválido: " + e.message);
             }
         }
+
+        // --- PEGA LA FUNCIÓN DE CERRAR SESIÓN AQUÍ ---
+    function cerrarSesion() {
+        localStorage.removeItem("usuarioLogueado");
+        location.reload();
+    }
     </script>
 </body>
 </html>
