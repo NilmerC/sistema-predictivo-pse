@@ -186,7 +186,7 @@
                         <i class="fa-solid fa-wand-magic-sparkles mr-1.5"></i> Bet Builder
                     </button>
                     <button onclick="switchTab('tab-simulator')" id="btn-tab-simulator" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800 text-purple-400">
-                        <i class="fa-solid fa-dice mr-1.5"></i> Simulador Poisson
+                        <i class="fa-solid fa-dice mr-1.5"></i> Simulador 
                     </button>
                     <button onclick="switchTab('tab-editor')" id="btn-tab-editor" class="tab-btn px-4 py-2 rounded-xl text-sm font-semibold transition text-slate-400 hover:text-white hover:bg-slate-800 text-cyan-400 border border-cyan-500/30">
                         <i class="fa-solid fa-sliders mr-1.5"></i> ⚙️ Cargar / Editar Datos
@@ -220,7 +220,7 @@
                             <h3 class="font-bold text-white text-base mb-3 flex items-center gap-2">
                                 <i class="fa-solid fa-table-cells text-purple-400"></i> Matriz de Marcadores Probables
                             </h3>
-                            <p class="text-xs text-slate-400 mb-4">Probabilidad calculada dinámicamente con modelo Poisson.</p>
+                            <p class="text-xs text-slate-400 mb-4">Probabilidad calculada dinámicamente.</p>
                             <div class="grid grid-cols-3 gap-2 text-center text-xs" id="score-matrix-grid"></div>
                         </div>
                         <div class="mt-4 p-3 bg-blue-500/10 rounded-xl border border-blue-500/20 text-xs text-blue-300">
@@ -332,7 +332,7 @@
                 <div class="glass-panel p-6 rounded-2xl">
                     <div class="flex flex-wrap justify-between items-center gap-4 mb-6">
                         <div>
-                            <h3 class="font-bold text-white text-lg flex items-center gap-2"><i class="fa-solid fa-dice text-purple-400"></i> Simulador Monte Carlo (Poisson)</h3>
+                            <h3 class="font-bold text-white text-lg flex items-center gap-2"><i class="fa-solid fa-dice text-purple-400"></i> Simulador Estocástico</h3>
                             <p class="text-xs text-slate-400">Simula 10,000 partidos virtuales en tiempo real.</p>
                         </div>
                         <button onclick="runSimulation()" class="px-5 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-bold rounded-xl text-xs transition shadow-lg flex items-center gap-2">
@@ -390,15 +390,13 @@
 
         </main>
 
-        <footer class="max-w-7xl mx-auto px-4 mt-8 text-center text-xs text-slate-500 space-y-1">
-            <p>Sistema Predictivo de Volumen (PSE) &bull; Liga 1 Perú</p>
+        <footer class="max-w-7xl mx-auto px-4 mt-8 py-6 text-center border-t border-slate-800 space-y-4">
+            <button onclick="cerrarSesion()" class="px-4 py-2 bg-red-600/20 text-red-400 border border-red-600/30 font-semibold rounded-xl text-xs hover:bg-red-600 hover:text-white transition shadow">
+                Cerrar Sesión
+            </button>
+            <p class="text-xs text-slate-500">Sistema Predictivo de Volumen (PSE) &bull; CCASANI</p>
         </footer>
     </div>
-<button onclick="cerrarSesion()" class="px-3 py-1.5 bg-red-600 text-white font-semibold rounded-xl text-xs hover:bg-red-700 transition shadow">
-            Cerrar Sesión
-        </button>
-    </div>
-</footer>
 
     <!-- JAVASCRIPT LOGIC -->
     <script>
@@ -420,6 +418,85 @@ var historialPartidos = [];
 var currentMatchData = null;
 var partidoActual = null; // <-- AGREGA ESTA LÍNEA AQUÍ
 
+// --- PEGARR AQUÍ LAS NUEVAS FUNCIONES ---
+function inicializarDashboard() {
+    if (historialPartidos.length > 0) {
+        partidoActual = historialPartidos[0];
+        poblarSelectorPartidos();
+        actualizarVistaPartido();
+    }
+}
+
+
+function poblarSelectorPartidos() {
+    const selector = document.getElementById("selectorPartidos");
+    if (!selector) return;
+    selector.innerHTML = "";
+    historialPartidos.forEach(p => {
+        let opt = document.createElement("option");
+        opt.value = p.id;
+        opt.text = `${p.teamHome} vs ${p.teamAway}`;
+        selector.appendChild(opt);
+    });
+}
+
+function actualizarVistaPartido() {
+    if (!partidoActual) return;
+    
+    let matchTitle = document.getElementById("header-match-title");
+    if (matchTitle) {
+        matchTitle.innerHTML = `${partidoActual.teamHome} <span class="text-slate-500 font-normal">vs</span> ${partidoActual.teamAway}`;
+    }
+    
+    let kpiHome = document.getElementById("kpi-xg-home");
+    let kpiAway = document.getElementById("kpi-xg-away");
+    let kpiTotal = document.getElementById("kpi-xg-total");
+
+    if (kpiHome && partidoActual.metrics) kpiHome.innerText = partidoActual.metrics.xgHome.toFixed(2);
+    if (kpiAway && partidoActual.metrics) kpiAway.innerText = partidoActual.metrics.xgAway.toFixed(2);
+    if (kpiTotal && partidoActual.metrics) kpiTotal.innerText = (partidoActual.metrics.xgHome + partidoActual.metrics.xgAway).toFixed(2);
+    
+    if (typeof renderRadarChart === "function") renderRadarChart();
+    if (typeof renderTopValues === "function") renderTopValues();
+}
+
+function cerrarSesion() {
+    localStorage.removeItem("usuarioLogueado");
+    location.reload();
+}
+
+// NUEVA FUNCIÓN PARA EL FILTRO
+function updateProbabilityFilter(valor) {
+    const labelValor = document.getElementById("prob-filter-val");
+    if (labelValor) {
+        labelValor.innerText = valor + "%";
+    }
+
+    if (typeof actualizarVistaPartido === "function") {
+        actualizarVistaPartido();
+    }
+}
+
+// --- ESCUCHADOR PARA EL SLIDER DE FILTRO ---
+document.addEventListener("DOMContentLoaded", () => {
+    const filtroSlider = document.getElementById("prob-filter"); // Reemplaza "prob-filter" por el ID real de tu input range/slider si es diferente
+    
+    if (filtroSlider) {
+        filtroSlider.addEventListener("input", (e) => {
+            let valorFiltro = e.target.value;
+            
+            // Actualiza el texto indicador del slider si tienes uno (ej. un span que muestra el porcentaje)
+            const labelFiltro = document.getElementById("prob-filter-val");
+            if (labelFiltro) labelFiltro.innerText = valorFiltro + "%";
+            
+            // Llama a la función que actualiza las pestañas/tarjetas con el nuevo valor
+            if (typeof actualizarVistaPartido === "function") {
+                actualizarVistaPartido();
+            }
+        });
+    }
+});
+// ---------------------------------------
 // Verificar si ya había una sesión iniciada al recargar la página
 document.addEventListener("DOMContentLoaded", () => {
     let usuarioGuardado = localStorage.getItem("usuarioLogueado");
@@ -576,7 +653,7 @@ window.addEventListener('DOMContentLoaded', () => {
 }
 
         function cambiarPartidoDesdeHistorial(id) {
-            let found = historialPartidos.find(p => p.id === id);
+            let found = historialPartidos.find(p => p.id == id);
             if(found) {
                 partidoActual = found;
                 actualizarVistaPartido();
@@ -591,7 +668,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         function actualizarVistaPartido() {
             document.getElementById("header-league-badge").innerText = partidoActual.badgeLeague;
-            document.getElementById("header-league-name").innerText = partidoActual.league;
+            document.getElementById("header-league-name").innerText = "";
             document.getElementById("header-match-title").innerHTML = `${partidoActual.teamHome} <span class="text-slate-500 font-normal">vs</span> ${partidoActual.teamAway}`;
             
             document.getElementById("kpi-xg-home").innerText = partidoActual.metrics.xgHome.toFixed(2);
@@ -609,7 +686,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             document.getElementById("kpi-top-score").innerText = partidoActual.scoreDixonColes || "0 - 0";
 document.getElementById("kpi-poisson-score").innerText = 
-    `DC: ${partidoActual.scoreDixonColes || 'N/A'} | Poisson: ${partidoActual.scorePoisson || 'N/A'} | Skellam: ${partidoActual.scoreSkellam || 'N/A'}`;
+    `${partidoActual.scoreDixonColes || 'N/A'} | ${partidoActual.scorePoisson || 'N/A'} | ${partidoActual.scoreSkellam || 'N/A'}`;
 
             renderRadarChart();
             renderScoreMatrix();
@@ -623,6 +700,7 @@ document.getElementById("kpi-poisson-score").innerText =
 
         function renderRadarChart() {
             const ctx = document.getElementById('radarChart').getContext('2d');
+    if (!partidoActual) return;
             if (radarChartInstance) radarChartInstance.destroy();
 
             radarChartInstance = new Chart(ctx, {
@@ -662,16 +740,54 @@ document.getElementById("kpi-poisson-score").innerText =
         }
 
         function renderScoreMatrix() {
-            let grid = document.getElementById("score-matrix-grid");
-            grid.innerHTML = `
-                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">1 - 0</span><strong class="text-blue-400">18.4%</strong></div>
-                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">2 - 0</span><strong class="text-blue-400">14.2%</strong></div>
-                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">2 - 1</span><strong class="text-blue-400">12.1%</strong></div>
-                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">1 - 1</span><strong class="text-amber-400">11.5%</strong></div>
-                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">0 - 0</span><strong class="text-slate-400">6.2%</strong></div>
-                <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800"><span class="block text-slate-400 text-[10px]">3 - 1</span><strong class="text-blue-400">7.8%</strong></div>
-            `;
+    let grid = document.getElementById("score-matrix-grid");
+    if (!grid) return;
+
+    let marcadorPrincipal = (typeof partidoActual !== 'undefined' && partidoActual.poissonScore) ? partidoActual.poissonScore : "0 - 0";
+    
+    // Si tus valores vienen como decimales (ej: 0.35), multiplícalos por 100. 
+    // Si ya vienen como 35.18, quita el * 100 y déjalos con .toFixed(2)
+    let p1 = (typeof partidoActual !== 'undefined' && partidoActual.p1 !== undefined) ? (partidoActual.p1).toFixed(2) + "%" : "0.0%";
+    let pX = (typeof partidoActual !== 'undefined' && partidoActual.px !== undefined) ? (partidoActual.px).toFixed(2) + "%" : "0.0%";
+    let p2 = (typeof partidoActual !== 'undefined' && partidoActual.p2 !== undefined) ? (partidoActual.p2).toFixed(2) + "%" : "0.0%";
+
+    let html = `
+        <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800 col-span-2">
+            <span class="block text-slate-400 text-[10px]">Marcador Más Probable (Poisson)</span>
+            <strong class="text-blue-400 text-sm">${marcadorPrincipal}</strong>
+        </div>
+        <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800">
+            <span class="block text-slate-400 text-[10px]">Local (1)</span>
+            <strong class="text-emerald-400">${p1}</strong>
+        </div>
+        <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800">
+            <span class="block text-slate-400 text-[10px]">Empate (X)</span>
+            <strong class="text-amber-400">${pX}</strong>
+        </div>
+        <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800">
+            <span class="block text-slate-400 text-[10px]">Visita (2)</span>
+            <strong class="text-rose-400">${p2}</strong>
+        </div>
+    `;
+
+    grid.innerHTML = html;
+    grid.innerHTML = html;
+
+    // --- AGREGA ESTO AQUÍ ---
+    let conclusionEl = document.getElementById("overview-conclusion-text");
+    if (conclusionEl && typeof partidoActual !== 'undefined') {
+        let xgHome = partidoActual.metrics?.xgHome || 0;
+        let xgAway = partidoActual.metrics?.xgAway || 0;
+
+        if (xgHome > xgAway + 0.3) {
+            conclusionEl.innerText = `Partido con clara tendencia favorable al local (${partidoActual.teamHome}) según xG.`;
+        } else if (xgAway > xgHome + 0.3) {
+            conclusionEl.innerText = `Partido con clara tendencia favorable a la visita (${partidoActual.teamAway}) según xG.`;
+        } else {
+            conclusionEl.innerText = `Partido competitivo y muy equilibrado según los modelos predictivos.`;
         }
+    }
+}
 
         function renderTopValues() {
             let container = document.getElementById("top-value-grid");
@@ -693,46 +809,111 @@ document.getElementById("kpi-poisson-score").innerText =
         }
 
         function renderGoalsList() {
-            let container = document.getElementById("goals-list");
-            container.innerHTML = `
+    // 1. Obtener el valor del slider de probabilidad (asegúrate de que el id coincida con tu input range)
+    const sliderInput = document.getElementById('filtro-probabilidad'); // Cambia por el ID de tu slider si es diferente
+    const umbralFiltro = sliderInput ? parseFloat(sliderInput.value) : 0;
+
+    // 2. Generar dinámicamente los mercados de goles basados en partidoActual
+    // (Puedes ajustar las propiedades según cómo guardes tus mercados en el objeto)
+    const mercadosGoles = [
+        { label: `${partidoActual.teamHome} Anota 1+ Goles`, prob: partidoActual.probHome1Plus || 93.1, cuota: "1.07" },
+        { label: "Más de 1.5 Goles en el Partido", prob: partidoActual.probOver15 || 83.4, cuota: "1.20" },
+        { label: "Más de 2.5 Goles en el Partido", prob: partidoActual.probOver25 || 61.2, cuota: "1.62" }
+    ];
+
+    // Filtrar según el deslizador de probabilidad
+    const mercadosFiltrados = mercadosGoles.filter(m => m.prob >= umbralFiltro);
+
+    let container = document.getElementById("goals-list");
+    if (container) {
+                if (mercadosFiltrados.length === 0) {
+            container.innerHTML = `<p class="text-slate-400 text-xs text-center py-4">No hay mercados que superen el umbral</p>`;
+        } else {
+            container.innerHTML = mercadosFiltrados.map(m => `
                 <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-                    <span>${partidoActual.teamHome} Anota 1+ Goles</span>
-                    <strong class="text-emerald-400 font-mono">93.1% (Cuota 1.07)</strong>
+                    <span>${m.label}</span>
+                    <strong class="${m.prob >= 70 ? 'text-emerald-400' : 'text-amber-400'} font-mono">${m.prob}% (Cuota ${m.cuota})</strong>
                 </div>
-                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-                    <span>Más de 1.5 Goles en el Partido</span>
-                    <strong class="text-emerald-400 font-mono">83.4% (Cuota 1.20)</strong>
-                </div>
-                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-                    <span>Más de 2.5 Goles en el Partido</span>
-                    <strong class="text-amber-400 font-mono">61.2% (Cuota 1.62)</strong>
-                </div>
-            `;
-            document.getElementById("xg-goals-breakdown-home").innerText = partidoActual.metrics.xgHome.toFixed(2);
-            document.getElementById("xg-goals-breakdown-away").innerText = partidoActual.metrics.xgAway.toFixed(2);
+            `).join('');
         }
+    }
+
+    // Llamada limpia al gráfico
+    if (typeof renderGoalsChart === 'function') {
+        renderGoalsChart();
+    }
+}
+
+    // 3. Actualizar los textos de xG local y visitante
+if (partidoActual && partidoActual.metrics) {
+    const xgHomeEl = document.getElementById("xg-goals-breakdown-home");
+    const xgAwayEl = document.getElementById("xg-goals-breakdown-away");
+    if (xgHomeEl) xgHomeEl.innerText = partidoActual.metrics.xgHome.toFixed(2);
+    if (xgAwayEl) xgAwayEl.innerText = partidoActual.metrics.xgAway.toFixed(2);
+}
+
+    // 4. Actualizar también el gráfico de barras de Chart.js si existe la función
+    if (typeof renderGoalsChart === 'function') {
+        renderGoalsChart();
+    }
+
 
         function renderCornersCardsLists() {
-            document.getElementById("badge-corners-total-val").innerText = "Total: " + (partidoActual.metrics.cornersHome + partidoActual.metrics.cornersAway).toFixed(2);
-            document.getElementById("corners-list").innerHTML = `
-                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-                    <span>Córners Totales > 7.5</span>
-                    <strong class="text-cyan-400 font-mono">68.9% (Cuota 1.45)</strong>
-                </div>
-                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-                    <span>${partidoActual.teamHome} Córners > 4.5</span>
-                    <strong class="text-cyan-400 font-mono">72.1% (Cuota 1.38)</strong>
-                </div>
-            `;
+    if (!partidoActual) return;
 
-            document.getElementById("badge-cards-total-val").innerText = "Total: " + (partidoActual.metrics.cardsHome + partidoActual.metrics.cardsAway).toFixed(2);
-            document.getElementById("cards-list").innerHTML = `
-                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-                    <span>Tarjetas Totales > 3.5</span>
-                    <strong class="text-amber-400 font-mono">74.5% (Cuota 1.34)</strong>
+    // 1. Obtenemos el umbral del slider actual
+    const sliderInput = document.getElementById('filtro-probabilidad');
+    const umbralFiltro = sliderInput ? parseFloat(sliderInput.value) : 0;
+
+    // --- CÓRNERS ---
+    document.getElementById("badge-corners-total-val").innerText = "Total: " + partidoActual.metrics.cornersHome; // (O el cálculo que tengas de córners)
+    
+    // Definimos los mercados de córners con su probabilidad en número
+    const mercadosCorners = [
+        { label: "Córners Totales > 7.5", prob: 68.9, odds: "1.45" },
+        { label: `${partidoActual.teamHome} Córners > 4.5`, prob: 72.1, odds: "1.38" }
+    ].filter(m => m.prob >= umbralFiltro);
+
+    let containerCorners = document.getElementById("corners-list");
+    containerCorners.innerHTML = "";
+    
+    if (mercadosCorners.length === 0) {
+        containerCorners.innerHTML = `<p class="text-slate-500 text-xs text-center py-4">No hay mercados que cumplan con el filtro.</p>`;
+    } else {
+        mercadosCorners.forEach(m => {
+            containerCorners.innerHTML += `
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center">
+                    <span>${m.label}</span>
+                    <strong class="text-cyan-400 font-mono">${m.prob}% (Cuota ${m.odds})</strong>
                 </div>
             `;
-        }
+        });
+    }
+
+    // --- TARJETAS ---
+    document.getElementById("badge-cards-total-val").innerText = "Total: " + partidoActual.metrics.cardsHome; // (O el cálculo que tengas de tarjetas)
+
+    // Definimos los mercados de tarjetas con su probabilidad en número
+    const mercadosTarjetas = [
+        { label: "Tarjetas Totales > 3.5", prob: 74.5, odds: "1.34" }
+    ].filter(m => m.prob >= umbralFiltro);
+
+    let containerTarjetas = document.getElementById("cards-list");
+    containerTarjetas.innerHTML = "";
+
+    if (mercadosTarjetas.length === 0) {
+        containerTarjetas.innerHTML = `<p class="text-slate-500 text-xs text-center py-4">No hay mercados que cumplan con el filtro.</p>`;
+    } else {
+        mercadosTarjetas.forEach(m => {
+            containerTarjetas.innerHTML += `
+                <div class="p-3 bg-slate-900/80 rounded-xl border border-slate-800 flex justify-between items-center">
+                    <span>${m.label}</span>
+                    <strong class="text-amber-400 font-mono">${m.prob}% (Cuota ${m.odds})</strong>
+                </div>
+            `;
+        });
+    }
+}
 
         function renderShotsLists() {
             document.getElementById("badge-shots-total-val").innerText = "Prom: " + (partidoActual.metrics.shotsHome + partidoActual.metrics.shotsAway).toFixed(2);
@@ -810,8 +991,17 @@ document.getElementById("kpi-poisson-score").innerText =
         }
 
         function updateProbabilityFilter(val) {
-            document.getElementById("prob-filter-val").innerText = "≥ " + val + "%";
-        }
+    umbralFiltro = parseFloat(val);
+    
+    // Actualizamos el texto visual del porcentaje
+    const valSpan = document.getElementById('prob-filter-val');
+    if (valSpan) valSpan.innerText = `≥ ${umbralFiltro}%`;
+
+    // Llamamos directamente a la función general para refrescar todas las pestañas
+    if (typeof actualizarDashboardGeneral === 'function') {
+        actualizarDashboardGeneral();
+    }
+}
 
         function runSimulation() {
             document.getElementById("sim-win-home").innerText = partidoActual.p1.toFixed(1) + "%";
@@ -845,6 +1035,77 @@ document.getElementById("kpi-poisson-score").innerText =
         localStorage.removeItem("usuarioLogueado");
         location.reload();
     }
+    
+function renderGoalsChart() {
+    if (!partidoActual) return;
+    const canvasElement = document.getElementById('goalsChart');
+    if (!canvasElement) return;
+    
+    const ctx = canvasElement.getContext('2d');
+    const sliderInput = document.getElementById('filtro-probabilidad');
+    const umbralFiltro = sliderInput ? parseFloat(sliderInput.value) : 0;
+
+    // Tomamos los mercados de goles que cumplan con el umbral del filtro
+    const mercadosGoles = [
+        { label: `${partidoActual.teamHome} Anota 1+`, prob: 93.1 },
+        { label: 'Más de 1.5 Goles', prob: 83.4 },
+        { label: 'Más de 2.5 Goles', prob: 61.2 }
+    ].filter(m => m.prob >= umbralFiltro);
+
+    // Si ya existe un gráfico previo, lo destruimos para evitar superposiciones
+    if (window.goalsChartInstance && typeof window.goalsChartInstance.destroy === 'function') {
+        window.goalsChartInstance.destroy();
+    }
+
+    window.goalsChartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: mercadosGoles.map(m => m.label),
+            datasets: [{
+                label: 'Probabilidad (%)',
+                data: mercadosGoles.map(m => m.prob),
+                backgroundColor: ['#10b981', '#3b82f6', '#f59e0b'],
+                borderRadius: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: { 
+                    max: 100, 
+                    grid: { color: 'rgba(255,255,255,0.05)' }, 
+                    ticks: { color: '#94a3b8' } 
+                },
+                x: { 
+                    grid: { display: false }, 
+                    ticks: { color: '#94a3b8', font: { size: 10 } } 
+                }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
+}
+// Variable global para que cualquier función la lea
+let umbralFiltro = 0;
+
+function actualizarDashboardGeneral() {
+    // 1. Obtenemos el valor actual del slider y lo guardamos en la variable global
+    const sliderInput = document.getElementById('prob-filter');
+    umbralFiltro = sliderInput ? parseFloat(sliderInput.value) : 0;
+
+    // 2. Actualizamos el texto visual del porcentaje
+    const valSpan = document.getElementById('prob-filter-val');
+    if (valSpan) valSpan.innerText = `≥ ${umbralFiltro}%`;
+
+    // 3. Llamamos a todas las funciones de tus pestañas
+    if (typeof renderTopValues === 'function') renderTopValues();
+    if (typeof renderGoalsList === 'function') renderGoalsList();
+    if (typeof renderGoalsChart === 'function') renderGoalsChart();
+    if (typeof renderCornersCardsLists === 'function') renderCornersCardsLists();
+    if (typeof renderShotsLists === 'function') renderShotsLists();
+    if (typeof renderBetBuilderOptions === 'function') renderBetBuilderOptions();
+}
     </script>
 </body>
 </html>
