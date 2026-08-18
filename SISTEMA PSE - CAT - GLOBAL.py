@@ -34,43 +34,43 @@ PROMEDIOS_ESTANDAR = {
 
 DATOS_PARTIDO = {
     # --- Datos Básicos ---
-    "liga": "UEFA Champions / Europa League Qualifiers",
-    "equipo_local": "Fenerbahce",
-    "equipo_visitante": "Lyon",
+    "liga": "La Liga",
+    "equipo_local": "Atlético Madrid",
+    "equipo_visitante": "Málaga",
 
     # --- Configuración Geográfica / Condición del Partido ---
-    "altura_msnm": 30, # Altitud de Estambul en metros sobre el nivel del mar
-    "es_partido_abierto": True, # Encuentro internacional de alta intensidad y vocación ofensiva
+    "altura_msnm": 657, # Altitud de Madrid en metros sobre el nivel del mar
+    "es_partido_abierto": False, # Estilo históricamente táctico y cerrado del Atlético de Madrid en casa
 
     # --- Goles Promedio (Últimos 10 partidos) ---
     "goles_favor_local": 2.05,   # Goles anotados por el local jugando en su estadio
-    "goles_contra_local": 0.85,  # Goles recibidos por el local jugando en su estadio
-    "goles_favor_visita": 1.40,  # Goles anotados por el visitante fuera de casa
-    "goles_contra_visita": 1.30, # Goles recibidos por el visitante fuera de casa
-    "goles_promedio_liga": 1.45, # Promedio general de goles por equipo por partido en la competición
+    "goles_contra_local": 0.70,  # Goles recibidos por el local jugando en su estadio
+    "goles_favor_visita": 1.05,  # Goles anotados por el visitante fuera de casa
+    "goles_contra_visita": 1.60, # Goles recibidos por el visitante fuera de casa
+    "goles_promedio_liga": 2.55, # Promedio general de goles por partido en La Liga
 
     # --- Saques de Esquina (Córners) ---
-    "corners_favor_local": 6.4,   # Córners a favor del local en casa
-    "corners_contra_local": 3.8,  # Córners en contra del local en casa
-    "corners_favor_visita": 4.9,  # Córners a favor del visitante fuera
-    "corners_contra_visita": 5.2, # Córners en contra del visitante fuera
+    "corners_favor_local": 6.1,   # Córners a favor del local en casa
+    "corners_contra_local": 3.2,  # Córners en contra del local en casa
+    "corners_favor_visita": 3.9,  # Córners a favor del visitante fuera
+    "corners_contra_visita": 6.4, # Córners en contra del visitante fuera
 
     # --- Volumen de Remates y Tiros (Totales por partido) ---
     "remates_favor_local": 16.2,  # Disparos totales a favor del local
-    "remates_favor_visita": 13.5, # Disparos totales a favor del visitante
-    "tiros_arco_local": 6.0,      # Disparos DIRECTOS a puerta del local
-    "tiros_arco_visita": 4.7,     # Disparos DIRECTOS a puerta del visitante
+    "remates_favor_visita": 10.5, # Disparos totales a favor del visitante
+    "tiros_arco_local": 6.2,      # Disparos DIRECTOS a puerta del local
+    "tiros_arco_visita": 3.5,     # Disparos DIRECTOS a puerta del visitante
 
     # --- Disciplina (Tarjetas Amarillas + Rojas) ---
-    "tarjetas_promedio_arbitro": 5.6, # Promedio histórico de tarjetas por partido en UEFA
-    "tarjetas_recibidas_local": 2.8,
-    "tarjetas_provocadas_local": 2.9,
-    "tarjetas_recibidas_visita": 2.6,
-    "tarjetas_provocadas_visita": 2.7,
+    "tarjetas_promedio_arbitro": 4.6, # Promedio histórico de tarjetas por partido en La Liga
+    "tarjetas_recibidas_local": 2.3,
+    "tarjetas_provocadas_local": 2.5,
+    "tarjetas_recibidas_visita": 2.8,
+    "tarjetas_provocadas_visita": 2.2,
 
     # --- Fuerza de Equipos ---
-    "elo_local": 1695, # Rating ELO aproximado del local
-    "elo_visita": 1680  # Rating ELO aproximado del visitante
+    "elo_local": 1840, # Rating ELO aproximado del local
+    "elo_visita": 1520  # Rating ELO aproximado del visitante
 }
 # =====================================================================
 # MOTOR MATH & ESTADÍSTICA (PSE ENGINE 6.2 - LIGA 1 EDITION)

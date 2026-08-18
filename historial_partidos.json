@@ -1,5 +1,2305 @@
 [
     {
+        "id": "Atlético_Madrid_vs_Málaga",
+        "league": "La Liga",
+        "badgeLeague": "SISTEMA PSE - LA LIGA",
+        "teamHome": "Atlético Madrid",
+        "teamAway": "Málaga",
+        "p1": 65.96,
+        "pX": 28.39,
+        "p2": 5.65,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.49,
+            "xgAway": 0.24,
+            "cornersHome": 6.25,
+            "cornersAway": 3.55,
+            "cardsHome": 1.88,
+            "cardsAway": 2.22,
+            "shotsHome": 16.2,
+            "shotsAway": 10.5,
+            "shotsTargetHome": 6.2,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Atlético Madrid anota >0.5 goles",
+                "prob": 74.0,
+                "odds": 1.35,
+                "team": "Atlético Madrid"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 49.1,
+                "odds": 2.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.0,
+                "odds": 1.05,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Málaga anota >0.5 goles",
+                "prob": 21.2,
+                "odds": 4.72,
+                "team": "Málaga"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.0,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 57.6,
+                "odds": 1.74,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 72.4,
+                "odds": 1.38,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 55.0,
+                "odds": 1.82,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "NEC_Nimega_vs_Bodo_Glimt",
+        "league": "UEFA Conference League Qualifiers",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE QUALIFIERS",
+        "teamHome": "NEC Nimega",
+        "teamAway": "Bodo Glimt",
+        "p1": 39.25,
+        "pX": 34.92,
+        "p2": 25.83,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.05,
+            "xgAway": 0.79,
+            "cornersHome": 6.05,
+            "cornersAway": 4.95,
+            "cardsHome": 1.64,
+            "cardsAway": 1.79,
+            "shotsHome": 16.5,
+            "shotsAway": 15.2,
+            "shotsTargetHome": 6.0,
+            "shotsTargetAway": 5.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "NEC Nimega anota >0.5 goles",
+                "prob": 62.4,
+                "odds": 1.6,
+                "team": "NEC Nimega"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 52.0,
+                "odds": 1.92,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 94.0,
+                "odds": 1.06,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Bodo Glimt anota >0.5 goles",
+                "prob": 52.5,
+                "odds": 1.91,
+                "team": "Bodo Glimt"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 75.2,
+                "odds": 1.33,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 67.0,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 62.7,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 43.5,
+                "odds": 2.3,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Hapoel_Beer_Sheva_vs_Sabah_FC",
+        "league": "UEFA Conference League Qualifiers",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE QUALIFIERS",
+        "teamHome": "Hapoel Beer Sheva",
+        "teamAway": "Sabah FC",
+        "p1": 53.66,
+        "pX": 33.39,
+        "p2": 12.95,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.25,
+            "xgAway": 0.45,
+            "cornersHome": 6.2,
+            "cornersAway": 3.95,
+            "cardsHome": 1.6,
+            "cardsAway": 1.91,
+            "shotsHome": 16.0,
+            "shotsAway": 11.2,
+            "shotsTargetHome": 5.9,
+            "shotsTargetAway": 3.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Hapoel Beer Sheva anota >0.5 goles",
+                "prob": 68.3,
+                "odds": 1.46,
+                "team": "Hapoel Beer Sheva"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 48.2,
+                "odds": 2.07,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.3,
+                "odds": 1.05,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Sabah FC anota >0.5 goles",
+                "prob": 35.2,
+                "odds": 2.84,
+                "team": "Sabah FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.6,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.5,
+                "odds": 1.65,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.0,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 44.9,
+                "odds": 2.23,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "SK_Slovan_Bratislava_vs_Celje",
+        "league": "UEFA Champions League",
+        "badgeLeague": "SISTEMA PSE - UEFA CHAMPIONS LEAGUE",
+        "teamHome": "SK Slovan Bratislava",
+        "teamAway": "Celje",
+        "p1": 51.36,
+        "pX": 32.07,
+        "p2": 16.56,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.32,
+            "xgAway": 0.6,
+            "cornersHome": 6.1,
+            "cornersAway": 4.35,
+            "cardsHome": 1.72,
+            "cardsAway": 1.99,
+            "shotsHome": 16.4,
+            "shotsAway": 12.8,
+            "shotsTargetHome": 6.1,
+            "shotsTargetAway": 4.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "SK Slovan Bratislava anota >0.5 goles",
+                "prob": 69.9,
+                "odds": 1.43,
+                "team": "SK Slovan Bratislava"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 53.8,
+                "odds": 1.86,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 93.3,
+                "odds": 1.07,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Celje anota >0.5 goles",
+                "prob": 43.5,
+                "odds": 2.3,
+                "team": "Celje"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.7,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.9,
+                "odds": 1.59,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.1,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.5,
+                "odds": 2.06,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Celtic_Glasgow_vs_LASK_Linz",
+        "league": "UEFA Champions League",
+        "badgeLeague": "SISTEMA PSE - UEFA CHAMPIONS LEAGUE",
+        "teamHome": "Celtic Glasgow",
+        "teamAway": "LASK Linz",
+        "p1": 59.95,
+        "pX": 30.43,
+        "p2": 9.63,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.41,
+            "xgAway": 0.38,
+            "cornersHome": 6.65,
+            "cornersAway": 3.8,
+            "cardsHome": 1.52,
+            "cardsAway": 1.88,
+            "shotsHome": 17.5,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 6.8,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Celtic Glasgow anota >0.5 goles",
+                "prob": 72.3,
+                "odds": 1.38,
+                "team": "Celtic Glasgow"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 50.7,
+                "odds": 1.97,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 94.5,
+                "odds": 1.06,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "LASK Linz anota >0.5 goles",
+                "prob": 30.8,
+                "odds": 3.25,
+                "team": "LASK Linz"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.7,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.9,
+                "odds": 1.59,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 62.1,
+                "odds": 1.61,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 42.8,
+                "odds": 2.33,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Vancouver_Whitecaps_vs_Houston_Dynamo",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "Vancouver Whitecaps",
+        "teamAway": "Houston Dynamo",
+        "p1": 50.74,
+        "pX": 27.08,
+        "p2": 22.18,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 1",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.66,
+            "xgAway": 0.97,
+            "cornersHome": 5.7,
+            "cornersAway": 4.35,
+            "cardsHome": 1.68,
+            "cardsAway": 1.83,
+            "shotsHome": 15.2,
+            "shotsAway": 12.0,
+            "shotsTargetHome": 5.4,
+            "shotsTargetAway": 4.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Vancouver Whitecaps anota >0.5 goles",
+                "prob": 77.2,
+                "odds": 1.29,
+                "team": "Vancouver Whitecaps"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 68.5,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 84.4,
+                "odds": 1.18,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Houston Dynamo anota >0.5 goles",
+                "prob": 59.6,
+                "odds": 1.68,
+                "team": "Houston Dynamo"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.7,
+                "odds": 1.68,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 63.8,
+                "odds": 1.57,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 44.7,
+                "odds": 2.23,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Portland_Timbers_vs_San_Diego_FC",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "Portland Timbers",
+        "teamAway": "San Diego FC",
+        "p1": 33.77,
+        "pX": 21.95,
+        "p2": 44.28,
+        "poissonScore": "1 - 1",
+        "scoreDixonColes": "1 - 1",
+        "scorePoisson": "1 - 1",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.49,
+            "xgAway": 1.77,
+            "cornersHome": 5.6,
+            "cornersAway": 4.95,
+            "cardsHome": 1.83,
+            "cardsAway": 1.68,
+            "shotsHome": 15.6,
+            "shotsAway": 14.8,
+            "shotsTargetHome": 5.5,
+            "shotsTargetAway": 5.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Portland Timbers anota >0.5 goles",
+                "prob": 74.0,
+                "odds": 1.35,
+                "team": "Portland Timbers"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 77.6,
+                "odds": 1.29,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 74.8,
+                "odds": 1.34,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "San Diego FC anota >0.5 goles",
+                "prob": 79.2,
+                "odds": 1.26,
+                "team": "San Diego FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 72.4,
+                "odds": 1.38,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 63.7,
+                "odds": 1.57,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 63.8,
+                "odds": 1.57,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 44.7,
+                "odds": 2.23,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "LA_Galaxy_vs_San_Jose_Earthquakes",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "LA Galaxy",
+        "teamAway": "San Jose Earthquakes",
+        "p1": 77.0,
+        "pX": 13.09,
+        "p2": 9.9,
+        "poissonScore": "3 - 0",
+        "scoreDixonColes": "2 - 0",
+        "scorePoisson": "3 - 0",
+        "scoreSkellam": "2 - 1",
+        "metrics": {
+            "xgHome": 3.16,
+            "xgAway": 0.9,
+            "cornersHome": 6.4,
+            "cornersAway": 4.2,
+            "cardsHome": 1.71,
+            "cardsAway": 1.94,
+            "shotsHome": 17.2,
+            "shotsAway": 12.1,
+            "shotsTargetHome": 6.4,
+            "shotsTargetAway": 4.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "LA Galaxy anota >0.5 goles",
+                "prob": 92.5,
+                "odds": 1.08,
+                "team": "LA Galaxy"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 85.2,
+                "odds": 1.17,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 62.4,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "San Jose Earthquakes anota >0.5 goles",
+                "prob": 56.9,
+                "odds": 1.76,
+                "team": "San Jose Earthquakes"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 72.7,
+                "odds": 1.37,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 64.1,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 66.2,
+                "odds": 1.51,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.4,
+                "odds": 2.11,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Seattle_Sounders_vs_Austin_FC",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "Seattle Sounders",
+        "teamAway": "Austin FC",
+        "p1": 59.14,
+        "pX": 24.74,
+        "p2": 16.12,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.89,
+            "xgAway": 0.82,
+            "cornersHome": 5.9,
+            "cornersAway": 4.15,
+            "cardsHome": 1.68,
+            "cardsAway": 1.83,
+            "shotsHome": 15.8,
+            "shotsAway": 11.9,
+            "shotsTargetHome": 5.7,
+            "shotsTargetAway": 4.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Seattle Sounders anota >0.5 goles",
+                "prob": 81.1,
+                "odds": 1.23,
+                "team": "Seattle Sounders"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 69.9,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 83.2,
+                "odds": 1.2,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Austin FC anota >0.5 goles",
+                "prob": 53.8,
+                "odds": 1.86,
+                "team": "Austin FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.7,
+                "odds": 1.68,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 63.8,
+                "odds": 1.57,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 44.7,
+                "odds": 2.23,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Real_Salt_Lake_vs_FC_Dallas",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "Real Salt Lake",
+        "teamAway": "FC Dallas",
+        "p1": 63.52,
+        "pX": 19.99,
+        "p2": 16.49,
+        "poissonScore": "2 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "2 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 2.15,
+            "xgAway": 0.89,
+            "cornersHome": 6.01,
+            "cornersAway": 4.25,
+            "cardsHome": 1.68,
+            "cardsAway": 1.86,
+            "shotsHome": 16.09,
+            "shotsAway": 11.6,
+            "shotsTargetHome": 5.84,
+            "shotsTargetAway": 4.0
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Real Salt Lake anota >0.5 goles",
+                "prob": 84.5,
+                "odds": 1.18,
+                "team": "Real Salt Lake"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 74.7,
+                "odds": 1.34,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 78.4,
+                "odds": 1.28,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FC Dallas anota >0.5 goles",
+                "prob": 56.5,
+                "odds": 1.77,
+                "team": "FC Dallas"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.4,
+                "odds": 1.42,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.4,
+                "odds": 1.63,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.4,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.4,
+                "odds": 2.2,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Colorado_Rapids_vs_Los_Angeles_FC",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "Colorado Rapids",
+        "teamAway": "Los Angeles FC",
+        "p1": 34.73,
+        "pX": 26.4,
+        "p2": 38.87,
+        "poissonScore": "1 - 1",
+        "scoreDixonColes": "1 - 1",
+        "scorePoisson": "1 - 1",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.42,
+            "xgAway": 1.53,
+            "cornersHome": 5.56,
+            "cornersAway": 4.9,
+            "cardsHome": 1.83,
+            "cardsAway": 1.83,
+            "shotsHome": 16.69,
+            "shotsAway": 15.2,
+            "shotsTargetHome": 6.09,
+            "shotsTargetAway": 5.7
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Colorado Rapids anota >0.5 goles",
+                "prob": 72.4,
+                "odds": 1.38,
+                "team": "Colorado Rapids"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 73.5,
+                "odds": 1.36,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 79.7,
+                "odds": 1.26,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Los Angeles FC anota >0.5 goles",
+                "prob": 74.7,
+                "odds": 1.34,
+                "team": "Los Angeles FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.8,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 63.0,
+                "odds": 1.59,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 66.2,
+                "odds": 1.51,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.4,
+                "odds": 2.11,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Minnesota_United_vs_Atlanta_United_Fc",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "Minnesota United",
+        "teamAway": "Atlanta United Fc",
+        "p1": 51.24,
+        "pX": 25.04,
+        "p2": 23.72,
+        "poissonScore": "1 - 1",
+        "scoreDixonColes": "1 - 1",
+        "scorePoisson": "1 - 1",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.84,
+            "xgAway": 1.14,
+            "cornersHome": 5.75,
+            "cornersAway": 4.55,
+            "cardsHome": 1.68,
+            "cardsAway": 1.83,
+            "shotsHome": 15.0,
+            "shotsAway": 12.4,
+            "shotsTargetHome": 5.2,
+            "shotsTargetAway": 4.3
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Minnesota United anota >0.5 goles",
+                "prob": 80.4,
+                "odds": 1.24,
+                "team": "Minnesota United"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 74.0,
+                "odds": 1.35,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 79.2,
+                "odds": 1.26,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Atlanta United Fc anota >0.5 goles",
+                "prob": 65.0,
+                "odds": 1.54,
+                "team": "Atlanta United Fc"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.7,
+                "odds": 1.62,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 63.8,
+                "odds": 1.57,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 44.7,
+                "odds": 2.23,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "FC_Toronto_vs_Charlotte_FC",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "FC Toronto",
+        "teamAway": "Charlotte FC",
+        "p1": 38.73,
+        "pX": 29.5,
+        "p2": 31.77,
+        "poissonScore": "1 - 1",
+        "scoreDixonColes": "1 - 1",
+        "scorePoisson": "1 - 1",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.32,
+            "xgAway": 1.16,
+            "cornersHome": 5.35,
+            "cornersAway": 4.65,
+            "cardsHome": 1.86,
+            "cardsAway": 1.86,
+            "shotsHome": 13.5,
+            "shotsAway": 11.8,
+            "shotsTargetHome": 4.6,
+            "shotsTargetAway": 4.0
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "FC Toronto anota >0.5 goles",
+                "prob": 69.9,
+                "odds": 1.43,
+                "team": "FC Toronto"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 65.8,
+                "odds": 1.52,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 86.6,
+                "odds": 1.15,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Charlotte FC anota >0.5 goles",
+                "prob": 65.6,
+                "odds": 1.53,
+                "team": "Charlotte FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.5,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.3,
+                "odds": 1.69,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.3,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.8,
+                "odds": 2.05,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Philadelphia_Union_vs_Inter_Miami",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "Philadelphia Union",
+        "teamAway": "Inter Miami",
+        "p1": 37.53,
+        "pX": 21.79,
+        "p2": 40.69,
+        "poissonScore": "1 - 1",
+        "scoreDixonColes": "1 - 1",
+        "scorePoisson": "1 - 1",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.62,
+            "xgAway": 1.71,
+            "cornersHome": 5.7,
+            "cornersAway": 4.85,
+            "cardsHome": 1.86,
+            "cardsAway": 1.75,
+            "shotsHome": 15.4,
+            "shotsAway": 16.2,
+            "shotsTargetHome": 5.6,
+            "shotsTargetAway": 6.3
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Philadelphia Union anota >0.5 goles",
+                "prob": 76.6,
+                "odds": 1.31,
+                "team": "Philadelphia Union"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 78.4,
+                "odds": 1.28,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 73.7,
+                "odds": 1.36,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Inter Miami anota >0.5 goles",
+                "prob": 78.2,
+                "odds": 1.28,
+                "team": "Inter Miami"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 72.4,
+                "odds": 1.38,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 63.7,
+                "odds": 1.57,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 65.6,
+                "odds": 1.52,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 46.8,
+                "odds": 2.14,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "NY_Red_Bulls_vs_Nashville_SC",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "NY Red Bulls",
+        "teamAway": "Nashville SC",
+        "p1": 52.18,
+        "pX": 30.79,
+        "p2": 17.03,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.4,
+            "xgAway": 0.65,
+            "cornersHome": 5.95,
+            "cornersAway": 4.0,
+            "cardsHome": 1.83,
+            "cardsAway": 1.86,
+            "shotsHome": 16.1,
+            "shotsAway": 11.2,
+            "shotsTargetHome": 5.8,
+            "shotsTargetAway": 3.7
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "NY Red Bulls anota >0.5 goles",
+                "prob": 71.9,
+                "odds": 1.39,
+                "team": "NY Red Bulls"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 56.9,
+                "odds": 1.76,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 91.9,
+                "odds": 1.09,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Nashville SC anota >0.5 goles",
+                "prob": 46.0,
+                "odds": 2.17,
+                "team": "Nashville SC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.9,
+                "odds": 1.7,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 66.7,
+                "odds": 1.5,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.1,
+                "odds": 2.08,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "DC_United_vs_New_England_Revolution",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "DC United",
+        "teamAway": "New England Revolution",
+        "p1": 43.62,
+        "pX": 26.29,
+        "p2": 30.09,
+        "poissonScore": "1 - 1",
+        "scoreDixonColes": "1 - 1",
+        "scorePoisson": "1 - 1",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.63,
+            "xgAway": 1.29,
+            "cornersHome": 5.7,
+            "cornersAway": 4.8,
+            "cardsHome": 1.79,
+            "cardsAway": 1.86,
+            "shotsHome": 14.1,
+            "shotsAway": 12.0,
+            "shotsTargetHome": 4.8,
+            "shotsTargetAway": 4.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "DC United anota >0.5 goles",
+                "prob": 76.8,
+                "odds": 1.3,
+                "team": "DC United"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 73.1,
+                "odds": 1.37,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 80.0,
+                "odds": 1.25,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "New England Revolution anota >0.5 goles",
+                "prob": 69.3,
+                "odds": 1.44,
+                "team": "New England Revolution"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 72.1,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 63.3,
+                "odds": 1.58,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 66.2,
+                "odds": 1.51,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.4,
+                "odds": 2.11,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Columbus_Crew_vs_Montreal_Impact",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "Columbus Crew",
+        "teamAway": "Montreal Impact",
+        "p1": 75.03,
+        "pX": 15.53,
+        "p2": 9.44,
+        "poissonScore": "2 - 0",
+        "scoreDixonColes": "2 - 0",
+        "scorePoisson": "2 - 0",
+        "scoreSkellam": "2 - 1",
+        "metrics": {
+            "xgHome": 2.63,
+            "xgAway": 0.68,
+            "cornersHome": 6.3,
+            "cornersAway": 3.9,
+            "cardsHome": 1.53,
+            "cardsAway": 1.86,
+            "shotsHome": 16.8,
+            "shotsAway": 11.4,
+            "shotsTargetHome": 6.3,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Columbus Crew anota >0.5 goles",
+                "prob": 89.1,
+                "odds": 1.12,
+                "team": "Columbus Crew"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 78.2,
+                "odds": 1.28,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 73.9,
+                "odds": 1.35,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Montreal Impact anota >0.5 goles",
+                "prob": 47.9,
+                "odds": 2.09,
+                "team": "Montreal Impact"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.0,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 61.9,
+                "odds": 1.61,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 42.7,
+                "odds": 2.34,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "FC_Cincinnati_vs_New_York_City",
+        "league": "MLS",
+        "badgeLeague": "SISTEMA PSE - MLS",
+        "teamHome": "FC Cincinnati",
+        "teamAway": "New York City",
+        "p1": 58.72,
+        "pX": 23.99,
+        "p2": 17.29,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.98,
+            "xgAway": 0.91,
+            "cornersHome": 5.85,
+            "cornersAway": 4.45,
+            "cardsHome": 1.64,
+            "cardsAway": 1.71,
+            "shotsHome": 15.2,
+            "shotsAway": 12.8,
+            "shotsTargetHome": 5.5,
+            "shotsTargetAway": 4.3
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "FC Cincinnati anota >0.5 goles",
+                "prob": 82.3,
+                "odds": 1.22,
+                "team": "FC Cincinnati"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 72.6,
+                "odds": 1.38,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 80.6,
+                "odds": 1.24,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "New York City anota >0.5 goles",
+                "prob": 57.4,
+                "odds": 1.74,
+                "team": "New York City"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.7,
+                "odds": 1.62,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 61.3,
+                "odds": 1.63,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 42.0,
+                "odds": 2.38,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Atletico_MG_vs_Bragantino",
+        "league": "Brasileirao Serie A",
+        "badgeLeague": "SISTEMA PSE - BRASILEIRAO SERIE A",
+        "teamHome": "Atletico MG",
+        "teamAway": "Bragantino",
+        "p1": 65.33,
+        "pX": 22.35,
+        "p2": 12.32,
+        "poissonScore": "2 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "2 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 2.11,
+            "xgAway": 0.72,
+            "cornersHome": 6.1,
+            "cornersAway": 4.15,
+            "cardsHome": 2.65,
+            "cardsAway": 2.75,
+            "shotsHome": 15.6,
+            "shotsAway": 12.1,
+            "shotsTargetHome": 5.9,
+            "shotsTargetAway": 4.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Atletico MG anota >0.5 goles",
+                "prob": 84.0,
+                "odds": 1.19,
+                "team": "Atletico MG"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 71.7,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 81.5,
+                "odds": 1.23,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Bragantino anota >0.5 goles",
+                "prob": 49.7,
+                "odds": 2.01,
+                "team": "Bragantino"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.4,
+                "odds": 1.42,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.3,
+                "odds": 1.63,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 85.0,
+                "odds": 1.18,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 72.3,
+                "odds": 1.38,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Flamengo_vs_Cruzeiro",
+        "league": "CONMEBOL Libertadores",
+        "badgeLeague": "SISTEMA PSE - CONMEBOL LIBERTADORES",
+        "teamHome": "Flamengo",
+        "teamAway": "Cruzeiro",
+        "p1": 76.06,
+        "pX": 17.56,
+        "p2": 6.38,
+        "poissonScore": "2 - 0",
+        "scoreDixonColes": "2 - 0",
+        "scorePoisson": "2 - 0",
+        "scoreSkellam": "2 - 1",
+        "metrics": {
+            "xgHome": 2.49,
+            "xgAway": 0.51,
+            "cornersHome": 6.55,
+            "cornersAway": 3.6,
+            "cardsHome": 2.31,
+            "cardsAway": 2.95,
+            "shotsHome": 18.2,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 7.0,
+            "shotsTargetAway": 3.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Flamengo anota >0.5 goles",
+                "prob": 87.9,
+                "odds": 1.14,
+                "team": "Flamengo"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 74.2,
+                "odds": 1.35,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 78.9,
+                "odds": 1.27,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Cruzeiro anota >0.5 goles",
+                "prob": 38.8,
+                "odds": 2.58,
+                "team": "Cruzeiro"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.6,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.5,
+                "odds": 1.65,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 83.9,
+                "odds": 1.19,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Montevideo_City_Torque_vs_CA_Tigre",
+        "league": "CONMEBOL Sudamericana",
+        "badgeLeague": "SISTEMA PSE - CONMEBOL SUDAMERICANA",
+        "teamHome": "Montevideo City Torque",
+        "teamAway": "CA Tigre",
+        "p1": 46.19,
+        "pX": 27.9,
+        "p2": 25.91,
+        "poissonScore": "1 - 1",
+        "scoreDixonColes": "1 - 1",
+        "scorePoisson": "1 - 1",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.55,
+            "xgAway": 1.06,
+            "cornersHome": 5.45,
+            "cornersAway": 4.45,
+            "cardsHome": 2.7,
+            "cardsAway": 3.0,
+            "shotsHome": 13.8,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 4.8,
+            "shotsTargetAway": 4.0
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Montevideo City Torque anota >0.5 goles",
+                "prob": 75.1,
+                "odds": 1.33,
+                "team": "Montevideo City Torque"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 84.7,
+                "odds": 1.18,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "CA Tigre anota >0.5 goles",
+                "prob": 62.7,
+                "odds": 1.59,
+                "team": "CA Tigre"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.8,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.4,
+                "odds": 1.71,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 87.0,
+                "odds": 1.15,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 75.4,
+                "odds": 1.33,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Coquimbo_Unido_vs_CA_Platense",
+        "league": "CONMEBOL Sudamericana",
+        "badgeLeague": "SISTEMA PSE - CONMEBOL SUDAMERICANA",
+        "teamHome": "Coquimbo Unido",
+        "teamAway": "CA Platense",
+        "p1": 47.61,
+        "pX": 32.77,
+        "p2": 19.63,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.25,
+            "xgAway": 0.68,
+            "cornersHome": 5.25,
+            "cornersAway": 4.3,
+            "cardsHome": 3.06,
+            "cardsAway": 3.11,
+            "shotsHome": 12.8,
+            "shotsAway": 10.4,
+            "shotsTargetHome": 4.4,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Coquimbo Unido anota >0.5 goles",
+                "prob": 68.3,
+                "odds": 1.46,
+                "team": "Coquimbo Unido"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 54.2,
+                "odds": 1.84,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 93.1,
+                "odds": 1.07,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "CA Platense anota >0.5 goles",
+                "prob": 47.5,
+                "odds": 2.1,
+                "team": "CA Platense"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 65.1,
+                "odds": 1.54,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 55.4,
+                "odds": 1.81,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 89.5,
+                "odds": 1.12,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 79.5,
+                "odds": 1.26,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Santa_Fe_vs_River_Plate",
+        "league": "CONMEBOL Libertadores",
+        "badgeLeague": "SISTEMA PSE - CONMEBOL LIBERTADORES",
+        "teamHome": "Santa Fe",
+        "teamAway": "River Plate",
+        "p1": 39.34,
+        "pX": 32.83,
+        "p2": 27.82,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.15,
+            "xgAway": 0.91,
+            "cornersHome": 5.73,
+            "cornersAway": 4.4,
+            "cardsHome": 2.8,
+            "cardsAway": 2.75,
+            "shotsHome": 14.95,
+            "shotsAway": 13.8,
+            "shotsTargetHome": 5.31,
+            "shotsTargetAway": 4.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Santa Fe anota >0.5 goles",
+                "prob": 65.3,
+                "odds": 1.53,
+                "team": "Santa Fe"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 57.1,
+                "odds": 1.75,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 91.8,
+                "odds": 1.09,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "River Plate anota >0.5 goles",
+                "prob": 57.3,
+                "odds": 1.75,
+                "team": "River Plate"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.5,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.4,
+                "odds": 1.66,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 86.0,
+                "odds": 1.16,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 73.9,
+                "odds": 1.35,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "River_Plate_vs_Santa_Fe",
+        "league": "CONMEBOL Libertadores",
+        "badgeLeague": "SISTEMA PSE - CONMEBOL LIBERTADORES",
+        "teamHome": "River Plate",
+        "teamAway": "Santa Fe",
+        "p1": 75.16,
+        "pX": 17.97,
+        "p2": 6.88,
+        "poissonScore": "2 - 0",
+        "scoreDixonColes": "2 - 0",
+        "scorePoisson": "2 - 0",
+        "scoreSkellam": "2 - 1",
+        "metrics": {
+            "xgHome": 2.46,
+            "xgAway": 0.53,
+            "cornersHome": 6.35,
+            "cornersAway": 3.55,
+            "cardsHome": 2.17,
+            "cardsAway": 2.79,
+            "shotsHome": 17.5,
+            "shotsAway": 11.2,
+            "shotsTargetHome": 6.8,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "River Plate anota >0.5 goles",
+                "prob": 87.7,
+                "odds": 1.14,
+                "team": "River Plate"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 74.2,
+                "odds": 1.35,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 78.9,
+                "odds": 1.27,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Santa Fe anota >0.5 goles",
+                "prob": 40.2,
+                "odds": 2.49,
+                "team": "Santa Fe"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.8,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.4,
+                "odds": 1.71,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 81.6,
+                "odds": 1.23,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 67.3,
+                "odds": 1.49,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Cerro_Porteño_vs_Palmeiras",
+        "league": "CONMEBOL Libertadores",
+        "badgeLeague": "SISTEMA PSE - CONMEBOL LIBERTADORES",
+        "teamHome": "Cerro Porteño",
+        "teamAway": "Palmeiras",
+        "p1": 24.54,
+        "pX": 36.51,
+        "p2": 38.94,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.71,
+            "xgAway": 0.99,
+            "cornersHome": 5.0,
+            "cornersAway": 4.65,
+            "cardsHome": 2.8,
+            "cardsAway": 2.65,
+            "shotsHome": 13.5,
+            "shotsAway": 15.0,
+            "shotsTargetHome": 4.8,
+            "shotsTargetAway": 5.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Cerro Porteño anota >0.5 goles",
+                "prob": 49.1,
+                "odds": 2.04,
+                "team": "Cerro Porteño"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 48.2,
+                "odds": 2.08,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.3,
+                "odds": 1.05,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Palmeiras anota >0.5 goles",
+                "prob": 60.2,
+                "odds": 1.66,
+                "team": "Palmeiras"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 65.9,
+                "odds": 1.52,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 56.3,
+                "odds": 1.78,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 85.3,
+                "odds": 1.17,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 72.9,
+                "odds": 1.37,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
         "id": "Fenerbahce_vs_Lyon",
         "league": "UEFA Champions / Europa League Qualifiers",
         "badgeLeague": "SISTEMA PSE - UEFA CHAMPIONS / EUROPA LEAGUE QUALIFIERS",
@@ -917,734 +3217,7 @@
                 "odds": 1.34,
                 "team": "Partido"
             }
-        ]
-    },
-    {
-        "id": "CA_Lanus_vs_CA_Independiente",
-        "league": "Argentina Liga Profesional",
-        "badgeLeague": "SISTEMA PSE - ARGENTINA LIGA PROFESIONAL",
-        "teamHome": "CA Lanus",
-        "teamAway": "CA Independiente",
-        "p1": 35.18,
-        "pX": 34.98,
-        "p2": 29.84,
-        "poissonScore": "0 - 0",
-        "scoreDixonColes": "0 - 0",
-        "scorePoisson": "0 - 0",
-        "scoreSkellam": "1 - 1",
-        "metrics": {
-            "xgHome": 0.99,
-            "xgAway": 0.88,
-            "cornersHome": 5.1,
-            "cornersAway": 4.4,
-            "cardsHome": 3.27,
-            "cardsAway": 3.49,
-            "shotsHome": 12.8,
-            "shotsAway": 11.5,
-            "shotsTargetHome": 4.4,
-            "shotsTargetAway": 3.9
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "CA Lanus anota >0.5 goles",
-                "prob": 60.1,
-                "odds": 1.66,
-                "team": "CA Lanus"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 52.5,
-                "odds": 1.9,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 93.8,
-                "odds": 1.07,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "CA Independiente anota >0.5 goles",
-                "prob": 56.2,
-                "odds": 1.78,
-                "team": "CA Independiente"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 64.7,
-                "odds": 1.55,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 54.9,
-                "odds": 1.82,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 92.0,
-                "odds": 1.09,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 83.8,
-                "odds": 1.19,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Deportivo_de_La_Coruña_vs_Elche_CF",
-        "league": "España La Liga",
-        "badgeLeague": "SISTEMA PSE - ESPAÑA LA LIGA",
-        "teamHome": "Deportivo de La Coruña",
-        "teamAway": "Elche CF",
-        "p1": 41.87,
-        "pX": 33.96,
-        "p2": 24.17,
-        "poissonScore": "1 - 0",
-        "scoreDixonColes": "0 - 0",
-        "scorePoisson": "1 - 0",
-        "scoreSkellam": "1 - 1",
-        "metrics": {
-            "xgHome": 1.13,
-            "xgAway": 0.77,
-            "cornersHome": 5.35,
-            "cornersAway": 4.25,
-            "cardsHome": 2.36,
-            "cardsAway": 2.36,
-            "shotsHome": 12.5,
-            "shotsAway": 11.0,
-            "shotsTargetHome": 4.2,
-            "shotsTargetAway": 3.7
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Deportivo de La Coruña anota >0.5 goles",
-                "prob": 64.9,
-                "odds": 1.54,
-                "team": "Deportivo de La Coruña"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 53.6,
-                "odds": 1.87,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 93.4,
-                "odds": 1.07,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Elche CF anota >0.5 goles",
-                "prob": 51.9,
-                "odds": 1.93,
-                "team": "Elche CF"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 65.5,
-                "odds": 1.53,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 55.8,
-                "odds": 1.79,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 79.4,
-                "odds": 1.26,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 64.2,
-                "odds": 1.56,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "CF_Pachuca_vs_Club_Puebla",
-        "league": "Mexico Liga MX",
-        "badgeLeague": "SISTEMA PSE - MEXICO LIGA MX",
-        "teamHome": "CF Pachuca",
-        "teamAway": "Club Puebla",
-        "p1": 73.62,
-        "pX": 15.38,
-        "p2": 10.99,
-        "poissonScore": "2 - 0",
-        "scoreDixonColes": "2 - 0",
-        "scorePoisson": "2 - 0",
-        "scoreSkellam": "2 - 1",
-        "metrics": {
-            "xgHome": 2.73,
-            "xgAway": 0.81,
-            "cornersHome": 6.68,
-            "cornersAway": 4.05,
-            "cardsHome": 2.09,
-            "cardsAway": 2.49,
-            "shotsHome": 16.42,
-            "shotsAway": 10.5,
-            "shotsTargetHome": 6.21,
-            "shotsTargetAway": 3.6
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "CF Pachuca anota >0.5 goles",
-                "prob": 89.8,
-                "odds": 1.11,
-                "team": "CF Pachuca"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 80.7,
-                "odds": 1.24,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 70.4,
-                "odds": 1.42,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Club Puebla anota >0.5 goles",
-                "prob": 53.6,
-                "odds": 1.86,
-                "team": "Club Puebla"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 73.6,
-                "odds": 1.36,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 65.1,
-                "odds": 1.54,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 78.0,
-                "odds": 1.28,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 62.3,
-                "odds": 1.61,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Internacional_RS_vs_Remo_PA",
-        "league": "Brasileirao Serie A Betano",
-        "badgeLeague": "SISTEMA PSE - BRASILEIRAO SERIE A BETANO",
-        "teamHome": "Internacional RS",
-        "teamAway": "Remo PA",
-        "p1": 71.27,
-        "pX": 20.3,
-        "p2": 8.44,
-        "poissonScore": "2 - 0",
-        "scoreDixonColes": "2 - 0",
-        "scorePoisson": "2 - 0",
-        "scoreSkellam": "1 - 0",
-        "metrics": {
-            "xgHome": 2.24,
-            "xgAway": 0.56,
-            "cornersHome": 6.15,
-            "cornersAway": 4.15,
-            "cardsHome": 2.46,
-            "cardsAway": 2.84,
-            "shotsHome": 15.1,
-            "shotsAway": 10.4,
-            "shotsTargetHome": 5.6,
-            "shotsTargetAway": 3.4
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Internacional RS anota >0.5 goles",
-                "prob": 85.5,
-                "odds": 1.17,
-                "team": "Internacional RS"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 71.3,
-                "odds": 1.4,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 81.9,
-                "odds": 1.22,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Remo PA anota >0.5 goles",
-                "prob": 41.7,
-                "odds": 2.4,
-                "team": "Remo PA"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 70.7,
-                "odds": 1.41,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 61.7,
-                "odds": 1.62,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 84.3,
-                "odds": 1.19,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 71.3,
-                "odds": 1.4,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Velez_Sarsfield_vs_Defensa_y_Justicia",
-        "league": "Argentina Liga Profesional",
-        "badgeLeague": "SISTEMA PSE - ARGENTINA LIGA PROFESIONAL",
-        "teamHome": "Velez Sarsfield",
-        "teamAway": "Defensa y Justicia",
-        "p1": 64.69,
-        "pX": 23.02,
-        "p2": 12.3,
-        "poissonScore": "2 - 0",
-        "scoreDixonColes": "1 - 0",
-        "scorePoisson": "2 - 0",
-        "scoreSkellam": "1 - 0",
-        "metrics": {
-            "xgHome": 2.03,
-            "xgAway": 0.69,
-            "cornersHome": 5.65,
-            "cornersAway": 4.15,
-            "cardsHome": 2.5,
-            "cardsAway": 2.95,
-            "shotsHome": 15.2,
-            "shotsAway": 12.0,
-            "shotsTargetHome": 5.8,
-            "shotsTargetAway": 4.1
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Velez Sarsfield anota >0.5 goles",
-                "prob": 83.0,
-                "odds": 1.2,
-                "team": "Velez Sarsfield"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 70.1,
-                "odds": 1.43,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 83.0,
-                "odds": 1.2,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Defensa y Justicia anota >0.5 goles",
-                "prob": 48.3,
-                "odds": 2.07,
-                "team": "Defensa y Justicia"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 67.0,
-                "odds": 1.49,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 57.6,
-                "odds": 1.74,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 85.3,
-                "odds": 1.17,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 72.9,
-                "odds": 1.37,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Casa_Pia_AC_vs_SL_Benfica",
-        "league": "Portugal Primera Liga",
-        "badgeLeague": "SISTEMA PSE - PORTUGAL PRIMERA LIGA",
-        "teamHome": "Casa Pia AC",
-        "teamAway": "SL Benfica",
-        "p1": 6.82,
-        "pX": 18.14,
-        "p2": 75.04,
-        "poissonScore": "0 - 2",
-        "scoreDixonColes": "0 - 2",
-        "scorePoisson": "0 - 2",
-        "scoreSkellam": "1 - 2",
-        "metrics": {
-            "xgHome": 0.52,
-            "xgAway": 2.44,
-            "cornersHome": 3.95,
-            "cornersAway": 6.2,
-            "cardsHome": 2.6,
-            "cardsAway": 2.22,
-            "shotsHome": 11.2,
-            "shotsAway": 17.5,
-            "shotsTargetHome": 3.8,
-            "shotsTargetAway": 6.9
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Casa Pia AC anota >0.5 goles",
-                "prob": 39.6,
-                "odds": 2.52,
-                "team": "Casa Pia AC"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 73.7,
-                "odds": 1.36,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 79.5,
-                "odds": 1.26,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "SL Benfica anota >0.5 goles",
-                "prob": 87.5,
-                "odds": 1.14,
-                "team": "SL Benfica"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 69.6,
-                "odds": 1.44,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 60.5,
-                "odds": 1.65,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 80.3,
-                "odds": 1.25,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 65.5,
-                "odds": 1.53,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Cardiff_City_vs_Wrexham_FC",
-        "league": "Inglaterra Championship",
-        "badgeLeague": "SISTEMA PSE - INGLATERRA CHAMPIONSHIP",
-        "teamHome": "Cardiff City",
-        "teamAway": "Wrexham FC",
-        "p1": 40.53,
-        "pX": 28.85,
-        "p2": 30.62,
-        "metrics": {
-            "xgHome": 1.39,
-            "xgAway": 1.16,
-            "cornersHome": 5.45,
-            "cornersAway": 5.0,
-            "cardsHome": 1.91,
-            "cardsAway": 1.99,
-            "shotsHome": 12.8,
-            "shotsAway": 12.1,
-            "shotsTargetHome": 4.5,
-            "shotsTargetAway": 4.2
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Cardiff City anota >0.5 goles",
-                "prob": 71.7,
-                "odds": 1.39,
-                "team": "Cardiff City"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 67.2,
-                "odds": 1.49,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 85.5,
-                "odds": 1.17,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Wrexham FC anota >0.5 goles",
-                "prob": 65.7,
-                "odds": 1.52,
-                "team": "Wrexham FC"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 71.7,
-                "odds": 1.39,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 62.9,
-                "odds": 1.59,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 69.7,
-                "odds": 1.43,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 51.6,
-                "odds": 1.94,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "UD_Almeria_vs_CD_Eldense",
-        "league": "España La Liga",
-        "badgeLeague": "SISTEMA PSE - ESPAÑA LA LIGA",
-        "teamHome": "UD Almeria",
-        "teamAway": "CD Eldense",
-        "p1": 67.38,
-        "pX": 18.06,
-        "p2": 14.56,
-        "metrics": {
-            "xgHome": 2.39,
-            "xgAway": 0.89,
-            "cornersHome": 6.0,
-            "cornersAway": 4.0,
-            "cardsHome": 2.36,
-            "cardsAway": 2.74,
-            "shotsHome": 15.0,
-            "shotsAway": 10.2,
-            "shotsTargetHome": 5.4,
-            "shotsTargetAway": 3.5
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "UD Almeria anota >0.5 goles",
-                "prob": 87.0,
-                "odds": 1.15,
-                "team": "UD Almeria"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 77.8,
-                "odds": 1.29,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 74.5,
-                "odds": 1.34,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "CD Eldense anota >0.5 goles",
-                "prob": 56.6,
-                "odds": 1.77,
-                "team": "CD Eldense"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 68.5,
-                "odds": 1.46,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 59.3,
-                "odds": 1.69,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 82.7,
-                "odds": 1.21,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 69.0,
-                "odds": 1.45,
-                "team": "Partido"
-            }
+
         ]
     }
 ]
