@@ -1,5 +1,3869 @@
 [
     {
+        "id": "Getafe_vs_Partizán_de_Belgrado",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Getafe",
+        "teamAway": "Partizán de Belgrado",
+        "p1": 39.15,
+        "pX": 45.94,
+        "p2": 14.91,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.73,
+            "xgAway": 0.34,
+            "cornersHome": 5.2,
+            "cornersAway": 4.35,
+            "cardsHome": 2.51,
+            "cardsAway": 2.34,
+            "shotsHome": 12.5,
+            "shotsAway": 11.0,
+            "shotsTargetHome": 4.2,
+            "shotsTargetAway": 3.7
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Getafe anota >0.5 goles",
+                "prob": 50.0,
+                "odds": 2.0,
+                "team": "Getafe"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 28.7,
+                "odds": 3.48,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 99.0,
+                "odds": 1.01,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Partizán de Belgrado anota >0.5 goles",
+                "prob": 28.2,
+                "odds": 3.55,
+                "team": "Partizán de Belgrado"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 65.1,
+                "odds": 1.54,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 55.4,
+                "odds": 1.81,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 80.6,
+                "odds": 1.24,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 65.9,
+                "odds": 1.52,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "SC_Braga_vs_FK_Austria_Viena",
+        "league": "UEFA Europa League",
+        "badgeLeague": "SISTEMA PSE - UEFA EUROPA LEAGUE",
+        "teamHome": "SC Braga",
+        "teamAway": "FK Austria Viena",
+        "p1": 49.99,
+        "pX": 35.83,
+        "p2": 14.17,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.12,
+            "xgAway": 0.45,
+            "cornersHome": 5.75,
+            "cornersAway": 4.3,
+            "cardsHome": 1.76,
+            "cardsAway": 2.0,
+            "shotsHome": 15.0,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 5.5,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "SC Braga anota >0.5 goles",
+                "prob": 64.6,
+                "odds": 1.55,
+                "team": "SC Braga"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 44.5,
+                "odds": 2.25,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.4,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FK Austria Viena anota >0.5 goles",
+                "prob": 35.0,
+                "odds": 2.86,
+                "team": "FK Austria Viena"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.7,
+                "odds": 1.68,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.8,
+                "odds": 1.48,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 49.3,
+                "odds": 2.03,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "KS_Dinamo_Tirana_vs_Pafos_FC",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "KS Dinamo Tirana",
+        "teamAway": "Pafos FC",
+        "p1": 34.84,
+        "pX": 40.07,
+        "p2": 25.1,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.81,
+            "xgAway": 0.64,
+            "cornersHome": 5.35,
+            "cornersAway": 4.55,
+            "cardsHome": 1.84,
+            "cardsAway": 1.84,
+            "shotsHome": 13.5,
+            "shotsAway": 12.2,
+            "shotsTargetHome": 4.8,
+            "shotsTargetAway": 4.3
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "KS Dinamo Tirana anota >0.5 goles",
+                "prob": 53.6,
+                "odds": 1.86,
+                "team": "KS Dinamo Tirana"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 41.1,
+                "odds": 2.43,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.2,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Pafos FC anota >0.5 goles",
+                "prob": 45.7,
+                "odds": 2.19,
+                "team": "Pafos FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.8,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.4,
+                "odds": 1.71,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 66.5,
+                "odds": 1.5,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.8,
+                "odds": 2.09,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "HNK_Hajduk_Split_vs_RKS_Rakow_Czestochowa",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "HNK Hajduk Split",
+        "teamAway": "RKS Rakow Czestochowa",
+        "p1": 45.83,
+        "pX": 37.96,
+        "p2": 16.22,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.01,
+            "xgAway": 0.47,
+            "cornersHome": 5.85,
+            "cornersAway": 4.2,
+            "cardsHome": 1.76,
+            "cardsAway": 1.95,
+            "shotsHome": 15.4,
+            "shotsAway": 11.8,
+            "shotsTargetHome": 5.7,
+            "shotsTargetAway": 4.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "HNK Hajduk Split anota >0.5 goles",
+                "prob": 61.0,
+                "odds": 1.64,
+                "team": "HNK Hajduk Split"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 41.9,
+                "odds": 2.39,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.0,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "RKS Rakow Czestochowa anota >0.5 goles",
+                "prob": 36.4,
+                "odds": 2.75,
+                "team": "RKS Rakow Czestochowa"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.7,
+                "odds": 1.68,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.1,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.5,
+                "odds": 2.06,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Shamrock_Rovers_vs_KuPS",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Shamrock Rovers",
+        "teamAway": "KuPS",
+        "p1": 45.82,
+        "pX": 37.33,
+        "p2": 16.86,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.04,
+            "xgAway": 0.5,
+            "cornersHome": 5.8,
+            "cornersAway": 4.15,
+            "cardsHome": 1.76,
+            "cardsAway": 1.95,
+            "shotsHome": 14.8,
+            "shotsAway": 11.2,
+            "shotsTargetHome": 5.4,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Shamrock Rovers anota >0.5 goles",
+                "prob": 61.8,
+                "odds": 1.62,
+                "team": "Shamrock Rovers"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 43.4,
+                "odds": 2.3,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.6,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "KuPS anota >0.5 goles",
+                "prob": 38.0,
+                "odds": 2.63,
+                "team": "KuPS"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.9,
+                "odds": 1.7,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.1,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.5,
+                "odds": 2.06,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Glasgow_Rangers_vs_FK_Jablonec",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Glasgow Rangers",
+        "teamAway": "FK Jablonec",
+        "p1": 64.79,
+        "pX": 28.05,
+        "p2": 7.17,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.54,
+            "xgAway": 0.31,
+            "cornersHome": 6.65,
+            "cornersAway": 3.6,
+            "cardsHome": 1.72,
+            "cardsAway": 2.08,
+            "shotsHome": 17.2,
+            "shotsAway": 10.1,
+            "shotsTargetHome": 6.7,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Glasgow Rangers anota >0.5 goles",
+                "prob": 74.9,
+                "odds": 1.34,
+                "team": "Glasgow Rangers"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 52.1,
+                "odds": 1.92,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 94.0,
+                "odds": 1.06,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FK Jablonec anota >0.5 goles",
+                "prob": 26.3,
+                "odds": 3.8,
+                "team": "FK Jablonec"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.4,
+                "odds": 1.42,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.3,
+                "odds": 1.63,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 68.4,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 50.0,
+                "odds": 2.0,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Heart_Of_Midlothian_FC_vs_Rapid_Viena",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Heart Of Midlothian FC",
+        "teamAway": "Rapid Viena",
+        "p1": 35.21,
+        "pX": 39.83,
+        "p2": 24.97,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.83,
+            "xgAway": 0.64,
+            "cornersHome": 5.35,
+            "cornersAway": 4.75,
+            "cardsHome": 1.72,
+            "cardsAway": 1.84,
+            "shotsHome": 14.2,
+            "shotsAway": 14.0,
+            "shotsTargetHome": 5.1,
+            "shotsTargetAway": 4.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Heart Of Midlothian FC anota >0.5 goles",
+                "prob": 54.1,
+                "odds": 1.85,
+                "team": "Heart Of Midlothian FC"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 41.6,
+                "odds": 2.41,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.1,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Rapid Viena anota >0.5 goles",
+                "prob": 45.8,
+                "odds": 2.18,
+                "team": "Rapid Viena"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.3,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.1,
+                "odds": 1.66,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.7,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.7,
+                "odds": 2.19,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "FC_Lugano_vs_Maccabi_Tel_Aviv_FC",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "FC Lugano",
+        "teamAway": "Maccabi Tel Aviv FC",
+        "p1": 33.7,
+        "pX": 39.94,
+        "p2": 26.36,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.8,
+            "xgAway": 0.67,
+            "cornersHome": 5.3,
+            "cornersAway": 4.7,
+            "cardsHome": 1.72,
+            "cardsAway": 1.84,
+            "shotsHome": 14.1,
+            "shotsAway": 13.5,
+            "shotsTargetHome": 5.0,
+            "shotsTargetAway": 4.7
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "FC Lugano anota >0.5 goles",
+                "prob": 53.0,
+                "odds": 1.89,
+                "team": "FC Lugano"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 41.6,
+                "odds": 2.41,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.1,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Maccabi Tel Aviv FC anota >0.5 goles",
+                "prob": 47.1,
+                "odds": 2.12,
+                "team": "Maccabi Tel Aviv FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.5,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.3,
+                "odds": 1.69,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.7,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.7,
+                "odds": 2.19,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Atalanta_BC_vs_Hapoel_Tel_Aviv_FC",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Atalanta BC",
+        "teamAway": "Hapoel Tel Aviv FC",
+        "p1": 63.91,
+        "pX": 28.06,
+        "p2": 8.03,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.55,
+            "xgAway": 0.35,
+            "cornersHome": 6.4,
+            "cornersAway": 3.75,
+            "cardsHome": 1.8,
+            "cardsAway": 2.08,
+            "shotsHome": 17.5,
+            "shotsAway": 10.5,
+            "shotsTargetHome": 6.8,
+            "shotsTargetAway": 3.6
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Atalanta BC anota >0.5 goles",
+                "prob": 75.1,
+                "odds": 1.33,
+                "team": "Atalanta BC"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 53.3,
+                "odds": 1.87,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 93.5,
+                "odds": 1.07,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Hapoel Tel Aviv FC anota >0.5 goles",
+                "prob": 28.9,
+                "odds": 3.45,
+                "team": "Hapoel Tel Aviv FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.6,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.5,
+                "odds": 1.65,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 69.5,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 51.4,
+                "odds": 1.95,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Gent_vs_Hibernian_FC",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Gent",
+        "teamAway": "Hibernian FC",
+        "p1": 49.79,
+        "pX": 35.08,
+        "p2": 15.13,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.16,
+            "xgAway": 0.49,
+            "cornersHome": 5.85,
+            "cornersAway": 4.2,
+            "cardsHome": 1.68,
+            "cardsAway": 1.88,
+            "shotsHome": 15.0,
+            "shotsAway": 11.8,
+            "shotsTargetHome": 5.5,
+            "shotsTargetAway": 4.0
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Gent anota >0.5 goles",
+                "prob": 65.6,
+                "odds": 1.53,
+                "team": "Gent"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 46.6,
+                "odds": 2.14,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.8,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Hibernian FC anota >0.5 goles",
+                "prob": 37.5,
+                "odds": 2.67,
+                "team": "Hibernian FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.7,
+                "odds": 1.68,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.7,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.7,
+                "odds": 2.19,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Panathinaikos_vs_Hradec_Kralove",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Panathinaikos",
+        "teamAway": "Hradec Kralove",
+        "p1": 50.2,
+        "pX": 36.99,
+        "p2": 12.81,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.08,
+            "xgAway": 0.39,
+            "cornersHome": 5.95,
+            "cornersAway": 4.0,
+            "cardsHome": 1.8,
+            "cardsAway": 2.04,
+            "shotsHome": 15.2,
+            "shotsAway": 11.0,
+            "shotsTargetHome": 5.6,
+            "shotsTargetAway": 3.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Panathinaikos anota >0.5 goles",
+                "prob": 63.2,
+                "odds": 1.58,
+                "team": "Panathinaikos"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 41.5,
+                "odds": 2.41,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.1,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Hradec Kralove anota >0.5 goles",
+                "prob": 31.4,
+                "odds": 3.18,
+                "team": "Hradec Kralove"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.9,
+                "odds": 1.7,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 50.7,
+                "odds": 1.97,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Motherwell_FC_vs_Friburgo",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Motherwell FC",
+        "teamAway": "Friburgo",
+        "p1": 21.77,
+        "pX": 40.01,
+        "p2": 38.22,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.57,
+            "xgAway": 0.86,
+            "cornersHome": 4.85,
+            "cornersAway": 5.2,
+            "cardsHome": 1.84,
+            "cardsAway": 1.68,
+            "shotsHome": 13.0,
+            "shotsAway": 15.2,
+            "shotsTargetHome": 4.5,
+            "shotsTargetAway": 5.4
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Motherwell FC anota >0.5 goles",
+                "prob": 42.1,
+                "odds": 2.38,
+                "team": "Motherwell FC"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 40.5,
+                "odds": 2.47,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.3,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Friburgo anota >0.5 goles",
+                "prob": 55.6,
+                "odds": 1.8,
+                "team": "Friburgo"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.7,
+                "odds": 1.68,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.0,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.0,
+                "odds": 2.22,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "FC_Sion_vs_Ajax",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "FC Sion",
+        "teamAway": "Ajax",
+        "p1": 25.09,
+        "pX": 37.63,
+        "p2": 37.28,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.7,
+            "xgAway": 0.92,
+            "cornersHome": 4.9,
+            "cornersAway": 5.35,
+            "cardsHome": 1.92,
+            "cardsAway": 1.72,
+            "shotsHome": 13.8,
+            "shotsAway": 16.2,
+            "shotsTargetHome": 4.9,
+            "shotsTargetAway": 6.0
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "FC Sion anota >0.5 goles",
+                "prob": 48.4,
+                "odds": 2.07,
+                "team": "FC Sion"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 46.0,
+                "odds": 2.17,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.0,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Ajax anota >0.5 goles",
+                "prob": 57.9,
+                "odds": 1.73,
+                "team": "Ajax"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.4,
+                "odds": 1.42,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.3,
+                "odds": 1.63,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 65.9,
+                "odds": 1.52,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.1,
+                "odds": 2.12,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Twente_vs_Qarabag_FK",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Twente",
+        "teamAway": "Qarabag FK",
+        "p1": 46.58,
+        "pX": 35.46,
+        "p2": 17.96,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.12,
+            "xgAway": 0.56,
+            "cornersHome": 5.8,
+            "cornersAway": 4.5,
+            "cardsHome": 1.68,
+            "cardsAway": 1.88,
+            "shotsHome": 15.5,
+            "shotsAway": 13.0,
+            "shotsTargetHome": 5.8,
+            "shotsTargetAway": 4.6
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Twente anota >0.5 goles",
+                "prob": 64.4,
+                "odds": 1.55,
+                "team": "Twente"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 47.7,
+                "odds": 2.1,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.5,
+                "odds": 1.05,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Qarabag FK anota >0.5 goles",
+                "prob": 41.7,
+                "odds": 2.4,
+                "team": "Qarabag FK"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.7,
+                "odds": 1.62,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.7,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.7,
+                "odds": 2.19,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Gornik_Zabrze_vs_Mónaco",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Gornik Zabrze",
+        "teamAway": "Mónaco",
+        "p1": 25.61,
+        "pX": 39.49,
+        "p2": 34.89,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.66,
+            "xgAway": 0.83,
+            "cornersHome": 5.15,
+            "cornersAway": 5.15,
+            "cardsHome": 1.88,
+            "cardsAway": 1.8,
+            "shotsHome": 14.0,
+            "shotsAway": 16.5,
+            "shotsTargetHome": 4.8,
+            "shotsTargetAway": 5.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Gornik Zabrze anota >0.5 goles",
+                "prob": 46.8,
+                "odds": 2.14,
+                "team": "Gornik Zabrze"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 42.3,
+                "odds": 2.36,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.9,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Mónaco anota >0.5 goles",
+                "prob": 54.3,
+                "odds": 1.84,
+                "team": "Mónaco"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.7,
+                "odds": 1.62,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 66.5,
+                "odds": 1.5,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.8,
+                "odds": 2.09,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "KF_Drita_vs_Inter_Escaldes",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "KF Drita",
+        "teamAway": "Inter Escaldes",
+        "p1": 52.86,
+        "pX": 35.24,
+        "p2": 11.9,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.16,
+            "xgAway": 0.39,
+            "cornersHome": 5.9,
+            "cornersAway": 4.05,
+            "cardsHome": 1.76,
+            "cardsAway": 1.99,
+            "shotsHome": 14.5,
+            "shotsAway": 10.2,
+            "shotsTargetHome": 5.2,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "KF Drita anota >0.5 goles",
+                "prob": 65.7,
+                "odds": 1.52,
+                "team": "KF Drita"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 43.9,
+                "odds": 2.28,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.5,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Inter Escaldes anota >0.5 goles",
+                "prob": 31.2,
+                "odds": 3.2,
+                "team": "Inter Escaldes"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.9,
+                "odds": 1.7,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.7,
+                "odds": 1.48,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 49.2,
+                "odds": 2.03,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Vikingur_Reykjavik_vs_FK_Borac_Banja_Luka",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Vikingur Reykjavik",
+        "teamAway": "FK Borac Banja Luka",
+        "p1": 42.55,
+        "pX": 38.95,
+        "p2": 18.5,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.95,
+            "xgAway": 0.51,
+            "cornersHome": 5.65,
+            "cornersAway": 4.3,
+            "cardsHome": 1.76,
+            "cardsAway": 1.95,
+            "shotsHome": 14.2,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 5.2,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Vikingur Reykjavik anota >0.5 goles",
+                "prob": 58.8,
+                "odds": 1.7,
+                "team": "Vikingur Reykjavik"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 41.3,
+                "odds": 2.42,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.1,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FK Borac Banja Luka anota >0.5 goles",
+                "prob": 38.9,
+                "odds": 2.57,
+                "team": "FK Borac Banja Luka"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.9,
+                "odds": 1.7,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.1,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.5,
+                "odds": 2.06,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "PAOK_Tesalónica_vs_SK_Brann",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "PAOK Tesalónica",
+        "teamAway": "SK Brann",
+        "p1": 56.28,
+        "pX": 32.57,
+        "p2": 11.16,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.3,
+            "xgAway": 0.4,
+            "cornersHome": 6.2,
+            "cornersAway": 4.1,
+            "cardsHome": 1.92,
+            "cardsAway": 2.09,
+            "shotsHome": 16.8,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 6.4,
+            "shotsTargetAway": 4.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "PAOK Tesalónica anota >0.5 goles",
+                "prob": 69.4,
+                "odds": 1.44,
+                "team": "PAOK Tesalónica"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 48.2,
+                "odds": 2.08,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.3,
+                "odds": 1.05,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "SK Brann anota >0.5 goles",
+                "prob": 32.2,
+                "odds": 3.1,
+                "team": "SK Brann"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.7,
+                "odds": 1.62,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 71.3,
+                "odds": 1.4,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 53.6,
+                "odds": 1.87,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "KI_Klaksvik_vs_Riga_FC",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "KI Klaksvik",
+        "teamAway": "Riga FC",
+        "p1": 36.83,
+        "pX": 40.92,
+        "p2": 22.26,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.82,
+            "xgAway": 0.56,
+            "cornersHome": 5.4,
+            "cornersAway": 4.45,
+            "cardsHome": 1.72,
+            "cardsAway": 1.88,
+            "shotsHome": 13.8,
+            "shotsAway": 12.0,
+            "shotsTargetHome": 5.0,
+            "shotsTargetAway": 4.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "KI Klaksvik anota >0.5 goles",
+                "prob": 53.9,
+                "odds": 1.86,
+                "team": "KI Klaksvik"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 39.0,
+                "odds": 2.57,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.6,
+                "odds": 1.02,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Riga FC anota >0.5 goles",
+                "prob": 41.8,
+                "odds": 2.39,
+                "team": "Riga FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.4,
+                "odds": 1.48,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.0,
+                "odds": 1.72,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 65.3,
+                "odds": 1.53,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 46.4,
+                "odds": 2.15,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Nordsjaelland_vs_St._Gallen",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Nordsjaelland",
+        "teamAway": "St. Gallen",
+        "p1": 51.16,
+        "pX": 32.42,
+        "p2": 16.43,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.3,
+            "xgAway": 0.58,
+            "cornersHome": 6.15,
+            "cornersAway": 4.35,
+            "cardsHome": 1.68,
+            "cardsAway": 1.95,
+            "shotsHome": 16.8,
+            "shotsAway": 12.5,
+            "shotsTargetHome": 6.4,
+            "shotsTargetAway": 4.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Nordsjaelland anota >0.5 goles",
+                "prob": 69.4,
+                "odds": 1.44,
+                "team": "Nordsjaelland"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 52.9,
+                "odds": 1.89,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 93.6,
+                "odds": 1.07,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "St. Gallen anota >0.5 goles",
+                "prob": 42.9,
+                "odds": 2.33,
+                "team": "St. Gallen"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 72.1,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 63.3,
+                "odds": 1.58,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 65.9,
+                "odds": 1.52,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.1,
+                "odds": 2.12,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "FC_Midtjylland_vs_HNK_Rijeka",
+        "league": "UEFA Europa League",
+        "badgeLeague": "SISTEMA PSE - UEFA EUROPA LEAGUE",
+        "teamHome": "FC Midtjylland",
+        "teamAway": "HNK Rijeka",
+        "p1": 49.65,
+        "pX": 36.43,
+        "p2": 13.92,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.1,
+            "xgAway": 0.43,
+            "cornersHome": 5.95,
+            "cornersAway": 4.2,
+            "cardsHome": 1.76,
+            "cardsAway": 1.95,
+            "shotsHome": 15.5,
+            "shotsAway": 11.2,
+            "shotsTargetHome": 5.8,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "FC Midtjylland anota >0.5 goles",
+                "prob": 63.8,
+                "odds": 1.57,
+                "team": "FC Midtjylland"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 43.3,
+                "odds": 2.31,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.7,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "HNK Rijeka anota >0.5 goles",
+                "prob": 34.0,
+                "odds": 2.94,
+                "team": "HNK Rijeka"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.6,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.5,
+                "odds": 1.65,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.1,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.5,
+                "odds": 2.06,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Tromsø_vs_Brighton",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Tromsø",
+        "teamAway": "Brighton",
+        "p1": 28.84,
+        "pX": 38.13,
+        "p2": 33.03,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.76,
+            "xgAway": 0.84,
+            "cornersHome": 4.8,
+            "cornersAway": 5.4,
+            "cardsHome": 1.64,
+            "cardsAway": 1.79,
+            "shotsHome": 14.2,
+            "shotsAway": 16.0,
+            "shotsTargetHome": 5.1,
+            "shotsTargetAway": 6.0
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Tromsø anota >0.5 goles",
+                "prob": 51.4,
+                "odds": 1.94,
+                "team": "Tromsø"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 45.5,
+                "odds": 2.2,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.1,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Brighton anota >0.5 goles",
+                "prob": 54.7,
+                "odds": 1.83,
+                "team": "Brighton"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.0,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 62.7,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 43.5,
+                "odds": 2.3,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Inter_Turku_vs_FC_Copenhague",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Inter Turku",
+        "teamAway": "FC Copenhague",
+        "p1": 20.24,
+        "pX": 40.01,
+        "p2": 39.75,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.53,
+            "xgAway": 0.88,
+            "cornersHome": 4.6,
+            "cornersAway": 5.35,
+            "cardsHome": 1.72,
+            "cardsAway": 1.8,
+            "shotsHome": 13.8,
+            "shotsAway": 16.5,
+            "shotsTargetHome": 5.0,
+            "shotsTargetAway": 6.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Inter Turku anota >0.5 goles",
+                "prob": 40.2,
+                "odds": 2.49,
+                "team": "Inter Turku"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 40.0,
+                "odds": 2.5,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.4,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FC Copenhague anota >0.5 goles",
+                "prob": 56.4,
+                "odds": 1.77,
+                "team": "FC Copenhague"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.9,
+                "odds": 1.7,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.0,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.0,
+                "odds": 2.22,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Lincoln_Red_Imps_vs_Larne_FC",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Lincoln Red Imps",
+        "teamAway": "Larne FC",
+        "p1": 43.12,
+        "pX": 39.37,
+        "p2": 17.5,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.94,
+            "xgAway": 0.48,
+            "cornersHome": 5.5,
+            "cornersAway": 4.3,
+            "cardsHome": 1.76,
+            "cardsAway": 1.92,
+            "shotsHome": 13.5,
+            "shotsAway": 11.0,
+            "shotsTargetHome": 4.8,
+            "shotsTargetAway": 3.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Lincoln Red Imps anota >0.5 goles",
+                "prob": 58.5,
+                "odds": 1.71,
+                "team": "Lincoln Red Imps"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 40.0,
+                "odds": 2.5,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.4,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Larne FC anota >0.5 goles",
+                "prob": 37.0,
+                "odds": 2.7,
+                "team": "Larne FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.0,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 57.6,
+                "odds": 1.74,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 66.5,
+                "odds": 1.5,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.8,
+                "odds": 2.09,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Rayo_Vallecano_vs_Deportivo_Alavés",
+        "league": "La Liga",
+        "badgeLeague": "SISTEMA PSE - LA LIGA",
+        "teamHome": "Rayo Vallecano",
+        "teamAway": "Deportivo Alavés",
+        "p1": 40.84,
+        "pX": 41.92,
+        "p2": 17.25,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.84,
+            "xgAway": 0.44,
+            "cornersHome": 5.7,
+            "cornersAway": 4.5,
+            "cardsHome": 2.31,
+            "cardsAway": 2.36,
+            "shotsHome": 14.0,
+            "shotsAway": 10.5,
+            "shotsTargetHome": 4.8,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Rayo Vallecano anota >0.5 goles",
+                "prob": 54.7,
+                "odds": 1.83,
+                "team": "Rayo Vallecano"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 35.6,
+                "odds": 2.81,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 98.2,
+                "odds": 1.02,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Deportivo Alavés anota >0.5 goles",
+                "prob": 34.4,
+                "odds": 2.9,
+                "team": "Deportivo Alavés"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.0,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 78.9,
+                "odds": 1.27,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 63.5,
+                "odds": 1.58,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Benfica_vs_AGF_Aarhus",
+        "league": "UEFA Champions League",
+        "badgeLeague": "SISTEMA PSE - UEFA CHAMPIONS LEAGUE",
+        "teamHome": "Benfica",
+        "teamAway": "AGF Aarhus",
+        "p1": 67.27,
+        "pX": 27.11,
+        "p2": 5.62,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.57,
+            "xgAway": 0.26,
+            "cornersHome": 6.65,
+            "cornersAway": 3.55,
+            "cardsHome": 1.64,
+            "cardsAway": 2.02,
+            "shotsHome": 18.2,
+            "shotsAway": 10.2,
+            "shotsTargetHome": 7.1,
+            "shotsTargetAway": 3.6
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Benfica anota >0.5 goles",
+                "prob": 75.6,
+                "odds": 1.32,
+                "team": "Benfica"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 51.5,
+                "odds": 1.94,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 94.2,
+                "odds": 1.06,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "AGF Aarhus anota >0.5 goles",
+                "prob": 22.2,
+                "odds": 4.51,
+                "team": "AGF Aarhus"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.0,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 66.4,
+                "odds": 1.51,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 47.7,
+                "odds": 2.1,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "OFI_Creta_vs_CSKA_Sofia",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "OFI Creta",
+        "teamAway": "CSKA Sofia",
+        "p1": 37.53,
+        "pX": 41.15,
+        "p2": 21.32,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.82,
+            "xgAway": 0.54,
+            "cornersHome": 5.5,
+            "cornersAway": 4.4,
+            "cardsHome": 1.76,
+            "cardsAway": 1.95,
+            "shotsHome": 14.5,
+            "shotsAway": 12.0,
+            "shotsTargetHome": 5.1,
+            "shotsTargetAway": 4.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "OFI Creta anota >0.5 goles",
+                "prob": 54.0,
+                "odds": 1.85,
+                "team": "OFI Creta"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 38.3,
+                "odds": 2.61,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.7,
+                "odds": 1.02,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "CSKA Sofia anota >0.5 goles",
+                "prob": 40.4,
+                "odds": 2.47,
+                "team": "CSKA Sofia"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.8,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.4,
+                "odds": 1.71,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.1,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.5,
+                "odds": 2.06,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Estrella_Roja_Belgrado_vs_Viktoria_Pilsen",
+        "league": "UEFA Champions League",
+        "badgeLeague": "SISTEMA PSE - UEFA CHAMPIONS LEAGUE",
+        "teamHome": "Estrella Roja Belgrado",
+        "teamAway": "Viktoria Pilsen",
+        "p1": 56.06,
+        "pX": 32.67,
+        "p2": 11.28,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.29,
+            "xgAway": 0.4,
+            "cornersHome": 6.3,
+            "cornersAway": 4.0,
+            "cardsHome": 1.92,
+            "cardsAway": 2.07,
+            "shotsHome": 17.0,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 6.5,
+            "shotsTargetAway": 4.0
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Estrella Roja Belgrado anota >0.5 goles",
+                "prob": 69.3,
+                "odds": 1.44,
+                "team": "Estrella Roja Belgrado"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 48.1,
+                "odds": 2.08,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.4,
+                "odds": 1.05,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Viktoria Pilsen anota >0.5 goles",
+                "prob": 32.4,
+                "odds": 3.09,
+                "team": "Viktoria Pilsen"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.7,
+                "odds": 1.62,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 71.0,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 53.2,
+                "odds": 1.88,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "St._Truidense_vs_AC_Omonia_Nicosia",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "St. Truidense",
+        "teamAway": "AC Omonia Nicosia",
+        "p1": 36.1,
+        "pX": 40.24,
+        "p2": 23.66,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.83,
+            "xgAway": 0.61,
+            "cornersHome": 5.45,
+            "cornersAway": 4.65,
+            "cardsHome": 1.76,
+            "cardsAway": 1.95,
+            "shotsHome": 14.5,
+            "shotsAway": 12.0,
+            "shotsTargetHome": 5.2,
+            "shotsTargetAway": 4.3
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "St. Truidense anota >0.5 goles",
+                "prob": 54.2,
+                "odds": 1.84,
+                "team": "St. Truidense"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 40.5,
+                "odds": 2.47,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.3,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "AC Omonia Nicosia anota >0.5 goles",
+                "prob": 44.0,
+                "odds": 2.27,
+                "team": "AC Omonia Nicosia"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.3,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.1,
+                "odds": 1.66,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.1,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.5,
+                "odds": 2.06,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Besiktas_vs_FK_Zalgiris_Kaunas",
+        "league": "UEFA Europa League",
+        "badgeLeague": "SISTEMA PSE - UEFA EUROPA LEAGUE",
+        "teamHome": "Besiktas",
+        "teamAway": "FK Zalgiris Kaunas",
+        "p1": 60.83,
+        "pX": 30.19,
+        "p2": 8.98,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.42,
+            "xgAway": 0.36,
+            "cornersHome": 6.5,
+            "cornersAway": 3.75,
+            "cardsHome": 2.05,
+            "cardsAway": 2.36,
+            "shotsHome": 16.5,
+            "shotsAway": 9.8,
+            "shotsTargetHome": 6.2,
+            "shotsTargetAway": 3.4
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Besiktas anota >0.5 goles",
+                "prob": 72.5,
+                "odds": 1.38,
+                "team": "Besiktas"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 50.3,
+                "odds": 1.99,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 94.6,
+                "odds": 1.06,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FK Zalgiris Kaunas anota >0.5 goles",
+                "prob": 29.3,
+                "odds": 3.41,
+                "team": "FK Zalgiris Kaunas"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.4,
+                "odds": 1.42,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.3,
+                "odds": 1.63,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 76.1,
+                "odds": 1.31,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 59.8,
+                "odds": 1.67,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Lech_Poznan_vs_FC_Thun",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Lech Poznan",
+        "teamAway": "FC Thun",
+        "p1": 53.11,
+        "pX": 34.92,
+        "p2": 11.97,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.18,
+            "xgAway": 0.39,
+            "cornersHome": 6.0,
+            "cornersAway": 4.2,
+            "cardsHome": 1.64,
+            "cardsAway": 1.87,
+            "shotsHome": 16.5,
+            "shotsAway": 11.8,
+            "shotsTargetHome": 6.3,
+            "shotsTargetAway": 4.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Lech Poznan anota >0.5 goles",
+                "prob": 66.2,
+                "odds": 1.51,
+                "team": "Lech Poznan"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 44.5,
+                "odds": 2.25,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.4,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FC Thun anota >0.5 goles",
+                "prob": 31.7,
+                "odds": 3.16,
+                "team": "FC Thun"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.0,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.0,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 44.9,
+                "odds": 2.23,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Egnatia_vs_Lillestrøm",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Egnatia",
+        "teamAway": "Lillestrøm",
+        "p1": 40.12,
+        "pX": 38.9,
+        "p2": 20.98,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.92,
+            "xgAway": 0.57,
+            "cornersHome": 5.7,
+            "cornersAway": 4.6,
+            "cardsHome": 2.0,
+            "cardsAway": 1.84,
+            "shotsHome": 14.1,
+            "shotsAway": 12.5,
+            "shotsTargetHome": 5.2,
+            "shotsTargetAway": 4.3
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Egnatia anota >0.5 goles",
+                "prob": 57.8,
+                "odds": 1.73,
+                "team": "Egnatia"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 42.3,
+                "odds": 2.36,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.9,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Lillestrøm anota >0.5 goles",
+                "prob": 42.2,
+                "odds": 2.37,
+                "team": "Lillestrøm"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.7,
+                "odds": 1.62,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 69.0,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 50.8,
+                "odds": 1.97,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "CS_Universitatea_Craiova_1948_vs_Ararat_Armenia",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "CS Universitatea Craiova 1948",
+        "teamAway": "Ararat Armenia",
+        "p1": 50.5,
+        "pX": 36.53,
+        "p2": 12.97,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.1,
+            "xgAway": 0.4,
+            "cornersHome": 6.15,
+            "cornersAway": 3.95,
+            "cardsHome": 1.8,
+            "cardsAway": 2.12,
+            "shotsHome": 15.8,
+            "shotsAway": 10.5,
+            "shotsTargetHome": 5.9,
+            "shotsTargetAway": 3.7
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "CS Universitatea Craiova 1948 anota >0.5 goles",
+                "prob": 63.8,
+                "odds": 1.57,
+                "team": "CS Universitatea Craiova 1948"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 42.4,
+                "odds": 2.36,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.9,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Ararat Armenia anota >0.5 goles",
+                "prob": 32.1,
+                "odds": 3.11,
+                "team": "Ararat Armenia"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.3,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.1,
+                "odds": 1.66,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 70.1,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 52.1,
+                "odds": 1.92,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Trabzonspor_vs_Ferencvarosi_TC",
+        "league": "UEFA Europa League",
+        "badgeLeague": "SISTEMA PSE - UEFA EUROPA LEAGUE",
+        "teamHome": "Trabzonspor",
+        "teamAway": "Ferencvarosi TC",
+        "p1": 46.44,
+        "pX": 36.81,
+        "p2": 16.76,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.06,
+            "xgAway": 0.5,
+            "cornersHome": 6.1,
+            "cornersAway": 4.3,
+            "cardsHome": 2.18,
+            "cardsAway": 2.36,
+            "shotsHome": 16.2,
+            "shotsAway": 12.1,
+            "shotsTargetHome": 6.1,
+            "shotsTargetAway": 4.4
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Trabzonspor anota >0.5 goles",
+                "prob": 62.6,
+                "odds": 1.6,
+                "team": "Trabzonspor"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 44.4,
+                "odds": 2.25,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.4,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Ferencvarosi TC anota >0.5 goles",
+                "prob": 38.4,
+                "odds": 2.6,
+                "team": "Ferencvarosi TC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.4,
+                "odds": 1.4,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.5,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 77.6,
+                "odds": 1.29,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 61.7,
+                "odds": 1.62,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Mjallby_Aif_vs_Salzburgo",
+        "league": "UEFA Champions League",
+        "badgeLeague": "SISTEMA PSE - UEFA CHAMPIONS LEAGUE",
+        "teamHome": "Mjallby Aif",
+        "teamAway": "Salzburgo",
+        "p1": 28.42,
+        "pX": 41.92,
+        "p2": 29.66,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.66,
+            "xgAway": 0.69,
+            "cornersHome": 4.9,
+            "cornersAway": 5.35,
+            "cardsHome": 1.84,
+            "cardsAway": 1.68,
+            "shotsHome": 13.5,
+            "shotsAway": 15.2,
+            "shotsTargetHome": 4.9,
+            "shotsTargetAway": 5.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Mjallby Aif anota >0.5 goles",
+                "prob": 46.9,
+                "odds": 2.13,
+                "team": "Mjallby Aif"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 37.9,
+                "odds": 2.64,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.8,
+                "odds": 1.02,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Salzburgo anota >0.5 goles",
+                "prob": 48.0,
+                "odds": 2.09,
+                "team": "Salzburgo"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.4,
+                "odds": 1.42,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 61.3,
+                "odds": 1.63,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.0,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.0,
+                "odds": 2.22,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Jagiellonia_Bialystok_vs_FC_Iberia_1999",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Jagiellonia Bialystok",
+        "teamAway": "FC Iberia 1999",
+        "p1": 65.48,
+        "pX": 26.46,
+        "p2": 8.06,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.66,
+            "xgAway": 0.38,
+            "cornersHome": 6.6,
+            "cornersAway": 3.85,
+            "cardsHome": 1.53,
+            "cardsAway": 1.9,
+            "shotsHome": 16.8,
+            "shotsAway": 10.1,
+            "shotsTargetHome": 6.6,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Jagiellonia Bialystok anota >0.5 goles",
+                "prob": 77.2,
+                "odds": 1.29,
+                "team": "Jagiellonia Bialystok"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 56.7,
+                "odds": 1.76,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 92.0,
+                "odds": 1.09,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FC Iberia 1999 anota >0.5 goles",
+                "prob": 30.9,
+                "odds": 3.24,
+                "team": "FC Iberia 1999"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.7,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.9,
+                "odds": 1.59,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 62.6,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 43.4,
+                "odds": 2.31,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Kairat_Almaty_vs_Anderlecht",
+        "league": "UEFA Conference League",
+        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE LEAGUE",
+        "teamHome": "Kairat Almaty",
+        "teamAway": "Anderlecht",
+        "p1": 36.82,
+        "pX": 39.51,
+        "p2": 23.66,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.86,
+            "xgAway": 0.62,
+            "cornersHome": 5.55,
+            "cornersAway": 4.8,
+            "cardsHome": 1.64,
+            "cardsAway": 1.79,
+            "shotsHome": 14.5,
+            "shotsAway": 13.2,
+            "shotsTargetHome": 5.4,
+            "shotsTargetAway": 4.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Kairat Almaty anota >0.5 goles",
+                "prob": 55.4,
+                "odds": 1.8,
+                "team": "Kairat Almaty"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 41.9,
+                "odds": 2.39,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.0,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Anderlecht anota >0.5 goles",
+                "prob": 44.8,
+                "odds": 2.23,
+                "team": "Anderlecht"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.1,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.1,
+                "odds": 1.61,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 62.7,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 43.5,
+                "odds": 2.3,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Botafogo_vs_Cienciano",
+        "league": "Copa Libertadores",
+        "badgeLeague": "SISTEMA PSE - COPA LIBERTADORES",
+        "teamHome": "Botafogo",
+        "teamAway": "Cienciano",
+        "p1": 68.07,
+        "pX": 26.8,
+        "p2": 5.13,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.58,
+            "xgAway": 0.24,
+            "cornersHome": 6.55,
+            "cornersAway": 3.6,
+            "cardsHome": 2.5,
+            "cardsAway": 3.0,
+            "shotsHome": 17.8,
+            "shotsAway": 9.5,
+            "shotsTargetHome": 7.1,
+            "shotsTargetAway": 3.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Botafogo anota >0.5 goles",
+                "prob": 75.7,
+                "odds": 1.32,
+                "team": "Botafogo"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 51.2,
+                "odds": 1.95,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 94.3,
+                "odds": 1.06,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Cienciano anota >0.5 goles",
+                "prob": 20.7,
+                "odds": 4.83,
+                "team": "Cienciano"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.6,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.5,
+                "odds": 1.65,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 85.7,
+                "odds": 1.17,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 73.4,
+                "odds": 1.36,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Club_Olimpia_vs_Vasco_Da_Gama",
+        "league": "Copa Libertadores",
+        "badgeLeague": "SISTEMA PSE - COPA LIBERTADORES",
+        "teamHome": "Club Olimpia",
+        "teamAway": "Vasco Da Gama",
+        "p1": 48.76,
+        "pX": 40.48,
+        "p2": 10.75,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.95,
+            "xgAway": 0.29,
+            "cornersHome": 6.0,
+            "cornersAway": 4.0,
+            "cardsHome": 2.8,
+            "cardsAway": 3.0,
+            "shotsHome": 15.5,
+            "shotsAway": 10.8,
+            "shotsTargetHome": 5.8,
+            "shotsTargetAway": 3.6
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Club Olimpia anota >0.5 goles",
+                "prob": 58.8,
+                "odds": 1.7,
+                "team": "Club Olimpia"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 34.4,
+                "odds": 2.91,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 98.4,
+                "odds": 1.02,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Vasco Da Gama anota >0.5 goles",
+                "prob": 24.9,
+                "odds": 4.02,
+                "team": "Vasco Da Gama"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.5,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.3,
+                "odds": 1.69,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 87.6,
+                "odds": 1.14,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 76.3,
+                "odds": 1.31,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Macará_vs_Santos",
+        "league": "Copa Sudamericana",
+        "badgeLeague": "SISTEMA PSE - COPA SUDAMERICANA",
+        "teamHome": "Macará",
+        "teamAway": "Santos",
+        "p1": 35.83,
+        "pX": 43.14,
+        "p2": 21.03,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.75,
+            "xgAway": 0.5,
+            "cornersHome": 5.77,
+            "cornersAway": 4.35,
+            "cardsHome": 2.55,
+            "cardsAway": 2.55,
+            "shotsHome": 14.62,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 5.3,
+            "shotsTargetAway": 4.0
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Macará anota >0.5 goles",
+                "prob": 50.9,
+                "odds": 1.96,
+                "team": "Macará"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 34.8,
+                "odds": 2.87,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 98.3,
+                "odds": 1.02,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Santos anota >0.5 goles",
+                "prob": 38.3,
+                "odds": 2.61,
+                "team": "Santos"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.5,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.3,
+                "odds": 1.66,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 82.8,
+                "odds": 1.21,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 69.0,
+                "odds": 1.45,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Corinthians_vs_CA_Rosario_Central",
+        "league": "Copa Sudamericana",
+        "badgeLeague": "SISTEMA PSE - COPA SUDAMERICANA",
+        "teamHome": "Corinthians",
+        "teamAway": "CA Rosario Central",
+        "p1": 47.8,
+        "pX": 40.6,
+        "p2": 11.6,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.94,
+            "xgAway": 0.31,
+            "cornersHome": 6.0,
+            "cornersAway": 3.95,
+            "cardsHome": 2.55,
+            "cardsAway": 2.9,
+            "shotsHome": 16.1,
+            "shotsAway": 10.5,
+            "shotsTargetHome": 6.2,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Corinthians anota >0.5 goles",
+                "prob": 58.4,
+                "odds": 1.71,
+                "team": "Corinthians"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 34.8,
+                "odds": 2.88,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 98.3,
+                "odds": 1.02,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "CA Rosario Central anota >0.5 goles",
+                "prob": 26.4,
+                "odds": 3.79,
+                "team": "CA Rosario Central"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.9,
+                "odds": 1.7,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 85.3,
+                "odds": 1.17,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 72.9,
+                "odds": 1.37,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "LDU_Quito_vs_Mirassol_FC_SP",
+        "league": "Copa Sudamericana",
+        "badgeLeague": "SISTEMA PSE - COPA SUDAMERICANA",
+        "teamHome": "LDU Quito",
+        "teamAway": "Mirassol FC SP",
+        "p1": 62.06,
+        "pX": 27.94,
+        "p2": 10.0,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.58,
+            "xgAway": 0.44,
+            "cornersHome": 6.88,
+            "cornersAway": 3.8,
+            "cardsHome": 2.17,
+            "cardsAway": 2.6,
+            "shotsHome": 18.11,
+            "shotsAway": 11.2,
+            "shotsTargetHome": 7.22,
+            "shotsTargetAway": 3.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "LDU Quito anota >0.5 goles",
+                "prob": 75.7,
+                "odds": 1.32,
+                "team": "LDU Quito"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 56.2,
+                "odds": 1.78,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 92.2,
+                "odds": 1.08,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Mirassol FC SP anota >0.5 goles",
+                "prob": 34.6,
+                "odds": 2.89,
+                "team": "Mirassol FC SP"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 73.3,
+                "odds": 1.37,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 64.7,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 79.9,
+                "odds": 1.25,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 64.9,
+                "odds": 1.54,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
         "id": "Atlético_Madrid_vs_Málaga",
         "league": "La Liga",
         "badgeLeague": "SISTEMA PSE - LA LIGA",
@@ -2295,834 +6159,6 @@
                 "label": "Tarjetas Totales MÁS de 3.5",
                 "prob": 72.9,
                 "odds": 1.37,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Fenerbahce_vs_Lyon",
-        "league": "UEFA Champions / Europa League Qualifiers",
-        "badgeLeague": "SISTEMA PSE - UEFA CHAMPIONS / EUROPA LEAGUE QUALIFIERS",
-        "teamHome": "Fenerbahce",
-        "teamAway": "Lyon",
-        "p1": 59.84,
-        "pX": 23.73,
-        "p2": 16.43,
-        "poissonScore": "1 - 0",
-        "scoreDixonColes": "1 - 0",
-        "scorePoisson": "1 - 0",
-        "scoreSkellam": "1 - 0",
-        "metrics": {
-            "xgHome": 2.0,
-            "xgAway": 0.88,
-            "cornersHome": 5.8,
-            "cornersAway": 4.35,
-            "cardsHome": 2.8,
-            "cardsAway": 2.8,
-            "shotsHome": 16.2,
-            "shotsAway": 13.5,
-            "shotsTargetHome": 6.0,
-            "shotsTargetAway": 4.7
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Fenerbahce anota >0.5 goles",
-                "prob": 82.6,
-                "odds": 1.21,
-                "team": "Fenerbahce"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 72.5,
-                "odds": 1.38,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 80.7,
-                "odds": 1.24,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Lyon anota >0.5 goles",
-                "prob": 56.2,
-                "odds": 1.78,
-                "team": "Lyon"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 69.6,
-                "odds": 1.44,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 60.5,
-                "odds": 1.65,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 86.3,
-                "odds": 1.16,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 74.4,
-                "odds": 1.34,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Dinamo_Zagreb_vs_Viking_FK",
-        "league": "UEFA Conference / Europa Qualifiers",
-        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE / EUROPA QUALIFIERS",
-        "teamHome": "Dinamo Zagreb",
-        "teamAway": "Viking FK",
-        "p1": 77.19,
-        "pX": 14.7,
-        "p2": 8.1,
-        "poissonScore": "2 - 0",
-        "scoreDixonColes": "2 - 0",
-        "scorePoisson": "2 - 0",
-        "scoreSkellam": "2 - 1",
-        "metrics": {
-            "xgHome": 2.71,
-            "xgAway": 0.62,
-            "cornersHome": 6.35,
-            "cornersAway": 3.75,
-            "cardsHome": 2.0,
-            "cardsAway": 2.41,
-            "shotsHome": 16.8,
-            "shotsAway": 10.5,
-            "shotsTargetHome": 6.2,
-            "shotsTargetAway": 3.6
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Dinamo Zagreb anota >0.5 goles",
-                "prob": 89.7,
-                "odds": 1.11,
-                "team": "Dinamo Zagreb"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 78.4,
-                "odds": 1.28,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 73.7,
-                "odds": 1.36,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Viking FK anota >0.5 goles",
-                "prob": 44.8,
-                "odds": 2.23,
-                "team": "Viking FK"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 69.3,
-                "odds": 1.44,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 60.1,
-                "odds": 1.66,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 76.1,
-                "odds": 1.31,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 59.8,
-                "odds": 1.67,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Levski_Sofia_vs_AEK_Atenas",
-        "league": "UEFA Conference / Europa Qualifiers",
-        "badgeLeague": "SISTEMA PSE - UEFA CONFERENCE / EUROPA QUALIFIERS",
-        "teamHome": "Levski Sofia",
-        "teamAway": "AEK Atenas",
-        "p1": 38.9,
-        "pX": 33.05,
-        "p2": 28.05,
-        "poissonScore": "1 - 0",
-        "scoreDixonColes": "0 - 0",
-        "scorePoisson": "1 - 0",
-        "scoreSkellam": "1 - 1",
-        "metrics": {
-            "xgHome": 1.13,
-            "xgAway": 0.9,
-            "cornersHome": 5.15,
-            "cornersAway": 4.6,
-            "cardsHome": 2.6,
-            "cardsAway": 2.6,
-            "shotsHome": 13.0,
-            "shotsAway": 12.2,
-            "shotsTargetHome": 4.6,
-            "shotsTargetAway": 4.3
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Levski Sofia anota >0.5 goles",
-                "prob": 64.8,
-                "odds": 1.54,
-                "team": "Levski Sofia"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 56.7,
-                "odds": 1.76,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 92.0,
-                "odds": 1.09,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "AEK Atenas anota >0.5 goles",
-                "prob": 57.2,
-                "odds": 1.75,
-                "team": "AEK Atenas"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 66.6,
-                "odds": 1.5,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 57.1,
-                "odds": 1.75,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 83.5,
-                "odds": 1.2,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 70.2,
-                "odds": 1.43,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Tigres_UANL_vs_Atlante",
-        "league": "Liga MX Apertura",
-        "badgeLeague": "SISTEMA PSE - LIGA MX APERTURA",
-        "teamHome": "Tigres UANL",
-        "teamAway": "Atlante",
-        "p1": 59.23,
-        "pX": 27.83,
-        "p2": 12.94,
-        "poissonScore": "1 - 0",
-        "scoreDixonColes": "1 - 0",
-        "scorePoisson": "1 - 0",
-        "scoreSkellam": "1 - 0",
-        "metrics": {
-            "xgHome": 1.61,
-            "xgAway": 0.57,
-            "cornersHome": 5.8,
-            "cornersAway": 4.05,
-            "cardsHome": 2.14,
-            "cardsAway": 2.31,
-            "shotsHome": 15.2,
-            "shotsAway": 11.0,
-            "shotsTargetHome": 5.6,
-            "shotsTargetAway": 3.8
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Tigres UANL anota >0.5 goles",
-                "prob": 76.3,
-                "odds": 1.31,
-                "team": "Tigres UANL"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 59.8,
-                "odds": 1.67,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 90.4,
-                "odds": 1.11,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Atlante anota >0.5 goles",
-                "prob": 42.1,
-                "odds": 2.38,
-                "team": "Atlante"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 67.4,
-                "odds": 1.48,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 58.0,
-                "odds": 1.72,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 76.6,
-                "odds": 1.31,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 60.4,
-                "odds": 1.66,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "SAO_Paulo_vs_Bolivar_La_Paz",
-        "league": "CONMEBOL Libertadores",
-        "badgeLeague": "SISTEMA PSE - CONMEBOL LIBERTADORES",
-        "teamHome": "SAO Paulo",
-        "teamAway": "Bolivar La Paz",
-        "p1": 82.2,
-        "pX": 12.64,
-        "p2": 5.16,
-        "poissonScore": "2 - 0",
-        "scoreDixonColes": "2 - 0",
-        "scorePoisson": "2 - 0",
-        "scoreSkellam": "2 - 1",
-        "metrics": {
-            "xgHome": 2.88,
-            "xgAway": 0.46,
-            "cornersHome": 6.75,
-            "cornersAway": 3.45,
-            "cardsHome": 2.14,
-            "cardsAway": 2.68,
-            "shotsHome": 16.5,
-            "shotsAway": 9.5,
-            "shotsTargetHome": 6.4,
-            "shotsTargetAway": 3.1
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "SAO Paulo anota >0.5 goles",
-                "prob": 90.9,
-                "odds": 1.1,
-                "team": "SAO Paulo"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 78.4,
-                "odds": 1.27,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 73.7,
-                "odds": 1.36,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Bolivar La Paz anota >0.5 goles",
-                "prob": 35.8,
-                "odds": 2.79,
-                "team": "Bolivar La Paz"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 70.0,
-                "odds": 1.43,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 60.9,
-                "odds": 1.64,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 80.3,
-                "odds": 1.25,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 65.5,
-                "odds": 1.53,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "CD_Recoleta_vs_Boca_Juniors",
-        "league": "CONMEBOL Sudamericana",
-        "badgeLeague": "SISTEMA PSE - CONMEBOL SUDAMERICANA",
-        "teamHome": "CD Recoleta",
-        "teamAway": "Boca Juniors",
-        "p1": 14.3,
-        "pX": 28.42,
-        "p2": 57.28,
-        "poissonScore": "0 - 1",
-        "scoreDixonColes": "0 - 1",
-        "scorePoisson": "0 - 1",
-        "scoreSkellam": "0 - 1",
-        "metrics": {
-            "xgHome": 0.61,
-            "xgAway": 1.57,
-            "cornersHome": 4.05,
-            "cornersAway": 5.85,
-            "cardsHome": 3.32,
-            "cardsAway": 2.95,
-            "shotsHome": 10.2,
-            "shotsAway": 14.5,
-            "shotsTargetHome": 3.5,
-            "shotsTargetAway": 5.2
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "CD Recoleta anota >0.5 goles",
-                "prob": 44.2,
-                "odds": 2.26,
-                "team": "CD Recoleta"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 59.9,
-                "odds": 1.67,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 90.4,
-                "odds": 1.11,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Boca Juniors anota >0.5 goles",
-                "prob": 75.5,
-                "odds": 1.32,
-                "team": "Boca Juniors"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 67.8,
-                "odds": 1.47,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 58.4,
-                "odds": 1.71,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 90.0,
-                "odds": 1.11,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 80.3,
-                "odds": 1.24,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Deportes_Tolima_vs_Independiente_Del_Valle",
-        "league": "CONMEBOL Libertadores",
-        "badgeLeague": "SISTEMA PSE - CONMEBOL LIBERTADORES",
-        "teamHome": "Deportes Tolima",
-        "teamAway": "Independiente Del Valle",
-        "p1": 41.25,
-        "pX": 30.06,
-        "p2": 28.68,
-        "poissonScore": "1 - 1",
-        "scoreDixonColes": "0 - 0",
-        "scorePoisson": "1 - 1",
-        "scoreSkellam": "1 - 1",
-        "metrics": {
-            "xgHome": 1.33,
-            "xgAway": 1.04,
-            "cornersHome": 5.2,
-            "cornersAway": 4.6,
-            "cardsHome": 2.55,
-            "cardsAway": 2.41,
-            "shotsHome": 13.88,
-            "shotsAway": 13.2,
-            "shotsTargetHome": 4.94,
-            "shotsTargetAway": 4.6
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Deportes Tolima anota >0.5 goles",
-                "prob": 70.2,
-                "odds": 1.42,
-                "team": "Deportes Tolima"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 63.9,
-                "odds": 1.57,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 87.9,
-                "odds": 1.14,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Independiente Del Valle anota >0.5 goles",
-                "prob": 62.1,
-                "odds": 1.61,
-                "team": "Independiente Del Valle"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 67.0,
-                "odds": 1.49,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 57.6,
-                "odds": 1.74,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 81.6,
-                "odds": 1.23,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 67.3,
-                "odds": 1.49,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Universidad_Católica_vs_Estudiantes_de_La_Plata",
-        "league": "CONMEBOL Libertadores",
-        "badgeLeague": "SISTEMA PSE - CONMEBOL LIBERTADORES",
-        "teamHome": "Universidad Católica",
-        "teamAway": "Estudiantes de La Plata",
-        "p1": 36.01,
-        "pX": 36.17,
-        "p2": 27.82,
-        "poissonScore": "0 - 0",
-        "scoreDixonColes": "0 - 0",
-        "scorePoisson": "0 - 0",
-        "scoreSkellam": "1 - 1",
-        "metrics": {
-            "xgHome": 0.96,
-            "xgAway": 0.8,
-            "cornersHome": 5.15,
-            "cornersAway": 4.55,
-            "cardsHome": 2.8,
-            "cardsAway": 2.95,
-            "shotsHome": 12.4,
-            "shotsAway": 11.8,
-            "shotsTargetHome": 4.3,
-            "shotsTargetAway": 4.0
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Universidad Católica anota >0.5 goles",
-                "prob": 59.1,
-                "odds": 1.69,
-                "team": "Universidad Católica"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 49.6,
-                "odds": 2.02,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 94.9,
-                "odds": 1.05,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Estudiantes de La Plata anota >0.5 goles",
-                "prob": 52.9,
-                "odds": 1.89,
-                "team": "Estudiantes de La Plata"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 66.3,
-                "odds": 1.51,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 56.7,
-                "odds": 1.76,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 87.2,
-                "odds": 1.15,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 75.8,
-                "odds": 1.32,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Independiente_Del_Valle_vs_Deportes_Tolima",
-        "league": "CONMEBOL Libertadores",
-        "badgeLeague": "SISTEMA PSE - CONMEBOL LIBERTADORES",
-        "teamHome": "Independiente Del Valle",
-        "teamAway": "Deportes Tolima",
-        "p1": 71.43,
-        "pX": 17.07,
-        "p2": 11.5,
-        "poissonScore": "2 - 0",
-        "scoreDixonColes": "2 - 0",
-        "scorePoisson": "2 - 0",
-        "scoreSkellam": "1 - 0",
-        "metrics": {
-            "xgHome": 2.47,
-            "xgAway": 0.75,
-            "cornersHome": 6.83,
-            "cornersAway": 3.55,
-            "cardsHome": 2.31,
-            "cardsAway": 2.85,
-            "shotsHome": 17.8,
-            "shotsAway": 10.4,
-            "shotsTargetHome": 6.91,
-            "shotsTargetAway": 3.5
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Independiente Del Valle anota >0.5 goles",
-                "prob": 87.7,
-                "odds": 1.14,
-                "team": "Independiente Del Valle"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 77.0,
-                "odds": 1.3,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 75.6,
-                "odds": 1.32,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Deportes Tolima anota >0.5 goles",
-                "prob": 50.8,
-                "odds": 1.97,
-                "team": "Deportes Tolima"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 71.2,
-                "odds": 1.4,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 62.3,
-                "odds": 1.6,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 83.2,
-                "odds": 1.2,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 69.6,
-                "odds": 1.44,
                 "team": "Partido"
             }
         ]

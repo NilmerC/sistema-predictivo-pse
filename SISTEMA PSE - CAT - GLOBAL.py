@@ -34,43 +34,43 @@ PROMEDIOS_ESTANDAR = {
 
 DATOS_PARTIDO = {
     # --- Datos Básicos ---
-    "liga": "La Liga",
-    "equipo_local": "Atlético Madrid",
-    "equipo_visitante": "Málaga",
+    "liga": "UEFA Conference League",
+    "equipo_local": "Getafe",
+    "equipo_visitante": "Partizán de Belgrado",
 
     # --- Configuración Geográfica / Condición del Partido ---
-    "altura_msnm": 657, # Altitud de Madrid en metros sobre el nivel del mar
-    "es_partido_abierto": False, # Estilo históricamente táctico y cerrado del Atlético de Madrid en casa
+    "altura_msnm": 618, # Altitud de Getafe en metros sobre el nivel del mar
+    "es_partido_abierto": False, # Estilo táctico, físico y cerrado característico del Getafe
 
     # --- Goles Promedio (Últimos 10 partidos) ---
-    "goles_favor_local": 2.05,   # Goles anotados por el local jugando en su estadio
-    "goles_contra_local": 0.70,  # Goles recibidos por el local jugando en su estadio
-    "goles_favor_visita": 1.05,  # Goles anotados por el visitante fuera de casa
-    "goles_contra_visita": 1.60, # Goles recibidos por el visitante fuera de casa
-    "goles_promedio_liga": 2.55, # Promedio general de goles por partido en La Liga
+    "goles_favor_local": 1.30,   # Goles anotados por Getafe jugando en su estadio
+    "goles_contra_local": 0.80,  # Goles recibidos por Getafe jugando en su estadio
+    "goles_favor_visita": 1.20,  # Goles anotados por Partizán de Belgrado fuera de casa
+    "goles_contra_visita": 1.45, # Goles recibidos por Partizán de Belgrado fuera de casa
+    "goles_promedio_liga": 2.70, # Promedio general de goles por partido en la competición
 
     # --- Saques de Esquina (Córners) ---
-    "corners_favor_local": 6.1,   # Córners a favor del local en casa
-    "corners_contra_local": 3.2,  # Córners en contra del local en casa
-    "corners_favor_visita": 3.9,  # Córners a favor del visitante fuera
-    "corners_contra_visita": 6.4, # Córners en contra del visitante fuera
+    "corners_favor_local": 4.80,   # Córners a favor del local en casa
+    "corners_contra_local": 4.50,  # Córners en contra del local en casa
+    "corners_favor_visita": 4.20,  # Córners a favor del visitante fuera
+    "corners_contra_visita": 5.60, # Córners en contra del visitante fuera
 
     # --- Volumen de Remates y Tiros (Totales por partido) ---
-    "remates_favor_local": 16.2,  # Disparos totales a favor del local
-    "remates_favor_visita": 10.5, # Disparos totales a favor del visitante
-    "tiros_arco_local": 6.2,      # Disparos DIRECTOS a puerta del local
-    "tiros_arco_visita": 3.5,     # Disparos DIRECTOS a puerta del visitante
+    "remates_favor_local": 12.50,  # Disparos totales a favor del local
+    "remates_favor_visita": 11.00, # Disparos totales a favor del visitante
+    "tiros_arco_local": 4.20,      # Disparos DIRECTOS a puerta del local
+    "tiros_arco_visita": 3.70,     # Disparos DIRECTOS a puerta del visitante
 
     # --- Disciplina (Tarjetas Amarillas + Rojas) ---
-    "tarjetas_promedio_arbitro": 4.6, # Promedio histórico de tarjetas por partido en La Liga
-    "tarjetas_recibidas_local": 2.3,
-    "tarjetas_provocadas_local": 2.5,
-    "tarjetas_recibidas_visita": 2.8,
-    "tarjetas_provocadas_visita": 2.2,
+    "tarjetas_promedio_arbitro": 4.60, # Promedio histórico de tarjetas por partido en UEFA
+    "tarjetas_recibidas_local": 3.20,
+    "tarjetas_provocadas_local": 2.90,
+    "tarjetas_recibidas_visita": 2.70,
+    "tarjetas_provocadas_visita": 2.80,
 
     # --- Fuerza de Equipos ---
-    "elo_local": 1840, # Rating ELO aproximado del local
-    "elo_visita": 1520  # Rating ELO aproximado del visitante
+    "elo_local": 1620, # Rating ELO aproximado de Getafe
+    "elo_visita": 1530 # Rating ELO aproximado de Partizán de Belgrado
 }
 # =====================================================================
 # MOTOR MATH & ESTADÍSTICA (PSE ENGINE 6.2 - LIGA 1 EDITION)
