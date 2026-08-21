@@ -34,43 +34,43 @@ PROMEDIOS_ESTANDAR = {
 
 DATOS_PARTIDO = {
     # --- Datos Básicos ---
-    "liga": "UEFA Conference League",
-    "equipo_local": "Getafe",
-    "equipo_visitante": "Partizán de Belgrado",
+    "liga": "Suecia - Allsvenskan",
+    "equipo_local": "IK Sirius",
+    "equipo_visitante": "BK Hacken",
 
     # --- Configuración Geográfica / Condición del Partido ---
-    "altura_msnm": 618, # Altitud de Getafe en metros sobre el nivel del mar
-    "es_partido_abierto": False, # Estilo táctico, físico y cerrado característico del Getafe
+    "altura_msnm": 10, # Altitud de Uppsala en metros sobre el nivel del mar
+    "es_partido_abierto": True, # Partido con alta frecuencia de goles y propuestas ofensivas abiertas
 
     # --- Goles Promedio (Últimos 10 partidos) ---
-    "goles_favor_local": 1.30,   # Goles anotados por Getafe jugando en su estadio
-    "goles_contra_local": 0.80,  # Goles recibidos por Getafe jugando en su estadio
-    "goles_favor_visita": 1.20,  # Goles anotados por Partizán de Belgrado fuera de casa
-    "goles_contra_visita": 1.45, # Goles recibidos por Partizán de Belgrado fuera de casa
-    "goles_promedio_liga": 2.70, # Promedio general de goles por partido en la competición
+    "goles_favor_local": 1.55,   # Goles anotados por IK Sirius jugando en su estadio
+    "goles_contra_local": 1.40,  # Goles recibidos por IK Sirius jugando en su estadio
+    "goles_favor_visita": 1.70,  # Goles anotados por BK Hacken fuera de casa
+    "goles_contra_visita": 1.50, # Goles recibidos por BK Hacken fuera de casa
+    "goles_promedio_liga": 2.90, # Promedio general de goles por partido en la Allsvenskan
 
     # --- Saques de Esquina (Córners) ---
-    "corners_favor_local": 4.80,   # Córners a favor del local en casa
-    "corners_contra_local": 4.50,  # Córners en contra del local en casa
-    "corners_favor_visita": 4.20,  # Córners a favor del visitante fuera
-    "corners_contra_visita": 5.60, # Córners en contra del visitante fuera
+    "corners_favor_local": 5.40,   # Córners a favor del local en casa
+    "corners_contra_local": 5.10,  # Córners en contra del local en casa
+    "corners_favor_visita": 6.00,  # Córners a favor del visitante fuera
+    "corners_contra_visita": 4.80, # Córners en contra del visitante fuera
 
     # --- Volumen de Remates y Tiros (Totales por partido) ---
-    "remates_favor_local": 12.50,  # Disparos totales a favor del local
-    "remates_favor_visita": 11.00, # Disparos totales a favor del visitante
-    "tiros_arco_local": 4.20,      # Disparos DIRECTOS a puerta del local
-    "tiros_arco_visita": 3.70,     # Disparos DIRECTOS a puerta del visitante
+    "remates_favor_local": 13.80,  # Disparos totales a favor del local
+    "remates_favor_visita": 15.50, # Disparos totales a favor del visitante
+    "tiros_arco_local": 4.80,      # Disparos DIRECTOS a puerta del local
+    "tiros_arco_visita": 5.70,     # Disparos DIRECTOS a puerta del visitante
 
     # --- Disciplina (Tarjetas Amarillas + Rojas) ---
-    "tarjetas_promedio_arbitro": 4.60, # Promedio histórico de tarjetas por partido en UEFA
-    "tarjetas_recibidas_local": 3.20,
-    "tarjetas_provocadas_local": 2.90,
-    "tarjetas_recibidas_visita": 2.70,
-    "tarjetas_provocadas_visita": 2.80,
+    "tarjetas_promedio_arbitro": 3.70, # Promedio histórico de tarjetas por partido en la Allsvenskan
+    "tarjetas_recibidas_local": 1.90,
+    "tarjetas_provocadas_local": 2.10,
+    "tarjetas_recibidas_visita": 2.00,
+    "tarjetas_provocadas_visita": 1.80,
 
     # --- Fuerza de Equipos ---
-    "elo_local": 1620, # Rating ELO aproximado de Getafe
-    "elo_visita": 1530 # Rating ELO aproximado de Partizán de Belgrado
+    "elo_local": 1580, # Rating ELO aproximado de IK Sirius
+    "elo_visita": 1710 # Rating ELO aproximado de BK Hacken
 }
 # =====================================================================
 # MOTOR MATH & ESTADÍSTICA (PSE ENGINE 6.2 - LIGA 1 EDITION)
