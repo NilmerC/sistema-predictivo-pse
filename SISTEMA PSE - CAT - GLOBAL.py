@@ -34,43 +34,43 @@ PROMEDIOS_ESTANDAR = {
 
 DATOS_PARTIDO = {
     # --- Datos Básicos ---
-    "liga": "Suecia - Allsvenskan",
-    "equipo_local": "IK Sirius",
-    "equipo_visitante": "BK Hacken",
+    "liga": "Perú - Liga 1",
+    "equipo_local": "UTC De Cajamarca",
+    "equipo_visitante": "Comerciantes Unidos",
 
     # --- Configuración Geográfica / Condición del Partido ---
-    "altura_msnm": 10, # Altitud de Uppsala en metros sobre el nivel del mar
-    "es_partido_abierto": True, # Partido con alta frecuencia de goles y propuestas ofensivas abiertas
+    "altura_msnm": 2750, # Altitud de Cajamarca en metros sobre el nivel del mar
+    "es_partido_abierto": True, # Partido condicionado por la altitud local y tendencia ofensiva en duelos directos
 
     # --- Goles Promedio (Últimos 10 partidos) ---
-    "goles_favor_local": 1.55,   # Goles anotados por IK Sirius jugando en su estadio
-    "goles_contra_local": 1.40,  # Goles recibidos por IK Sirius jugando en su estadio
-    "goles_favor_visita": 1.70,  # Goles anotados por BK Hacken fuera de casa
-    "goles_contra_visita": 1.50, # Goles recibidos por BK Hacken fuera de casa
-    "goles_promedio_liga": 2.90, # Promedio general de goles por partido en la Allsvenskan
+    "goles_favor_local": 1.75,   # Goles anotados por el local jugando en su estadio
+    "goles_contra_local": 1.05,  # Goles recibidos por el local jugando en su estadio
+    "goles_favor_visita": 0.90,  # Goles anotados por el visitante fuera de casa
+    "goles_contra_visita": 1.80, # Goles recibidos por el visitante fuera de casa
+    "goles_promedio_liga": 2.70, # Promedio general de goles por partido en la Liga 1
 
     # --- Saques de Esquina (Córners) ---
-    "corners_favor_local": 5.40,   # Córners a favor del local en casa
-    "corners_contra_local": 5.10,  # Córners en contra del local en casa
-    "corners_favor_visita": 6.00,  # Córners a favor del visitante fuera
-    "corners_contra_visita": 4.80, # Córners en contra del visitante fuera
+    "corners_favor_local": 5.80,   # Córners a favor del local en casa
+    "corners_contra_local": 4.20,  # Córners en contra del local en casa
+    "corners_favor_visita": 3.60,  # Córners a favor del visitante fuera
+    "corners_contra_visita": 6.40, # Córners en contra del visitante fuera
 
     # --- Volumen de Remates y Tiros (Totales por partido) ---
-    "remates_favor_local": 13.80,  # Disparos totales a favor del local
-    "remates_favor_visita": 15.50, # Disparos totales a favor del visitante
-    "tiros_arco_local": 4.80,      # Disparos DIRECTOS a puerta del local
-    "tiros_arco_visita": 5.70,     # Disparos DIRECTOS a puerta del visitante
+    "remates_favor_local": 15.10,  # Disparos totales a favor del local
+    "remates_favor_visita": 9.40,  # Disparos totales a favor del visitante
+    "tiros_arco_local": 5.40,      # Disparos DIRECTOS a puerta del local
+    "tiros_arco_visita": 3.10,     # Disparos DIRECTOS a puerta del visitante
 
     # --- Disciplina (Tarjetas Amarillas + Rojas) ---
-    "tarjetas_promedio_arbitro": 3.70, # Promedio histórico de tarjetas por partido en la Allsvenskan
-    "tarjetas_recibidas_local": 1.90,
-    "tarjetas_provocadas_local": 2.10,
-    "tarjetas_recibidas_visita": 2.00,
-    "tarjetas_provocadas_visita": 1.80,
+    "tarjetas_promedio_arbitro": 5.20, # Promedio histórico de tarjetas por partido en Liga 1
+    "tarjetas_recibidas_local": 2.60,
+    "tarjetas_provocadas_local": 2.50,
+    "tarjetas_recibidas_visita": 3.00,
+    "tarjetas_provocadas_visita": 2.40,
 
     # --- Fuerza de Equipos ---
-    "elo_local": 1580, # Rating ELO aproximado de IK Sirius
-    "elo_visita": 1710 # Rating ELO aproximado de BK Hacken
+    "elo_local": 1490, # Rating ELO aproximado del local
+    "elo_visita": 1420 # Rating ELO aproximado del visitante
 }
 # =====================================================================
 # MOTOR MATH & ESTADÍSTICA (PSE ENGINE 6.2 - LIGA 1 EDITION)

@@ -1,5 +1,1845 @@
 [
     {
+        "id": "UTC_De_Cajamarca_vs_Comerciantes_Unidos",
+        "league": "Perú - Liga 1",
+        "badgeLeague": "SISTEMA PSE - PERÚ - LIGA 1",
+        "teamHome": "UTC De Cajamarca",
+        "teamAway": "Comerciantes Unidos",
+        "p1": 59.9,
+        "pX": 29.85,
+        "p2": 10.25,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.45,
+            "xgAway": 0.41,
+            "cornersHome": 6.44,
+            "cornersAway": 3.9,
+            "cardsHome": 2.36,
+            "cardsAway": 2.6,
+            "shotsHome": 15.6,
+            "shotsAway": 9.4,
+            "shotsTargetHome": 5.64,
+            "shotsTargetAway": 3.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "UTC De Cajamarca anota >0.5 goles",
+                "prob": 73.1,
+                "odds": 1.37,
+                "team": "UTC De Cajamarca"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 52.5,
+                "odds": 1.9,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 93.8,
+                "odds": 1.07,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Comerciantes Unidos anota >0.5 goles",
+                "prob": 33.0,
+                "odds": 3.03,
+                "team": "Comerciantes Unidos"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.0,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.0,
+                "odds": 1.61,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 81.6,
+                "odds": 1.23,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 67.3,
+                "odds": 1.49,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Valencia_CF_vs_RC_Celta_de_Vigo",
+        "league": "España - LaLiga",
+        "badgeLeague": "SISTEMA PSE - ESPAÑA - LALIGA",
+        "teamHome": "Valencia CF",
+        "teamAway": "RC Celta de Vigo",
+        "p1": 42.58,
+        "pX": 38.19,
+        "p2": 19.23,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.97,
+            "xgAway": 0.54,
+            "cornersHome": 5.6,
+            "cornersAway": 4.55,
+            "cardsHome": 2.09,
+            "cardsAway": 2.0,
+            "shotsHome": 13.9,
+            "shotsAway": 12.1,
+            "shotsTargetHome": 4.8,
+            "shotsTargetAway": 4.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Valencia CF anota >0.5 goles",
+                "prob": 59.7,
+                "odds": 1.68,
+                "team": "Valencia CF"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 43.0,
+                "odds": 2.33,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.7,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "RC Celta de Vigo anota >0.5 goles",
+                "prob": 40.7,
+                "odds": 2.46,
+                "team": "RC Celta de Vigo"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 69.6,
+                "odds": 1.44,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.5,
+                "odds": 1.65,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 72.3,
+                "odds": 1.38,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 54.9,
+                "odds": 1.82,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Fluminense_RJ_vs_Remo_PA",
+        "league": "Brasil - Brasileirao - Serie A Betano",
+        "badgeLeague": "SISTEMA PSE - BRASIL - BRASILEIRAO - SERIE A BETANO",
+        "teamHome": "Fluminense RJ",
+        "teamAway": "Remo PA",
+        "p1": 59.28,
+        "pX": 32.45,
+        "p2": 8.27,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.3,
+            "xgAway": 0.3,
+            "cornersHome": 6.15,
+            "cornersAway": 3.9,
+            "cardsHome": 2.41,
+            "cardsAway": 2.85,
+            "shotsHome": 15.8,
+            "shotsAway": 9.8,
+            "shotsTargetHome": 5.7,
+            "shotsTargetAway": 3.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Fluminense RJ anota >0.5 goles",
+                "prob": 69.4,
+                "odds": 1.44,
+                "team": "Fluminense RJ"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 45.3,
+                "odds": 2.21,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.2,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Remo PA anota >0.5 goles",
+                "prob": 25.4,
+                "odds": 3.94,
+                "team": "Remo PA"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.7,
+                "odds": 1.68,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 83.9,
+                "odds": 1.19,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 70.7,
+                "odds": 1.41,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Inter_Miami_CF_vs_Toronto_FC",
+        "league": "EE. UU. - MLS",
+        "badgeLeague": "SISTEMA PSE - EE. UU. - MLS",
+        "teamHome": "Inter Miami CF",
+        "teamAway": "Toronto FC",
+        "p1": 67.94,
+        "pX": 24.49,
+        "p2": 7.57,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.8,
+            "xgAway": 0.39,
+            "cornersHome": 6.35,
+            "cornersAway": 4.0,
+            "cardsHome": 1.6,
+            "cardsAway": 1.86,
+            "shotsHome": 17.2,
+            "shotsAway": 10.5,
+            "shotsTargetHome": 6.8,
+            "shotsTargetAway": 3.6
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Inter Miami CF anota >0.5 goles",
+                "prob": 79.6,
+                "odds": 1.26,
+                "team": "Inter Miami CF"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 60.2,
+                "odds": 1.66,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 90.2,
+                "odds": 1.11,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Toronto FC anota >0.5 goles",
+                "prob": 31.8,
+                "odds": 3.14,
+                "team": "Toronto FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.1,
+                "odds": 1.41,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.1,
+                "odds": 1.61,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 63.2,
+                "odds": 1.58,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 44.1,
+                "odds": 2.27,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Ipswich_Town_vs_Sunderland",
+        "league": "Inglaterra - Premier League",
+        "badgeLeague": "SISTEMA PSE - INGLATERRA - PREMIER LEAGUE",
+        "teamHome": "Ipswich Town",
+        "teamAway": "Sunderland",
+        "p1": 32.13,
+        "pX": 41.12,
+        "p2": 26.75,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.75,
+            "xgAway": 0.65,
+            "cornersHome": 5.3,
+            "cornersAway": 5.1,
+            "cardsHome": 1.75,
+            "cardsAway": 1.78,
+            "shotsHome": 12.2,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 4.1,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Ipswich Town anota >0.5 goles",
+                "prob": 50.7,
+                "odds": 1.97,
+                "team": "Ipswich Town"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 39.3,
+                "odds": 2.54,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.5,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Sunderland anota >0.5 goles",
+                "prob": 46.2,
+                "odds": 2.16,
+                "team": "Sunderland"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.4,
+                "odds": 1.4,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.5,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.2,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.2,
+                "odds": 2.21,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Fenerbahce_SK_vs_Konyaspor",
+        "league": "Turquía - Super Lig",
+        "badgeLeague": "SISTEMA PSE - TURQUÍA - SUPER LIG",
+        "teamHome": "Fenerbahce SK",
+        "teamAway": "Konyaspor",
+        "p1": 71.35,
+        "pX": 23.93,
+        "p2": 4.72,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.76,
+            "xgAway": 0.25,
+            "cornersHome": 6.65,
+            "cornersAway": 3.55,
+            "cardsHome": 1.88,
+            "cardsAway": 2.4,
+            "shotsHome": 18.5,
+            "shotsAway": 10.2,
+            "shotsTargetHome": 7.2,
+            "shotsTargetAway": 3.4
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Fenerbahce SK anota >0.5 goles",
+                "prob": 79.1,
+                "odds": 1.26,
+                "team": "Fenerbahce SK"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 56.2,
+                "odds": 1.78,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 92.3,
+                "odds": 1.08,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Konyaspor anota >0.5 goles",
+                "prob": 21.8,
+                "odds": 4.59,
+                "team": "Konyaspor"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.0,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 74.6,
+                "odds": 1.34,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 57.8,
+                "odds": 1.73,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Udinese_Calcio_vs_Como_1907",
+        "league": "Italia - Serie A",
+        "badgeLeague": "SISTEMA PSE - ITALIA - SERIE A",
+        "teamHome": "Udinese Calcio",
+        "teamAway": "Como 1907",
+        "p1": 40.24,
+        "pX": 39.4,
+        "p2": 20.36,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.91,
+            "xgAway": 0.55,
+            "cornersHome": 5.35,
+            "cornersAway": 4.65,
+            "cardsHome": 1.84,
+            "cardsAway": 1.99,
+            "shotsHome": 13.8,
+            "shotsAway": 12.5,
+            "shotsTargetHome": 4.6,
+            "shotsTargetAway": 4.2
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Udinese Calcio anota >0.5 goles",
+                "prob": 57.3,
+                "odds": 1.75,
+                "team": "Udinese Calcio"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 41.2,
+                "odds": 2.43,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.2,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Como 1907 anota >0.5 goles",
+                "prob": 40.9,
+                "odds": 2.44,
+                "team": "Como 1907"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.5,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.3,
+                "odds": 1.69,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 68.8,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 50.6,
+                "odds": 1.98,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Genoa_CFC_vs_SSC_Napoli",
+        "league": "Italia - Serie A",
+        "badgeLeague": "SISTEMA PSE - ITALIA - SERIE A",
+        "teamHome": "Genoa CFC",
+        "teamAway": "SSC Napoli",
+        "p1": 17.44,
+        "pX": 38.0,
+        "p2": 44.55,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.5,
+            "xgAway": 1.0,
+            "cornersHome": 4.45,
+            "cornersAway": 5.45,
+            "cardsHome": 2.04,
+            "cardsAway": 1.8,
+            "shotsHome": 12.4,
+            "shotsAway": 15.6,
+            "shotsTargetHome": 4.1,
+            "shotsTargetAway": 5.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Genoa CFC anota >0.5 goles",
+                "prob": 38.3,
+                "odds": 2.61,
+                "team": "Genoa CFC"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 42.5,
+                "odds": 2.35,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.9,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "SSC Napoli anota >0.5 goles",
+                "prob": 60.6,
+                "odds": 1.65,
+                "team": "SSC Napoli"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.8,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.4,
+                "odds": 1.71,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 68.9,
+                "odds": 1.45,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 50.7,
+                "odds": 1.97,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Athletic_Bilbao_vs_Sevilla_FC",
+        "league": "España - LaLiga",
+        "badgeLeague": "SISTEMA PSE - ESPAÑA - LALIGA",
+        "teamHome": "Athletic Bilbao",
+        "teamAway": "Sevilla FC",
+        "p1": 55.66,
+        "pX": 33.8,
+        "p2": 10.54,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.23,
+            "xgAway": 0.36,
+            "cornersHome": 6.05,
+            "cornersAway": 4.15,
+            "cardsHome": 1.84,
+            "cardsAway": 2.21,
+            "shotsHome": 16.1,
+            "shotsAway": 11.2,
+            "shotsTargetHome": 5.9,
+            "shotsTargetAway": 3.7
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Athletic Bilbao anota >0.5 goles",
+                "prob": 67.8,
+                "odds": 1.48,
+                "team": "Athletic Bilbao"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 45.3,
+                "odds": 2.21,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.2,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Sevilla FC anota >0.5 goles",
+                "prob": 29.7,
+                "odds": 3.37,
+                "team": "Sevilla FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.0,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 71.8,
+                "odds": 1.39,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 54.2,
+                "odds": 1.84,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Everton_FC_vs_Crystal_Palace_FC",
+        "league": "Inglaterra - Premier League",
+        "badgeLeague": "SISTEMA PSE - INGLATERRA - PREMIER LEAGUE",
+        "teamHome": "Everton FC",
+        "teamAway": "Crystal Palace FC",
+        "p1": 32.42,
+        "pX": 46.3,
+        "p2": 21.28,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.64,
+            "xgAway": 0.46,
+            "cornersHome": 5.5,
+            "cornersAway": 4.9,
+            "cardsHome": 1.82,
+            "cardsAway": 1.71,
+            "shotsHome": 13.2,
+            "shotsAway": 11.8,
+            "shotsTargetHome": 4.4,
+            "shotsTargetAway": 3.9
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Everton FC anota >0.5 goles",
+                "prob": 45.8,
+                "odds": 2.18,
+                "team": "Everton FC"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 29.9,
+                "odds": 3.35,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 98.9,
+                "odds": 1.01,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Crystal Palace FC anota >0.5 goles",
+                "prob": 36.0,
+                "odds": 2.78,
+                "team": "Crystal Palace FC"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.4,
+                "odds": 1.4,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.5,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.2,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.2,
+                "odds": 2.21,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Sport_Huancayo_vs_CD_Moquegua",
+        "league": "Perú - Liga 1",
+        "badgeLeague": "SISTEMA PSE - PERÚ - LIGA 1",
+        "teamHome": "Sport Huancayo",
+        "teamAway": "CD Moquegua",
+        "p1": 78.7,
+        "pX": 17.58,
+        "p2": 3.72,
+        "poissonScore": "2 - 0",
+        "scoreDixonColes": "2 - 0",
+        "scorePoisson": "2 - 0",
+        "scoreSkellam": "2 - 1",
+        "metrics": {
+            "xgHome": 2.3,
+            "xgAway": 0.29,
+            "cornersHome": 7.28,
+            "cornersAway": 3.3,
+            "cardsHome": 2.22,
+            "cardsAway": 2.84,
+            "shotsHome": 17.5,
+            "shotsAway": 8.5,
+            "shotsTargetHome": 6.87,
+            "shotsTargetAway": 2.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Sport Huancayo anota >0.5 goles",
+                "prob": 86.1,
+                "odds": 1.16,
+                "team": "Sport Huancayo"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 67.9,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 84.9,
+                "odds": 1.18,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "CD Moquegua anota >0.5 goles",
+                "prob": 24.8,
+                "odds": 4.03,
+                "team": "CD Moquegua"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 72.6,
+                "odds": 1.38,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 63.9,
+                "odds": 1.56,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 82.4,
+                "odds": 1.21,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 68.5,
+                "odds": 1.46,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Brentford_FC_vs_Tottenham_Hotspur",
+        "league": "Inglaterra - Premier League",
+        "badgeLeague": "SISTEMA PSE - INGLATERRA - PREMIER LEAGUE",
+        "teamHome": "Brentford FC",
+        "teamAway": "Tottenham Hotspur",
+        "p1": 33.29,
+        "pX": 37.53,
+        "p2": 29.18,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.86,
+            "xgAway": 0.79,
+            "cornersHome": 5.1,
+            "cornersAway": 5.85,
+            "cardsHome": 1.68,
+            "cardsAway": 1.83,
+            "shotsHome": 14.2,
+            "shotsAway": 16.0,
+            "shotsTargetHome": 5.1,
+            "shotsTargetAway": 5.8
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Brentford FC anota >0.5 goles",
+                "prob": 55.6,
+                "odds": 1.8,
+                "team": "Brentford FC"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 46.8,
+                "odds": 2.14,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.7,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Tottenham Hotspur anota >0.5 goles",
+                "prob": 52.4,
+                "odds": 1.91,
+                "team": "Tottenham Hotspur"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 74.9,
+                "odds": 1.33,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 66.6,
+                "odds": 1.5,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 63.8,
+                "odds": 1.57,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 44.7,
+                "odds": 2.23,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Nottingham_Forest_vs_Leeds_United",
+        "league": "Inglaterra - Premier League",
+        "badgeLeague": "SISTEMA PSE - INGLATERRA - PREMIER LEAGUE",
+        "teamHome": "Nottingham Forest",
+        "teamAway": "Leeds United",
+        "p1": 39.68,
+        "pX": 40.17,
+        "p2": 20.15,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.88,
+            "xgAway": 0.53,
+            "cornersHome": 5.5,
+            "cornersAway": 4.9,
+            "cardsHome": 1.85,
+            "cardsAway": 1.85,
+            "shotsHome": 13.5,
+            "shotsAway": 12.1,
+            "shotsTargetHome": 4.6,
+            "shotsTargetAway": 4.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Nottingham Forest anota >0.5 goles",
+                "prob": 56.1,
+                "odds": 1.78,
+                "team": "Nottingham Forest"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 39.7,
+                "odds": 2.52,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 97.5,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Leeds United anota >0.5 goles",
+                "prob": 39.9,
+                "odds": 2.51,
+                "team": "Leeds United"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.4,
+                "odds": 1.4,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.5,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 67.0,
+                "odds": 1.49,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 48.4,
+                "odds": 2.06,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Manchester_City_vs_AFC_Bournemouth",
+        "league": "Inglaterra - Premier League",
+        "badgeLeague": "SISTEMA PSE - INGLATERRA - PREMIER LEAGUE",
+        "teamHome": "Manchester City",
+        "teamAway": "AFC Bournemouth",
+        "p1": 71.99,
+        "pX": 22.27,
+        "p2": 5.73,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.93,
+            "xgAway": 0.34,
+            "cornersHome": 6.85,
+            "cornersAway": 3.7,
+            "cardsHome": 1.28,
+            "cardsAway": 1.7,
+            "shotsHome": 19.8,
+            "shotsAway": 11.5,
+            "shotsTargetHome": 7.8,
+            "shotsTargetAway": 4.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Manchester City anota >0.5 goles",
+                "prob": 81.7,
+                "odds": 1.22,
+                "team": "Manchester City"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 61.8,
+                "odds": 1.62,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 89.3,
+                "odds": 1.12,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "AFC Bournemouth anota >0.5 goles",
+                "prob": 27.9,
+                "odds": 3.58,
+                "team": "AFC Bournemouth"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 72.4,
+                "odds": 1.38,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 63.7,
+                "odds": 1.57,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 54.3,
+                "odds": 1.84,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 34.7,
+                "odds": 2.88,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "RC_Lens_vs_AJ_Auxerre",
+        "league": "Francia - Ligue 1",
+        "badgeLeague": "SISTEMA PSE - FRANCIA - LIGUE 1",
+        "teamHome": "RC Lens",
+        "teamAway": "AJ Auxerre",
+        "p1": 52.25,
+        "pX": 35.65,
+        "p2": 12.1,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 1.14,
+            "xgAway": 0.39,
+            "cornersHome": 5.9,
+            "cornersAway": 4.0,
+            "cardsHome": 1.64,
+            "cardsAway": 1.91,
+            "shotsHome": 15.1,
+            "shotsAway": 10.4,
+            "shotsTargetHome": 5.6,
+            "shotsTargetAway": 3.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "RC Lens anota >0.5 goles",
+                "prob": 65.1,
+                "odds": 1.54,
+                "team": "RC Lens"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 43.3,
+                "odds": 2.31,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.7,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "AJ Auxerre anota >0.5 goles",
+                "prob": 31.3,
+                "odds": 3.2,
+                "team": "AJ Auxerre"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 67.8,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.4,
+                "odds": 1.71,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.6,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.6,
+                "odds": 2.19,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Sporting_CP_vs_Alverca",
+        "league": "Portugal - Primeira Liga",
+        "badgeLeague": "SISTEMA PSE - PORTUGAL - PRIMEIRA LIGA",
+        "teamHome": "Sporting CP",
+        "teamAway": "Alverca",
+        "p1": 81.46,
+        "pX": 16.63,
+        "p2": 1.91,
+        "poissonScore": "2 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "2 - 0",
+        "scoreSkellam": "2 - 1",
+        "metrics": {
+            "xgHome": 2.25,
+            "xgAway": 0.16,
+            "cornersHome": 6.65,
+            "cornersAway": 3.3,
+            "cardsHome": 1.63,
+            "cardsAway": 2.17,
+            "shotsHome": 18.5,
+            "shotsAway": 9.2,
+            "shotsTargetHome": 7.4,
+            "shotsTargetAway": 3.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Sporting CP anota >0.5 goles",
+                "prob": 85.6,
+                "odds": 1.17,
+                "team": "Sporting CP"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 64.5,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 87.5,
+                "odds": 1.14,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Alverca anota >0.5 goles",
+                "prob": 14.3,
+                "odds": 7.01,
+                "team": "Alverca"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.2,
+                "odds": 1.47,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 58.9,
+                "odds": 1.7,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 68.4,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 50.1,
+                "odds": 2.0,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Borussia_Dortmund_vs_FC_Bayern_Munchen",
+        "league": "Alemania - DFL-Supercup",
+        "badgeLeague": "SISTEMA PSE - ALEMANIA - DFL-SUPERCUP",
+        "teamHome": "Borussia Dortmund",
+        "teamAway": "FC Bayern Munchen",
+        "p1": 20.62,
+        "pX": 38.78,
+        "p2": 40.6,
+        "poissonScore": "0 - 0",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 0",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.57,
+            "xgAway": 0.93,
+            "cornersHome": 4.75,
+            "cornersAway": 5.65,
+            "cardsHome": 1.6,
+            "cardsAway": 1.57,
+            "shotsHome": 16.5,
+            "shotsAway": 18.2,
+            "shotsTargetHome": 6.2,
+            "shotsTargetAway": 7.1
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Borussia Dortmund anota >0.5 goles",
+                "prob": 41.9,
+                "odds": 2.39,
+                "team": "Borussia Dortmund"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 42.4,
+                "odds": 2.36,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.9,
+                "odds": 1.03,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "FC Bayern Munchen anota >0.5 goles",
+                "prob": 58.2,
+                "odds": 1.72,
+                "team": "FC Bayern Munchen"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 71.4,
+                "odds": 1.4,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 62.5,
+                "odds": 1.6,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 58.0,
+                "odds": 1.73,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 38.4,
+                "odds": 2.6,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Hull_City_vs_Manchester_United",
+        "league": "Inglaterra - Premier League",
+        "badgeLeague": "SISTEMA PSE - INGLATERRA - PREMIER LEAGUE",
+        "teamHome": "Hull City",
+        "teamAway": "Manchester United",
+        "p1": 17.16,
+        "pX": 36.75,
+        "p2": 46.09,
+        "poissonScore": "0 - 1",
+        "scoreDixonColes": "0 - 0",
+        "scorePoisson": "0 - 1",
+        "scoreSkellam": "1 - 1",
+        "metrics": {
+            "xgHome": 0.52,
+            "xgAway": 1.06,
+            "cornersHome": 4.35,
+            "cornersAway": 5.85,
+            "cardsHome": 1.74,
+            "cardsAway": 1.6,
+            "shotsHome": 11.8,
+            "shotsAway": 15.2,
+            "shotsTargetHome": 4.0,
+            "shotsTargetAway": 5.5
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Hull City anota >0.5 goles",
+                "prob": 39.1,
+                "odds": 2.56,
+                "team": "Hull City"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 44.7,
+                "odds": 2.24,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 96.3,
+                "odds": 1.04,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Manchester United anota >0.5 goles",
+                "prob": 62.6,
+                "odds": 1.6,
+                "team": "Manchester United"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 70.0,
+                "odds": 1.43,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 60.9,
+                "odds": 1.64,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 41.6,
+                "odds": 2.41,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "RCD_Espanyol_vs_Real_Madrid",
+        "league": "España - LaLiga",
+        "badgeLeague": "SISTEMA PSE - ESPAÑA - LALIGA",
+        "teamHome": "RCD Espanyol",
+        "teamAway": "Real Madrid",
+        "p1": 8.1,
+        "pX": 28.42,
+        "p2": 63.48,
+        "poissonScore": "0 - 1",
+        "scoreDixonColes": "0 - 1",
+        "scorePoisson": "0 - 1",
+        "scoreSkellam": "0 - 1",
+        "metrics": {
+            "xgHome": 0.35,
+            "xgAway": 1.52,
+            "cornersHome": 3.85,
+            "cornersAway": 6.15,
+            "cardsHome": 2.31,
+            "cardsAway": 1.92,
+            "shotsHome": 11.2,
+            "shotsAway": 17.0,
+            "shotsTargetHome": 3.8,
+            "shotsTargetAway": 6.6
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "RCD Espanyol anota >0.5 goles",
+                "prob": 28.8,
+                "odds": 3.48,
+                "team": "RCD Espanyol"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 52.7,
+                "odds": 1.9,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 93.7,
+                "odds": 1.07,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "Real Madrid anota >0.5 goles",
+                "prob": 74.6,
+                "odds": 1.34,
+                "team": "Real Madrid"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 68.5,
+                "odds": 1.46,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 59.3,
+                "odds": 1.69,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 74.1,
+                "odds": 1.35,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 57.1,
+                "odds": 1.75,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
+        "id": "Inter_de_Milán_vs_AC_Monza",
+        "league": "Italia - Serie A",
+        "badgeLeague": "SISTEMA PSE - ITALIA - SERIE A",
+        "teamHome": "Inter de Milán",
+        "teamAway": "AC Monza",
+        "p1": 64.3,
+        "pX": 29.52,
+        "p2": 6.18,
+        "poissonScore": "1 - 0",
+        "scoreDixonColes": "1 - 0",
+        "scorePoisson": "1 - 0",
+        "scoreSkellam": "1 - 0",
+        "metrics": {
+            "xgHome": 1.43,
+            "xgAway": 0.25,
+            "cornersHome": 6.05,
+            "cornersAway": 3.5,
+            "cardsHome": 1.6,
+            "cardsAway": 1.96,
+            "shotsHome": 17.2,
+            "shotsAway": 10.5,
+            "shotsTargetHome": 6.8,
+            "shotsTargetAway": 3.4
+        },
+        "markets": [
+            {
+                "id": "g1",
+                "category": "goals",
+                "label": "Inter de Milán anota >0.5 goles",
+                "prob": 72.7,
+                "odds": 1.37,
+                "team": "Inter de Milán"
+            },
+            {
+                "id": "g2",
+                "category": "goals",
+                "label": "Goles Totales MÁS de 1.5",
+                "prob": 47.8,
+                "odds": 2.09,
+                "team": "Partido"
+            },
+            {
+                "id": "g3",
+                "category": "goals",
+                "label": "Goles Totales MENOS de 4.5",
+                "prob": 95.4,
+                "odds": 1.05,
+                "team": "Partido"
+            },
+            {
+                "id": "g4",
+                "category": "goals",
+                "label": "AC Monza anota >0.5 goles",
+                "prob": 21.9,
+                "odds": 4.57,
+                "team": "AC Monza"
+            },
+            {
+                "id": "c1",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 7.5",
+                "prob": 65.1,
+                "odds": 1.54,
+                "team": "Partido"
+            },
+            {
+                "id": "c2",
+                "category": "corners",
+                "label": "Córners Totales MÁS de 8.5",
+                "prob": 55.4,
+                "odds": 1.81,
+                "team": "Partido"
+            },
+            {
+                "id": "k1",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 2.5",
+                "prob": 64.7,
+                "odds": 1.55,
+                "team": "Partido"
+            },
+            {
+                "id": "k2",
+                "category": "cards",
+                "label": "Tarjetas Totales MÁS de 3.5",
+                "prob": 45.8,
+                "odds": 2.19,
+                "team": "Partido"
+            }
+        ]
+    },
+    {
         "id": "IK_Sirius_vs_BK_Hacken",
         "league": "Suecia - Allsvenskan",
         "badgeLeague": "SISTEMA PSE - SUECIA - ALLSVENSKAN",
@@ -1467,98 +3307,6 @@
                 "label": "Tarjetas Totales MÁS de 3.5",
                 "prob": 59.1,
                 "odds": 1.69,
-                "team": "Partido"
-            }
-        ]
-    },
-    {
-        "id": "Hull_City_vs_Manchester_United",
-        "league": "Inglaterra - Premier League",
-        "badgeLeague": "SISTEMA PSE - INGLATERRA - PREMIER LEAGUE",
-        "teamHome": "Hull City",
-        "teamAway": "Manchester United",
-        "p1": 18.11,
-        "pX": 37.17,
-        "p2": 44.73,
-        "poissonScore": "0 - 1",
-        "scoreDixonColes": "0 - 0",
-        "scorePoisson": "0 - 1",
-        "scoreSkellam": "1 - 1",
-        "metrics": {
-            "xgHome": 0.53,
-            "xgAway": 1.03,
-            "cornersHome": 4.45,
-            "cornersAway": 5.55,
-            "cardsHome": 1.63,
-            "cardsAway": 1.49,
-            "shotsHome": 11.5,
-            "shotsAway": 15.2,
-            "shotsTargetHome": 3.8,
-            "shotsTargetAway": 5.6
-        },
-        "markets": [
-            {
-                "id": "g1",
-                "category": "goals",
-                "label": "Hull City anota >0.5 goles",
-                "prob": 40.1,
-                "odds": 2.49,
-                "team": "Hull City"
-            },
-            {
-                "id": "g2",
-                "category": "goals",
-                "label": "Goles Totales MÁS de 1.5",
-                "prob": 44.4,
-                "odds": 2.25,
-                "team": "Partido"
-            },
-            {
-                "id": "g3",
-                "category": "goals",
-                "label": "Goles Totales MENOS de 4.5",
-                "prob": 96.4,
-                "odds": 1.04,
-                "team": "Partido"
-            },
-            {
-                "id": "g4",
-                "category": "goals",
-                "label": "Manchester United anota >0.5 goles",
-                "prob": 61.7,
-                "odds": 1.62,
-                "team": "Manchester United"
-            },
-            {
-                "id": "c1",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 7.5",
-                "prob": 68.5,
-                "odds": 1.46,
-                "team": "Partido"
-            },
-            {
-                "id": "c2",
-                "category": "corners",
-                "label": "Córners Totales MÁS de 8.5",
-                "prob": 59.3,
-                "odds": 1.69,
-                "team": "Partido"
-            },
-            {
-                "id": "k1",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 2.5",
-                "prob": 57.1,
-                "odds": 1.75,
-                "team": "Partido"
-            },
-            {
-                "id": "k2",
-                "category": "cards",
-                "label": "Tarjetas Totales MÁS de 3.5",
-                "prob": 37.5,
-                "odds": 2.67,
                 "team": "Partido"
             }
         ]
